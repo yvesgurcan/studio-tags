@@ -1,0 +1,24 @@
+{
+    "name": "studio-tags",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "@cbtnuggets/lib-express-app-core-nodejs": "^7.6.0",
+        "lodash": "^4.17.15"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "NODE_ENV=dev nodemon app"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yvesgurcan/studio-tags.git"
+    },
+    "author": "Yves Gurcan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yvesgurcan/studio-tags/issues"
+    },
+    "homepage": "https://github.com/yvesgurcan/studio-tags#readme"
+}
