@@ -2,7 +2,7 @@
     "env": "dev",
     "api": {
         "http": {
-            "port": 2999
+            "port": 3000
         }
     }
 }
