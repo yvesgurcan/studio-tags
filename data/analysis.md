@@ -1,0 +1,1 @@
+896 tags were created and associated to 260 collections in production. On average, 9 tags were associated to every collection processed for a total of 2,539 tag-collection associations. I think we saved @mbeecher a lot of time! :)
