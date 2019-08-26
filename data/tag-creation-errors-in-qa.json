@@ -1,0 +1,36 @@
+{
+    "createTagResults": [
+        /*
+        {
+            "tagTitle": "Cloud Infrastructure",
+            "status": 500,
+            "result": "DUPLICATE"
+        },
+        {
+            "tagTitle": "Network Security",
+            "status": 500,
+            "result": "DUPLICATE"
+        },
+        {
+            "tagTitle": "Configuration Management",
+            "status": 500,
+            "result": "DUPLICATE"
+        },
+        */
+        { "tagTitle": "VOIP", "status": 500, "result": "DUPLICATE" },
+        /*
+        { "tagTitle": "Linux Security", "status": 500, "result": "DUPLICATE" },
+        {
+            "tagTitle": "Microsoft Office",
+            "status": 500,
+            "result": "DUPLICATE"
+        },
+        {
+            "tagTitle": "Server Administration",
+            "status": 500,
+            "result": "DUPLICATE"
+        },
+        */
+        { "tagTitle": "Salesforce", "status": 500, "result": "DUPLICATE" }
+    ]
+}
