@@ -11,7 +11,9 @@ let allTokens = false;
 let collections = [];
 let thetags = [];
 
-const VHS = 'https://qa-api.cbtnuggets.com/video-historical/v2';
+const QA = false;
+
+const VHS = `https://${QA ? 'qa-' : ''}api.cbtnuggets.com/video-historical/v2`;
 
 function errorWrapper(promise, res) {
     return promise.catch(error => {
@@ -26,6 +28,8 @@ function errorWrapper(promise, res) {
     });
 }
 
+console.log('Running in QA mode:', QA);
+
 function getToken(callback, req, getUserToken = false) {
     if (allTokens) {
         callback(getUserToken ? userToken : serviceToken);
@@ -35,7 +39,7 @@ function getToken(callback, req, getUserToken = false) {
                 `Fetching ${getUserToken ? 'user' : 'service'} token...`
             );
             exec(
-                `cbt -e qa auth get_token ${
+                `cbt -e ${QA ? 'qa' : 'prod'} auth get_token ${
                     getUserToken ? '' : '-c service-studio-gateway'
                 }`,
                 function(error, stdout, stderr) {
@@ -74,7 +78,11 @@ function getToken(callback, req, getUserToken = false) {
 function getAllTokens(callback) {
     allTokens = true;
     console.log(`Fetching both user and service tokens...`);
-    exec(`cbt -e qa auth get_token`, function(error, stdout, stderr) {
+    exec(`cbt -e ${QA ? 'qa' : 'prod'} auth get_token`, function(
+        error,
+        stdout,
+        stderr
+    ) {
         console.log(stdout);
         const output = stdout.toString().split('\n');
         const tokenOuput = output[6];
@@ -84,22 +92,23 @@ function getAllTokens(callback) {
 
         userToken = token;
 
-        exec(`cbt -e qa auth get_token -c service-studio-gateway`, function(
-            error,
-            stdout,
-            stderr
-        ) {
-            console.log(stdout);
-            const output = stdout.toString().split('\n');
-            const tokenOuput = output[6];
-            const token = tokenOuput
-                .replace('Access token: \u001b[36m', '')
-                .replace('\u001b[39m', '');
+        exec(
+            `cbt -e ${
+                QA ? 'qa' : 'prod'
+            } auth get_token -c service-studio-gateway`,
+            function(error, stdout, stderr) {
+                console.log(stdout);
+                const output = stdout.toString().split('\n');
+                const tokenOuput = output[6];
+                const token = tokenOuput
+                    .replace('Access token: \u001b[36m', '')
+                    .replace('\u001b[39m', '');
 
-            serviceToken = token;
+                serviceToken = token;
 
-            callback();
-        });
+                callback();
+            }
+        );
     });
 }
 
@@ -208,19 +217,31 @@ module.exports = function() {
                         );
 
                         /*
-                    console.log(
-                        `Collections to process found in CSV: ${sanitizedData.length}.`
-                    );
+                         */
 
-                    console.log(
-                        `Collections to process found in DB: ${foundCollections.length}.`
-                    );
+                        console.log(
+                            `Collections to process found in CSV: ${sanitizedData.length}.`
+                        );
 
-                    console.log(
-                        `${sanitizedData.length -
-                            foundCollections.length} collections to process were not found.`
-                    );
-                    */
+                        console.log(
+                            `Collections to process found in DB: ${foundCollections.length}.`
+                        );
+
+                        const missingCollections = sanitizedData.filter(
+                            data =>
+                                !foundCollections.find(
+                                    collection =>
+                                        data.title === collection.title
+                                )
+                        );
+
+                        console.log(
+                            `${missingCollections.length} collections to process were not found.`,
+                            { missingCollections }
+                        );
+
+                        res.status(200).send({ missingCollections });
+                        return;
 
                         const { start, end } = req.params;
                         const collectionBatch = foundCollections.slice(
