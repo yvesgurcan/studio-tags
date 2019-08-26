@@ -6,8 +6,10 @@ const csvParser = require('csvtojson');
 
 let userToken = null;
 let serviceToken = null;
+let allTokens = false;
 
 let collections = [];
+let thetags = [];
 
 const VHS = 'https://qa-api.cbtnuggets.com/video-historical/v2';
 
@@ -25,47 +27,89 @@ function errorWrapper(promise, res) {
 }
 
 function getToken(callback, req, getUserToken = false) {
-    if ((getUserToken && !userToken) || (!getUserToken && !serviceToken)) {
-        console.log(`Fetching ${getUserToken ? 'user' : 'service'} token...`);
-        exec(
-            `cbt -e qa auth get_token ${
-                getUserToken ? '' : '-c service-studio-gateway'
-            }`,
-            function(error, stdout, stderr) {
-                console.log(stdout);
-                const output = stdout.toString().split('\n');
-                const tokenOuput = output[6];
-                const token = tokenOuput
-                    .replace('Access token: \u001b[36m', '')
-                    .replace('\u001b[39m', '');
-
-                if (getUserToken) {
-                    userToken = token;
-                } else {
-                    serviceToken = token;
-                }
-
-                if (callback) {
-                    callback(token);
-                } else {
-                    console.log('getToken has no callback.');
-                    req.status(200).send('Got token.');
-                }
-            }
-        );
-    } else {
-        console.log(
-            `A ${getUserToken ? 'user' : 'service'} token is already in memory.`
-        );
+    if (allTokens) {
         callback(getUserToken ? userToken : serviceToken);
+    } else {
+        if ((getUserToken && !userToken) || (!getUserToken && !serviceToken)) {
+            console.log(
+                `Fetching ${getUserToken ? 'user' : 'service'} token...`
+            );
+            exec(
+                `cbt -e qa auth get_token ${
+                    getUserToken ? '' : '-c service-studio-gateway'
+                }`,
+                function(error, stdout, stderr) {
+                    console.log(stdout);
+                    const output = stdout.toString().split('\n');
+                    const tokenOuput = output[6];
+                    const token = tokenOuput
+                        .replace('Access token: \u001b[36m', '')
+                        .replace('\u001b[39m', '');
+
+                    if (getUserToken) {
+                        userToken = token;
+                    } else {
+                        serviceToken = token;
+                    }
+
+                    if (callback) {
+                        callback(token);
+                    } else {
+                        console.log('getToken has no callback.');
+                        req.status(200).send('Got token.');
+                    }
+                }
+            );
+        } else {
+            console.log(
+                `A ${
+                    getUserToken ? 'user' : 'service'
+                } token is already in memory.`
+            );
+            callback(getUserToken ? userToken : serviceToken);
+        }
     }
+}
+
+function getAllTokens(callback) {
+    allTokens = true;
+    console.log(`Fetching both user and service tokens...`);
+    exec(`cbt -e qa auth get_token`, function(error, stdout, stderr) {
+        console.log(stdout);
+        const output = stdout.toString().split('\n');
+        const tokenOuput = output[6];
+        const token = tokenOuput
+            .replace('Access token: \u001b[36m', '')
+            .replace('\u001b[39m', '');
+
+        userToken = token;
+
+        exec(`cbt -e qa auth get_token -c service-studio-gateway`, function(
+            error,
+            stdout,
+            stderr
+        ) {
+            console.log(stdout);
+            const output = stdout.toString().split('\n');
+            const tokenOuput = output[6];
+            const token = tokenOuput
+                .replace('Access token: \u001b[36m', '')
+                .replace('\u001b[39m', '');
+
+            serviceToken = token;
+
+            callback();
+        });
+    });
 }
 
 function getCollections(callback, res) {
     if (collections.length > 0) {
+        /*
         console.log(
             `Collections are already in memory. Collection count: ${collections.length}`
         );
+        */
         if (callback) {
             callback({ _collections: collections });
         }
@@ -89,10 +133,36 @@ function getCollections(callback, res) {
     }
 }
 
+function getTags(callback, res) {
+    if (thetags.length > 0) {
+        /*
+        console.log(`Tags are already in memory. Tag count: ${thetags.length}`);
+        */
+        if (callback) {
+            callback({ _tags: thetags });
+        }
+    } else {
+        console.log('Fetching all tags...');
+        getToken(_token =>
+            errorWrapper(
+                axios(`${VHS}/tags?access_token=${_token}`).then(({ data }) => {
+                    thetags = data;
+                    console.log(`Tag count: ${data.length}`);
+                    if (callback) {
+                        callback({
+                            _tags: thetags
+                        });
+                    }
+                })
+            )
+        );
+    }
+}
+
 module.exports = function() {
     const { app } = ExpressAppCore.getInstance();
 
-    app.get('/start', (req, res) => {
+    app.get('/associate/:start/:end', (req, res) => {
         csvParser()
             .fromFile('./data/new-tags-for-collections.csv')
             .then(data => {
@@ -126,15 +196,18 @@ module.exports = function() {
                             tags: sanitizedTags
                         };
                     })
+                    .filter(row => row.tags.length > 0)
                     .sort((a, b) => (a.title > b.title ? 1 : -1));
 
-                getCollections(({ _collections }) => {
-                    const foundCollections = sanitizedData.filter(data =>
-                        _collections.find(
-                            collection => data.title === collection.title
-                        )
-                    );
+                getAllTokens(() =>
+                    getCollections(({ _collections }) => {
+                        const foundCollections = sanitizedData.filter(data =>
+                            _collections.find(
+                                collection => data.title === collection.title
+                            )
+                        );
 
+                        /*
                     console.log(
                         `Collections to process found in CSV: ${sanitizedData.length}.`
                     );
@@ -147,93 +220,65 @@ module.exports = function() {
                         `${sanitizedData.length -
                             foundCollections.length} collections to process were not found.`
                     );
+                    */
 
-                    console.log('Getting all tags...');
-                    getToken(_token =>
-                        errorWrapper(
-                            axios(`${VHS}/tags?access_token=${_token}`).then(
-                                ({ data }) => {
-                                    console.log(`Tag count: ${data.length}`);
+                        const { start, end } = req.params;
+                        const collectionBatch = foundCollections.slice(
+                            start,
+                            end
+                        );
 
-                                    const totalTagsToCreate = [];
-                                    const tagAssociations = [];
+                        console.log('Collections to process:', collectionBatch);
 
-                                    sanitizedData.map(row =>
-                                        row.tags.map(tagToAdd => {
-                                            tagAssociations.push(tagToAdd);
-                                            if (data.indexOf(tagToAdd) === -1) {
-                                                if (
-                                                    totalTagsToCreate.indexOf(
-                                                        tagToAdd
-                                                    ) === -1
-                                                ) {
-                                                    totalTagsToCreate.push(
-                                                        tagToAdd
-                                                    );
-                                                }
-                                            }
+                        // put tags in memory
+                        getTags(({ _tags }) => {
+                            return Promise.all(
+                                collectionBatch.map(async collection => {
+                                    const url = encodeURI(
+                                        `http://localhost:3000/dontcreatetags/collection/${collection.title
+                                            .replace('///g', '___')
+                                            .replace(
+                                                '/\u2013/g',
+                                                '__DASH__'
+                                            )}/${collection.tags
+                                            .join(',')
+                                            .replace('/[/]/g', '___')
+                                            .replace('I/O', 'I___O')}`
+                                    );
+
+                                    console.log({ url });
+                                    return await axios(url);
+                                })
+                            )
+                                .then(batchRequestStatuses => {
+                                    console.log({
+                                        batchRequestStatuses
+                                    });
+
+                                    const responses = batchRequestStatuses.map(
+                                        request => ({
+                                            status: request.status,
+                                            statusText: request.statusText
                                         })
                                     );
 
-                                    console.log(
-                                        `Tags to create: ${totalTagsToCreate.length}`
+                                    res.status(200).send({
+                                        responses
+                                    });
+                                })
+                                .catch(error => {
+                                    console.error({ error });
+                                    res.status(400).send(
+                                        'Something went wrong :('
                                     );
-
-                                    console.log(
-                                        `Tags associations: ${tagAssociations.length}`
-                                    );
-
-                                    const collectionBatch = foundCollections.slice(
-                                        30,
-                                        35
-                                    );
-
-                                    Promise.all(
-                                        collectionBatch.map(
-                                            async collection => {
-                                                return await axios(
-                                                    `http://localhost:3000/collection/${collection.title.replace(
-                                                        '/',
-                                                        '___'
-                                                    )}/${collection.tags
-                                                        .join(',')
-                                                        .replace('/', '___')}`
-                                                );
-                                            }
-                                        )
-                                    )
-                                        .then(batchRequestStatuses => {
-                                            console.log({
-                                                batchRequestStatuses
-                                            });
-
-                                            res.status(200).send({
-                                                associations: foundCollections,
-                                                collections: foundCollections.map(
-                                                    collection =>
-                                                        collection.title
-                                                ),
-                                                tags: totalTagsToCreate.sort(
-                                                    (a, b) => (a > b ? 1 : -1)
-                                                )
-                                            });
-                                        })
-                                        .catch(error => {
-                                            console.error({ error });
-                                            res.status(400).send(
-                                                'Something went wrong :('
-                                            );
-                                        });
-                                }
-                            ),
-                            res
-                        )
-                    );
-                });
+                                });
+                        }, res);
+                    })
+                );
             });
     });
 
-    app.get('tags/create', (req, res) => {
+    app.get('/tags/create', (req, res) => {
         csvParser()
             .fromFile('./data/new-tags-for-collections.csv')
             .then(data => {
@@ -269,38 +314,23 @@ module.exports = function() {
                     })
                     .sort((a, b) => (a.title > b.title ? 1 : -1));
 
-                getCollections(({ _collections }) => {
-                    const foundCollections = sanitizedData.filter(data =>
-                        _collections.find(
-                            collection => data.title === collection.title
-                        )
-                    );
-
-                    console.log(
-                        `Collections to process found in CSV: ${sanitizedData.length}.`
-                    );
-
-                    console.log(
-                        `Collections to process found in DB: ${foundCollections.length}.`
-                    );
-
-                    console.log(
-                        `${sanitizedData.length -
-                            foundCollections.length} collections to process were not found.`
-                    );
-
-                    console.log('Getting all tags...');
-                    getToken(_token =>
+                console.log('Getting all tags...');
+                getToken(
+                    _token =>
                         errorWrapper(
                             axios(`${VHS}/tags?access_token=${_token}`).then(
-                                ({ data }) => {
-                                    console.log(`Tag count: ${data.length}`);
+                                ({ data: allTags }) => {
+                                    console.log(
+                                        `Tag count in DB: ${allTags.length}`
+                                    );
 
                                     const totalTagsToProcess = [];
 
                                     sanitizedData.map(row =>
                                         row.tags.map(tagToAdd => {
-                                            if (data.indexOf(tagToAdd) === -1) {
+                                            if (
+                                                allTags.indexOf(tagToAdd) === -1
+                                            ) {
                                                 if (
                                                     totalTagsToProcess.indexOf(
                                                         tagToAdd
@@ -315,37 +345,109 @@ module.exports = function() {
                                     );
 
                                     console.log(
-                                        `Tags to process: ${totalTagsToProcess.length}`
+                                        `Tags to process in CSV: ${totalTagsToProcess.length}`
                                     );
+
+                                    const missingTags = totalTagsToProcess.filter(
+                                        tag =>
+                                            allTags
+                                                .map(tag => tag.title)
+                                                .indexOf(tag) === -1
+                                    );
+
+                                    console.log(
+                                        `Tags not created yet: ${missingTags.length}`
+                                    );
+
+                                    console.log('Creating missing tags...');
+
+                                    const batchOfMissingtags = missingTags;
+
+                                    console.log(`Batch: ${batchOfMissingtags}`);
+
+                                    Promise.all(
+                                        batchOfMissingtags.map(
+                                            async tagTitle => {
+                                                const seoslug = tagTitle
+                                                    .replace('/ /g', '-')
+                                                    .toLowerCase();
+                                                console.log(
+                                                    `Creating tag "${tagTitle}" (seoslug: "${seoslug}")...`
+                                                );
+                                                return await axios
+                                                    // create tags that do not exist in the database yet
+                                                    .post(
+                                                        `${VHS}/tag?access_token=${_token}`,
+                                                        {
+                                                            title: tagTitle,
+                                                            seoslug
+                                                        }
+                                                    )
+                                                    .then(result => {
+                                                        return {
+                                                            tagTitle,
+                                                            status:
+                                                                result.status
+                                                        };
+                                                    })
+                                                    .catch(error => {
+                                                        console.log({
+                                                            error:
+                                                                error.response
+                                                                    .data
+                                                        });
+                                                        return {
+                                                            tagTitle,
+                                                            status:
+                                                                error.response
+                                                                    .status,
+                                                            result:
+                                                                error.response
+                                                                    .data
+                                                        };
+                                                    });
+                                            }
+                                        )
+                                    ).then(createTagResults => {
+                                        console.log({
+                                            createTagResults
+                                        });
+
+                                        res.status(200).send(createTagResults);
+                                    });
                                 }
                             ),
                             res
-                        )
-                    );
-                });
+                        ),
+                    res,
+                    true
+                );
             });
     });
 
     // get collection details (including tags) by collection title and apply tags to it
-    app.get('/collection/:title/:tags', (req, res) => {
-        const { title: t, tags } = req.params;
-        const title = t.replace('___', '/');
-        console.log(`*** COLLECTION: "${title} / TAGS: "${tags}".`);
+    app.get('/dontcreatetags/collection/:title/:tags', (req, res) => {
+        const { title: t, tags: tt } = req.params;
+        const tags = tt
+            .replace('/___/g', '/')
+            .replace('__DASH__', '/\u2013/g')
+            .replace('I___O', 'I/O');
+        const title = t.replace('/___/g', '/').replace('__DASH__', '/\u2013/g');
+        // console.log(`*** COLLECTION: "${title} / TAGS: "${tags}".`);
         // trim
         const tagsToApply = tags
             .split(',')
-            .map(tag => tag.trim().replace('___', '/'));
-        console.log(`Getting collection tags for collection "${title}"...`);
+            .map(tag => tag.trim().replace('/___/g', '/'));
         // get all collections (whether cached or from a request)
         getCollections(({ _collections }) => {
             const collection = _collections.find(
                 collection => collection.title === title
             );
-            console.log(`Finding collection ${title}...`);
+            // console.log(`Finding collection "${title}"...`);
             // console.log({ collection });
 
             if (!collection) {
-                console.error(`Collection "${title}" not found.`);
+                console.error(`??? Collection "${title}" not found. ???`);
                 return res.status(404).send(`Collection "${title}" not found.`);
             }
 
@@ -358,15 +460,19 @@ module.exports = function() {
                         .get(
                             `${VHS}/internal/collections/by/ids/${collection.id}?populate_videos=false&access_token=${_token}`
                         )
+                        .catch(({ error }) => {
+                            console.log({ error });
+                        })
                         .then(({ data: collectionDetails }) => {
-                            // console.log({ collectionDetails });
                             const collectionsTags = collectionDetails[0].tags.join(
                                 ','
                             );
 
+                            /*
                             console.log(
                                 `Getting tag details for collection "${title}"...`
                             );
+                            */
                             //console.log({ collectionsTags });
                             getToken(_token =>
                                 errorWrapper(
@@ -394,9 +500,11 @@ module.exports = function() {
                                             const collectionTitle =
                                                 collectionDetails[0].title;
 
+                                            /*
                                             console.log(
                                                 `Comparing current tags for collection "${collectionTitle}" with the list of tags provided...`
                                             );
+                                            */
 
                                             const tagsToAdd = tagsToApply.filter(
                                                 tag => {
@@ -408,201 +516,108 @@ module.exports = function() {
                                                 }
                                             );
 
+                                            /*
                                             console.log(
                                                 `Found ${tagsToAdd.length} tags to add to the collection "${collectionTitle}":`,
                                                 { tagsToAdd }
                                             );
+                                            */
+
+                                            const missingTags = tagsToAdd.filter(
+                                                tag =>
+                                                    thetags
+                                                        .map(tag => tag.title)
+                                                        .indexOf(tag) === -1
+                                            );
+
+                                            if (missingTags.length > 0) {
+                                                console.log(
+                                                    `!!! ${missingTags.length} tag(s) not found in the database. Tags will not be created. !!!`,
+                                                    {
+                                                        missingTags
+                                                    }
+                                                );
+                                            }
+
+                                            const tagToAddIds = thetags
+                                                .filter(
+                                                    dbTag =>
+                                                        tagsToAdd.indexOf(
+                                                            dbTag.title
+                                                        ) !== -1
+                                                )
+                                                .map(tag => tag.id);
+
+                                            if (tagToAddIds.length === 0) {
+                                                console.log(
+                                                    `No tags need to be added to "${collectionTitle}". End of request.`
+                                                );
+                                                res.status(200).send(
+                                                    tagTitles,
+                                                    collectionTitle,
+                                                    tagsToAdd
+                                                );
+                                                return;
+                                            }
 
                                             console.log(
-                                                'Getting all tags from DB...'
+                                                `${tagToAddIds.length} tag(s) will be added to collection "${title}". ${missingTags.length}  tag(s) not found.`,
+                                                {
+                                                    tagToAddIds
+                                                }
                                             );
+
+                                            const mergedTagList = [
+                                                ...tagToAddIds,
+                                                ...existingTags.map(
+                                                    tag => tag.id
+                                                )
+                                            ];
+
+                                            console.log(
+                                                `Updating collection "${collectionTitle}"...`
+                                            );
+
                                             getToken(
                                                 _token =>
                                                     errorWrapper(
-                                                        // get all tags
+                                                        // associate the tags to add with the collection
                                                         axios
-                                                            .get(
-                                                                `${VHS}/tags?access_token=${_token}`
-                                                            )
-                                                            .then(
-                                                                ({
-                                                                    data: allTags
-                                                                }) => {
-                                                                    console.log(
-                                                                        `Tag count: ${allTags.length}`
-                                                                    );
-
-                                                                    console.log(
-                                                                        `Checking if tags to add to ${title} exists in the database...`
-                                                                    );
-
-                                                                    const missingTags = tagsToAdd.filter(
-                                                                        tag =>
-                                                                            allTags
-                                                                                .map(
-                                                                                    tag =>
-                                                                                        tag.title
-                                                                                )
-                                                                                .indexOf(
-                                                                                    tag
-                                                                                ) ===
-                                                                            -1
-                                                                    );
-
-                                                                    console.log(
-                                                                        `${missingTags.length} tags were not found in the database.`,
-                                                                        {
-                                                                            missingTags
-                                                                        }
-                                                                    );
-
-                                                                    Promise.all(
-                                                                        missingTags.map(
-                                                                            async tagTitle => {
-                                                                                const seoslug = tagTitle
-                                                                                    .replace(
-                                                                                        ' ',
-                                                                                        '-'
-                                                                                    )
-                                                                                    .toLowerCase();
-                                                                                console.log(
-                                                                                    `Creating tag "${tagTitle}" (seoslug: ${seoslug})...`
-                                                                                );
-                                                                                return await axios
-                                                                                    // create tags that do not exist in the database yet
-                                                                                    .post(
-                                                                                        `${VHS}/tag?access_token=${_token}`,
-                                                                                        {
-                                                                                            title: tagTitle,
-                                                                                            seoslug
-                                                                                        }
-                                                                                    )
-                                                                                    .then(
-                                                                                        result => {
-                                                                                            return {
-                                                                                                tagTitle,
-                                                                                                result:
-                                                                                                    result.status
-                                                                                            };
-                                                                                        }
-                                                                                    )
-                                                                                    .catch(
-                                                                                        error => {
-                                                                                            console.log(
-                                                                                                `Tag creation didnt work for "${tagTitle}" :(`,
-                                                                                                {
-                                                                                                    error:
-                                                                                                        error
-                                                                                                            .response
-                                                                                                            .data
-                                                                                                }
-                                                                                            );
-                                                                                            return {
-                                                                                                tagTitle,
-                                                                                                result: `ERROR: ${error.response.status}`
-                                                                                            };
-                                                                                        }
-                                                                                    );
-                                                                            }
-                                                                        )
-                                                                    ).then(
-                                                                        createTagResults => {
-                                                                            console.log(
-                                                                                {
-                                                                                    createTagResults
-                                                                                }
-                                                                            );
-
-                                                                            console.log(
-                                                                                'Refetching tag list...'
-                                                                            );
-
-                                                                            getToken(
-                                                                                _token =>
-                                                                                    errorWrapper(
-                                                                                        // get all tags again
-                                                                                        axios
-                                                                                            .get(
-                                                                                                `${VHS}/tags?access_token=${_token}`
-                                                                                            )
-                                                                                            .then(
-                                                                                                ({
-                                                                                                    data: allTagsRefreshed
-                                                                                                }) => {
-                                                                                                    const tagToAddIds = allTagsRefreshed
-                                                                                                        .filter(
-                                                                                                            dbTag =>
-                                                                                                                tagsToAdd.indexOf(
-                                                                                                                    dbTag.title
-                                                                                                                ) !==
-                                                                                                                -1
-                                                                                                        )
-                                                                                                        .map(
-                                                                                                            tag =>
-                                                                                                                tag.id
-                                                                                                        );
-
-                                                                                                    console.log(
-                                                                                                        `Adding ${tagToAddIds.length} tags to collection ${title}...`,
-                                                                                                        {
-                                                                                                            tagToAddIds
-                                                                                                        }
-                                                                                                    );
-
-                                                                                                    const mergedTagList = [
-                                                                                                        ...tagToAddIds,
-                                                                                                        ...existingTags.map(
-                                                                                                            tag =>
-                                                                                                                tag.id
-                                                                                                        )
-                                                                                                    ];
-
-                                                                                                    getToken(
-                                                                                                        _token =>
-                                                                                                            errorWrapper(
-                                                                                                                // associate the tags to add with the collection
-                                                                                                                axios
-                                                                                                                    .post(
-                                                                                                                        `${VHS}/collection/${collection.id}?access_token=${_token}`,
-                                                                                                                        {
-                                                                                                                            tags: mergedTagList
-                                                                                                                        }
-                                                                                                                    )
-                                                                                                                    .then(
-                                                                                                                        () => {
-                                                                                                                            res.status(
-                                                                                                                                200
-                                                                                                                            ).send(
-                                                                                                                                {
-                                                                                                                                    tagTitles,
-                                                                                                                                    collectionTitle,
-                                                                                                                                    tagsToAdd
-                                                                                                                                }
-                                                                                                                            );
-                                                                                                                        }
-                                                                                                                    )
-                                                                                                                    .catch(
-                                                                                                                        error => {
-                                                                                                                            console.log(
-                                                                                                                                {
-                                                                                                                                    error
-                                                                                                                                }
-                                                                                                                            );
-                                                                                                                        }
-                                                                                                                    )
-                                                                                                            ),
-                                                                                                        res,
-                                                                                                        true
-                                                                                                    );
-                                                                                                }
-                                                                                            )
-                                                                                    )
-                                                                            );
-                                                                        }
-                                                                    );
+                                                            .post(
+                                                                `${VHS}/collection/${collection.id}?access_token=${_token}`,
+                                                                {
+                                                                    tags: mergedTagList
                                                                 }
-                                                            ),
-                                                        res
+                                                            )
+                                                            .then(() => {
+                                                                res.status(
+                                                                    200
+                                                                ).send({
+                                                                    tagTitles,
+                                                                    collectionTitle,
+                                                                    tagsToAdd
+                                                                });
+                                                            })
+                                                            .catch(error => {
+                                                                console.log({
+                                                                    error
+                                                                });
+                                                                res.status(
+                                                                    500
+                                                                ).send({
+                                                                    collectionTitle,
+                                                                    tagTitles,
+                                                                    tagsToAdd,
+                                                                    error:
+                                                                        error
+                                                                            .response
+                                                                            .data,
+                                                                    status:
+                                                                        error
+                                                                            .response
+                                                                            .status
+                                                                });
+                                                            })
                                                     ),
                                                 res,
                                                 true
