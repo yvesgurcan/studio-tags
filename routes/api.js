@@ -4,14 +4,15 @@ const exec = require('child_process').exec;
 const fs = require('fs');
 const csvParser = require('csvtojson');
 
-let token = null;
 let userToken = null;
+let serviceToken = null;
+
 let collections = [];
 
 const VHS = 'https://qa-api.cbtnuggets.com/video-historical/v2';
 
 function errorWrapper(promise, res) {
-    promise.catch(error => {
+    return promise.catch(error => {
         console.error({ response: error.response.data });
         if (!res) {
             console.error(
@@ -24,7 +25,7 @@ function errorWrapper(promise, res) {
 }
 
 function getToken(callback, req, getUserToken = false) {
-    if (!token || getUserToken !== userToken) {
+    if ((getUserToken && !userToken) || (!getUserToken && !serviceToken)) {
         console.log(`Fetching ${getUserToken ? 'user' : 'service'} token...`);
         exec(
             `cbt -e qa auth get_token ${
@@ -34,14 +35,18 @@ function getToken(callback, req, getUserToken = false) {
                 console.log(stdout);
                 const output = stdout.toString().split('\n');
                 const tokenOuput = output[6];
-                const _token = tokenOuput
+                const token = tokenOuput
                     .replace('Access token: \u001b[36m', '')
                     .replace('\u001b[39m', '');
-                token = _token;
-                userToken = getUserToken;
+
+                if (getUserToken) {
+                    userToken = token;
+                } else {
+                    serviceToken = token;
+                }
 
                 if (callback) {
-                    callback(_token);
+                    callback(token);
                 } else {
                     console.log('getToken has no callback.');
                     req.status(200).send('Got token.');
@@ -49,8 +54,10 @@ function getToken(callback, req, getUserToken = false) {
             }
         );
     } else {
-        console.log('Token already in memory.');
-        callback(token);
+        console.log(
+            `A ${getUserToken ? 'user' : 'service'} token is already in memory.`
+        );
+        callback(getUserToken ? userToken : serviceToken);
     }
 }
 
@@ -60,7 +67,7 @@ function getCollections(callback, res) {
             `Collections are already in memory. Collection count: ${collections.length}`
         );
         if (callback) {
-            callback({ _token: token, _collections: collections });
+            callback({ _collections: collections });
         }
     } else {
         console.log('Fetching all collections...');
@@ -72,7 +79,6 @@ function getCollections(callback, res) {
                         console.log(`Collection count: ${data.length}`);
                         if (callback) {
                             callback({
-                                _token: token,
                                 _collections: collections
                             });
                         }
@@ -82,8 +88,6 @@ function getCollections(callback, res) {
         );
     }
 }
-
-// TODO: endpoint to collect not found collections
 
 module.exports = function() {
     const { app } = ExpressAppCore.getInstance();
@@ -179,17 +183,140 @@ module.exports = function() {
                                         `Tags associations: ${tagAssociations.length}`
                                     );
 
-                                    // TODO: paste the rest of the requests here with a loop over foundCollections
+                                    const collectionBatch = foundCollections.slice(
+                                        30,
+                                        35
+                                    );
 
-                                    res.status(200).send({
-                                        associations: foundCollections,
-                                        collections: foundCollections.map(
-                                            collection => collection.title
-                                        ),
-                                        tags: totalTagsToCreate.sort((a, b) =>
-                                            a > b ? 1 : -1
+                                    Promise.all(
+                                        collectionBatch.map(
+                                            async collection => {
+                                                return await axios(
+                                                    `http://localhost:3000/collection/${collection.title.replace(
+                                                        '/',
+                                                        '___'
+                                                    )}/${collection.tags
+                                                        .join(',')
+                                                        .replace('/', '___')}`
+                                                );
+                                            }
                                         )
-                                    });
+                                    )
+                                        .then(batchRequestStatuses => {
+                                            console.log({
+                                                batchRequestStatuses
+                                            });
+
+                                            res.status(200).send({
+                                                associations: foundCollections,
+                                                collections: foundCollections.map(
+                                                    collection =>
+                                                        collection.title
+                                                ),
+                                                tags: totalTagsToCreate.sort(
+                                                    (a, b) => (a > b ? 1 : -1)
+                                                )
+                                            });
+                                        })
+                                        .catch(error => {
+                                            console.error({ error });
+                                            res.status(400).send(
+                                                'Something went wrong :('
+                                            );
+                                        });
+                                }
+                            ),
+                            res
+                        )
+                    );
+                });
+            });
+    });
+
+    app.get('tags/create', (req, res) => {
+        csvParser()
+            .fromFile('./data/new-tags-for-collections.csv')
+            .then(data => {
+                const formattedData = data.map(row => ({
+                    title: row['Collection Title'],
+                    tags: row['Skill Tags']
+                }));
+
+                const sanitizedData = formattedData
+                    .filter(row => row.tags)
+                    .map(row => {
+                        const uniqueTags = [];
+                        const sanitizedTags = row.tags
+                            .split(',')
+                            .map(tag => tag.trim())
+                            .filter(tag => {
+                                if (
+                                    tag &&
+                                    tag !== '???' &&
+                                    uniqueTags.indexOf(tag) === -1
+                                ) {
+                                    uniqueTags.push(tag);
+                                    return true;
+                                }
+
+                                return false;
+                            })
+                            .sort((a, b) => (a > b ? 1 : -1));
+                        return {
+                            ...row,
+                            tags: sanitizedTags
+                        };
+                    })
+                    .sort((a, b) => (a.title > b.title ? 1 : -1));
+
+                getCollections(({ _collections }) => {
+                    const foundCollections = sanitizedData.filter(data =>
+                        _collections.find(
+                            collection => data.title === collection.title
+                        )
+                    );
+
+                    console.log(
+                        `Collections to process found in CSV: ${sanitizedData.length}.`
+                    );
+
+                    console.log(
+                        `Collections to process found in DB: ${foundCollections.length}.`
+                    );
+
+                    console.log(
+                        `${sanitizedData.length -
+                            foundCollections.length} collections to process were not found.`
+                    );
+
+                    console.log('Getting all tags...');
+                    getToken(_token =>
+                        errorWrapper(
+                            axios(`${VHS}/tags?access_token=${_token}`).then(
+                                ({ data }) => {
+                                    console.log(`Tag count: ${data.length}`);
+
+                                    const totalTagsToProcess = [];
+
+                                    sanitizedData.map(row =>
+                                        row.tags.map(tagToAdd => {
+                                            if (data.indexOf(tagToAdd) === -1) {
+                                                if (
+                                                    totalTagsToProcess.indexOf(
+                                                        tagToAdd
+                                                    ) === -1
+                                                ) {
+                                                    totalTagsToProcess.push(
+                                                        tagToAdd
+                                                    );
+                                                }
+                                            }
+                                        })
+                                    );
+
+                                    console.log(
+                                        `Tags to process: ${totalTagsToProcess.length}`
+                                    );
                                 }
                             ),
                             res
@@ -201,24 +328,28 @@ module.exports = function() {
 
     // get collection details (including tags) by collection title and apply tags to it
     app.get('/collection/:title/:tags', (req, res) => {
-        const { title, tags } = req.params;
+        const { title: t, tags } = req.params;
+        const title = t.replace('___', '/');
+        console.log(`*** COLLECTION: "${title} / TAGS: "${tags}".`);
         // trim
-        const tagsToApply = tags.split(',').map(tag => tag.trim());
-        console.log(`Getting collection tags for "${title}"...`);
+        const tagsToApply = tags
+            .split(',')
+            .map(tag => tag.trim().replace('___', '/'));
+        console.log(`Getting collection tags for collection "${title}"...`);
         // get all collections (whether cached or from a request)
         getCollections(({ _collections }) => {
             const collection = _collections.find(
                 collection => collection.title === title
             );
-            console.log('Finding collection...');
-            console.log({ collection });
+            console.log(`Finding collection ${title}...`);
+            // console.log({ collection });
 
             if (!collection) {
                 console.error(`Collection "${title}" not found.`);
                 return res.status(404).send(`Collection "${title}" not found.`);
             }
 
-            console.log('Getting collection details...');
+            console.log(`Getting details of collection "${title}"...`);
 
             getToken(_token =>
                 errorWrapper(
@@ -228,13 +359,15 @@ module.exports = function() {
                             `${VHS}/internal/collections/by/ids/${collection.id}?populate_videos=false&access_token=${_token}`
                         )
                         .then(({ data: collectionDetails }) => {
-                            console.log({ collectionDetails });
+                            // console.log({ collectionDetails });
                             const collectionsTags = collectionDetails[0].tags.join(
                                 ','
                             );
 
-                            console.log('Getting tag details...');
-                            console.log({ collectionsTags });
+                            console.log(
+                                `Getting tag details for collection "${title}"...`
+                            );
+                            //console.log({ collectionsTags });
                             getToken(_token =>
                                 errorWrapper(
                                     // get tag title of the tags in the collection
@@ -252,7 +385,7 @@ module.exports = function() {
                                                 existingTags = data;
                                             }
 
-                                            console.log({ existingTags });
+                                            // console.log({ existingTags });
 
                                             const tagTitles = existingTags.map(
                                                 // trimming
@@ -262,7 +395,7 @@ module.exports = function() {
                                                 collectionDetails[0].title;
 
                                             console.log(
-                                                `Comparing current collection tags with the list of tags provided "${tagsToApply}"...`
+                                                `Comparing current tags for collection "${collectionTitle}" with the list of tags provided...`
                                             );
 
                                             const tagsToAdd = tagsToApply.filter(
@@ -276,11 +409,13 @@ module.exports = function() {
                                             );
 
                                             console.log(
-                                                `Found ${tagsToAdd.length} tags to add to the collection:`,
+                                                `Found ${tagsToAdd.length} tags to add to the collection "${collectionTitle}":`,
                                                 { tagsToAdd }
                                             );
 
-                                            console.log('Getting all tags...');
+                                            console.log(
+                                                'Getting all tags from DB...'
+                                            );
                                             getToken(
                                                 _token =>
                                                     errorWrapper(
@@ -298,7 +433,7 @@ module.exports = function() {
                                                                     );
 
                                                                     console.log(
-                                                                        'Checking if tags to add exists in the database...'
+                                                                        `Checking if tags to add to ${title} exists in the database...`
                                                                     );
 
                                                                     const missingTags = tagsToAdd.filter(
@@ -408,7 +543,7 @@ module.exports = function() {
                                                                                                         );
 
                                                                                                     console.log(
-                                                                                                        `Adding ${tagToAddIds.length} tags to the collection...`,
+                                                                                                        `Adding ${tagToAddIds.length} tags to collection ${title}...`,
                                                                                                         {
                                                                                                             tagToAddIds
                                                                                                         }
@@ -577,7 +712,8 @@ module.exports = function() {
     /* Util */
 
     app.get('/tag/create/:title/:seoslug', (req, res) => {
-        const { title, seoslug } = req.params;
+        const { title: t, seoslug } = req.params;
+        const title = t.replace('___', '/');
         console.log(`Creating tag (title: ${title}, seoslug: ${seoslug})...`);
         getToken(_token =>
             errorWrapper(
