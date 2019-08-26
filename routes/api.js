@@ -1,7 +1,6 @@
 const ExpressAppCore = require('@cbtnuggets/lib-express-app-core-nodejs');
 const axios = require('axios');
 const exec = require('child_process').exec;
-const fs = require('fs');
 const csvParser = require('csvtojson');
 
 let userToken = null;
@@ -28,7 +27,7 @@ function errorWrapper(promise, res) {
     });
 }
 
-console.log('Running in QA mode:', QA);
+console.log('Running in PRODUCTION:', !QA);
 
 function getToken(callback, req, getUserToken = false) {
     if (allTokens) {
