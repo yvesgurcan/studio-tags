@@ -243,7 +243,8 @@ module.exports = function() {
                                             )}/${collection.tags
                                             .join(',')
                                             .replace('/[/]/g', '___')
-                                            .replace('I/O', 'I___O')}`
+                                            .replace('I/O', 'I___O')
+                                            .replace('DoS/DDoS', 'DoS___DDoS')}`
                                     );
 
                                     console.log({ url });
@@ -431,7 +432,8 @@ module.exports = function() {
         const tags = tt
             .replace('/___/g', '/')
             .replace('__DASH__', '/\u2013/g')
-            .replace('I___O', 'I/O');
+            .replace('I___O', 'I/O')
+            .replace('DoS___DDoS', 'DoS/DDoS');
         const title = t.replace('/___/g', '/').replace('__DASH__', '/\u2013/g');
         // console.log(`*** COLLECTION: "${title} / TAGS: "${tags}".`);
         // trim
