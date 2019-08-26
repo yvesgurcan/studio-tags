@@ -215,9 +215,6 @@ module.exports = function() {
                             )
                         );
 
-                        /*
-                         */
-
                         console.log(
                             `Collections to process found in CSV: ${sanitizedData.length}.`
                         );
@@ -239,10 +236,14 @@ module.exports = function() {
                             { missingCollections }
                         );
 
-                        res.status(200).send({ missingCollections });
-                        return;
-
                         const { start, end } = req.params;
+
+                        if (start === '0' && end === '0') {
+                            console.log('DRY RUN.');
+                            res.status(200).send({ missingCollections });
+                            return;
+                        }
+
                         const collectionBatch = foundCollections.slice(
                             start,
                             end
@@ -299,7 +300,7 @@ module.exports = function() {
             });
     });
 
-    app.get('/tags/create', (req, res) => {
+    app.get('/tags/create/:start/:end', (req, res) => {
         csvParser()
             .fromFile('./data/new-tags-for-collections.csv')
             .then(data => {
@@ -380,9 +381,20 @@ module.exports = function() {
                                         `Tags not created yet: ${missingTags.length}`
                                     );
 
+                                    const { start, end } = req.params;
+
+                                    if (start === '0' && end === '0') {
+                                        console.log('DRY RUN.');
+                                        res.status(200).send({ missingTags });
+                                        return;
+                                    }
+
                                     console.log('Creating missing tags...');
 
-                                    const batchOfMissingtags = missingTags;
+                                    const batchOfMissingtags = missingTags.slice(
+                                        start,
+                                        end
+                                    );
 
                                     console.log(`Batch: ${batchOfMissingtags}`);
 
