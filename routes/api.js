@@ -375,7 +375,13 @@ module.exports = function() {
                                                     tag.title.toLowerCase()
                                                 )
                                                 .indexOf(tag.toLowerCase()) ===
-                                            -1
+                                                -1 &&
+                                            [
+                                                'Cloud Infrastructure',
+                                                'Network Security',
+                                                'Linux Security',
+                                                'Salesforce'
+                                            ].indexOf(tag) === -1
                                     );
 
                                     console.log(
