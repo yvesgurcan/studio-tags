@@ -257,15 +257,13 @@ module.exports = function() {
                                 collectionBatch.map(async collection => {
                                     const url = encodeURI(
                                         `http://localhost:3000/dontcreatetags/collection/${collection.title
-                                            .replace('///g', '___')
+                                            .replace(/[/]/g, '___')
                                             .replace(
-                                                '/\u2013/g',
+                                                /\u2013/g,
                                                 '__DASH__'
                                             )}/${collection.tags
                                             .join(',')
-                                            .replace('/[/]/g', '___')
-                                            .replace('I/O', 'I___O')
-                                            .replace('DoS/DDoS', 'DoS___DDoS')}`
+                                            .replace(/[/]/g, '___')}`
                                     );
 
                                     console.log({ url });
@@ -373,8 +371,11 @@ module.exports = function() {
                                     const missingTags = totalTagsToProcess.filter(
                                         tag =>
                                             allTags
-                                                .map(tag => tag.title)
-                                                .indexOf(tag) === -1
+                                                .map(tag =>
+                                                    tag.title.toLowerCase()
+                                                )
+                                                .indexOf(tag.toLowerCase()) ===
+                                            -1
                                     );
 
                                     console.log(
@@ -384,6 +385,20 @@ module.exports = function() {
                                     const { start, end } = req.params;
 
                                     if (start === '0' && end === '0') {
+                                        const projectionMissingTags = missingTags.map(
+                                            tagTitle => ({
+                                                title: tagTitle,
+                                                seoslug: tagTitle
+                                                    .replace(/ /g, '-')
+                                                    .replace(/[/]/g, '-')
+                                                    .replace(/\(/g, '-')
+                                                    .replace(/\)/g, '-')
+                                                    .toLowerCase()
+                                            })
+                                        );
+
+                                        console.log({ projectionMissingTags });
+
                                         console.log('DRY RUN.');
                                         res.status(200).send({ missingTags });
                                         return;
@@ -402,7 +417,10 @@ module.exports = function() {
                                         batchOfMissingtags.map(
                                             async tagTitle => {
                                                 const seoslug = tagTitle
-                                                    .replace('/ /g', '-')
+                                                    .replace(/ /g, '-')
+                                                    .replace(/[/]/g, '-')
+                                                    .replace(/\(/g, '-')
+                                                    .replace(/\)/g, '-')
                                                     .toLowerCase();
                                                 console.log(
                                                     `Creating tag "${tagTitle}" (seoslug: "${seoslug}")...`
@@ -461,12 +479,8 @@ module.exports = function() {
     // get collection details (including tags) by collection title and apply tags to it
     app.get('/dontcreatetags/collection/:title/:tags', (req, res) => {
         const { title: t, tags: tt } = req.params;
-        const tags = tt
-            .replace('/___/g', '/')
-            .replace('__DASH__', '/\u2013/g')
-            .replace('I___O', 'I/O')
-            .replace('DoS___DDoS', 'DoS/DDoS');
-        const title = t.replace('/___/g', '/').replace('__DASH__', '/\u2013/g');
+        const tags = tt.replace(/___/g, '/');
+        const title = t.replace(/___/g, '/').replace(/__DASH__/g, '-');
         // console.log(`*** COLLECTION: "${title} / TAGS: "${tags}".`);
         // trim
         const tagsToApply = tags
