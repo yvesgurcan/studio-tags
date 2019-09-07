@@ -1,0 +1,4288 @@
+[
+    {
+        "id": "5307899c5e685125d127af49",
+        "title": "IT Security Videos",
+        "collection_count": 75
+    },
+    {
+        "id": "5307899c5e685125d127af4a",
+        "title": "Developer/Programmer",
+        "collection_count": 79
+    },
+    {
+        "id": "5307899e5e685125d127af57",
+        "title": "Desktop Applications",
+        "collection_count": 57
+    },
+    {
+        "id": "5307899f5e685125d127af61",
+        "title": "Drawing",
+        "collection_count": 5
+    },
+    {
+        "id": "5307899f5e685125d127af67",
+        "title": "IT Intro",
+        "collection_count": 8
+    },
+    {
+        "id": "5307899f5e685125d127af6b",
+        "title": "Presentation",
+        "collection_count": 6
+    },
+    {
+        "id": "530789a05e685125d127af71",
+        "title": "Network Admin",
+        "collection_count": 227
+    },
+    {
+        "id": "530789a15e685125d127af7c",
+        "title": "Entry-Level IT Training",
+        "collection_count": 26
+    },
+    {
+        "id": "530789a15e685125d127af7d",
+        "title": "Cisco VoIP",
+        "collection_count": 18
+    },
+    { "id": "530789a15e685125d127af80", "title": "Mac", "collection_count": 4 },
+    {
+        "id": "530789a15e685125d127af81",
+        "title": "End User",
+        "collection_count": 34
+    },
+    {
+        "id": "530789a25e685125d127af85",
+        "title": "Messaging",
+        "collection_count": 15
+    },
+    {
+        "id": "530789a25e685125d127af8a",
+        "title": "SQL",
+        "collection_count": 53
+    },
+    {
+        "id": "530789a35e685125d127af90",
+        "title": "Database",
+        "collection_count": 38
+    },
+    {
+        "id": "530789a35e685125d127af98",
+        "title": "Cisco Security",
+        "collection_count": 23
+    },
+    {
+        "id": "530789a35e685125d127af9a",
+        "title": "IT Management",
+        "collection_count": 94
+    },
+    {
+        "id": "530789a45e685125d127af9b",
+        "title": "Desktop Support",
+        "collection_count": 57
+    },
+    {
+        "id": "530789a45e685125d127af9e",
+        "title": "Linux",
+        "collection_count": 32
+    },
+    {
+        "id": "530789a45e685125d127af9f",
+        "title": "Networking",
+        "collection_count": 110
+    },
+    {
+        "id": "530789a55e685125d127afa6",
+        "title": "Scripting",
+        "collection_count": 16
+    },
+    {
+        "id": "530789a55e685125d127afad",
+        "title": "Project Management",
+        "collection_count": 41
+    },
+    {
+        "id": "530789a55e685125d127afb0",
+        "title": "EC-Council",
+        "collection_count": 2
+    },
+    {
+        "id": "530789a65e685125d127afb8",
+        "title": "IT Training",
+        "collection_count": 1019
+    },
+    {
+        "id": "530789a65e685125d127afbb",
+        "title": "Ethical Hacker",
+        "collection_count": 4
+    },
+    {
+        "id": "530789a85e685125d127afcb",
+        "title": "Help Desk",
+        "collection_count": 24
+    },
+    {
+        "id": "530789a85e685125d127afce",
+        "title": "Virtualization",
+        "collection_count": 33
+    },
+    {
+        "id": "530789a85e685125d127afcf",
+        "title": "Web Development",
+        "collection_count": 14
+    },
+    {
+        "id": "530789a85e685125d127afd3",
+        "title": "Cisco Routing and Switching",
+        "collection_count": 48
+    },
+    {
+        "id": "530789a95e685125d127afd4",
+        "title": "Programming",
+        "collection_count": 71
+    },
+    {
+        "id": "53fd20b7a01fba3aec451d58",
+        "title": "Cloud",
+        "collection_count": 55
+    },
+    {
+        "id": "548636724b54740336000022",
+        "title": "End-User Security",
+        "collection_count": 2
+    },
+    {
+        "id": "548b2a074b5474033600007e",
+        "title": "Storage",
+        "collection_count": 23
+    },
+    {
+        "id": "5307899d5e685125d127af4b",
+        "title": "End User Training",
+        "collection_count": 48
+    },
+    {
+        "id": "5c40f0c1bc9f4f0301f406d4",
+        "title": "certification",
+        "collection_count": 91
+    },
+    {
+        "id": "5c7edf5534efe70301b4faa4",
+        "title": "1Z0-072",
+        "collection_count": 0
+    },
+    {
+        "id": "5c7edf6434efe70301b4faa5",
+        "title": "70-767",
+        "collection_count": 3
+    },
+    {
+        "id": "5c7f060834efe70301b4faa6",
+        "title": "CISSP",
+        "collection_count": 0
+    },
+    {
+        "id": "5c94fe38212293030186c183",
+        "title": "Network+",
+        "collection_count": 1
+    },
+    {
+        "id": "5ce430f23bcd5a03016b5057",
+        "title": "AZ-101",
+        "collection_count": 4
+    },
+    {
+        "id": "5ce7246d3cfc0f030140f062",
+        "title": "checkpoint",
+        "collection_count": 2
+    },
+    {
+        "id": "5cef17609fdc3b03018bf310",
+        "title": "EIGRP",
+        "collection_count": 9
+    },
+    {
+        "id": "5cf568c83cfc0f030140f0ba",
+        "title": "cisco ccda",
+        "collection_count": 0
+    },
+    {
+        "id": "5d01647e3cfc0f030140f0ec",
+        "title": "AZ-203",
+        "collection_count": 21
+    },
+    {
+        "id": "5d02cd329fdc3b03018bf36e",
+        "title": "AWS Security",
+        "collection_count": 11
+    },
+    {
+        "id": "5d0aa5534c2c690d013066a6",
+        "title": "70-768",
+        "collection_count": 3
+    },
+    { "id": "5d0bd7690057d10d01845cbd", "title": "A+", "collection_count": 1 },
+    {
+        "id": "5d0bd7840057d10d01845cbe",
+        "title": "220-1001",
+        "collection_count": 0
+    },
+    {
+        "id": "5d0bd7904c2c690d013066b6",
+        "title": "220-1002",
+        "collection_count": 0
+    },
+    {
+        "id": "5d0bda144c2c690d013066b8",
+        "title": "AZ-900",
+        "collection_count": 4
+    },
+    { "id": "5d0bf45c4c2c690d013066b9", "title": "ACI", "collection_count": 6 },
+    {
+        "id": "5d0bfd6f3bcd5a03016b5133",
+        "title": "UCS",
+        "collection_count": 11
+    },
+    {
+        "id": "5d0d5a053bcd5a03016b5141",
+        "title": "ITIL 4",
+        "collection_count": 1
+    },
+    {
+        "id": "5d115cc83bcd5a03016b515d",
+        "title": "Firepower",
+        "collection_count": 7
+    },
+    {
+        "id": "5d14e414c654300d01203bbd",
+        "title": "MD-101",
+        "collection_count": 5
+    },
+    {
+        "id": "5d14f06a3bcd5a03016b517a",
+        "title": "VCP7-DTM",
+        "collection_count": 5
+    },
+    {
+        "id": "5d164bc0c654300d01203bd2",
+        "title": "MS-100",
+        "collection_count": 8
+    },
+    { "id": "5d165ed93bcd5a03016b5191", "title": "AWS", "collection_count": 4 },
+    {
+        "id": "5d167d0fc654300d01203bd6",
+        "title": "DevOps",
+        "collection_count": 0
+    },
+    {
+        "id": "5d28ad87b910040d018e6610",
+        "title": "70-740",
+        "collection_count": 0
+    },
+    {
+        "id": "5d28ae0546c59317015603a6",
+        "title": "windows server",
+        "collection_count": 0
+    },
+    {
+        "id": "5d35f8012941e8040121c989",
+        "title": "Cybersecurity",
+        "collection_count": 4
+    },
+    {
+        "id": "5d35f856b910040d018e6669",
+        "title": "Cyber Security",
+        "collection_count": 4
+    },
+    {
+        "id": "5d3777739635620d015a6b9f",
+        "title": "Cabling",
+        "collection_count": 4
+    },
+    {
+        "id": "5d3898edfbf06b0d019053df",
+        "title": "VCP6-NV",
+        "collection_count": 4
+    },
+    { "id": "5d39c867fbf06b0d019053e4", "title": "NSX", "collection_count": 4 },
+    { "id": "5d436f89fac8a70d01292ed7", "title": "PMP", "collection_count": 0 },
+    {
+        "id": "5d4b1279a4ae600d01fea071",
+        "title": "AZ-103",
+        "collection_count": 8
+    },
+    {
+        "id": "5d4c5329fac8a70d01292f0f",
+        "title": "ITIL",
+        "collection_count": 0
+    },
+    {
+        "id": "5d4c533afac8a70d01292f10",
+        "title": "ITIL 2015",
+        "collection_count": 2
+    },
+    {
+        "id": "5d4c819d5686040d019d1aab",
+        "title": "ITIL® 4",
+        "collection_count": 0
+    },
+    {
+        "id": "5d4c997ba4ae600d01fea07a",
+        "title": "comptia a+",
+        "collection_count": 0
+    },
+    {
+        "id": "5d5c1bc9877e370301c4085c",
+        "title": "70-743",
+        "collection_count": 8
+    },
+    {
+        "id": "5d644b0676c6030301b5ab32",
+        "title": "XKO-004",
+        "collection_count": 3
+    },
+    {
+        "id": "5d646766e1cf57001529f335",
+        "title": "Attack Types",
+        "collection_count": 3
+    },
+    {
+        "id": "5d64677ee1cf57001529f336",
+        "title": "Backup",
+        "collection_count": 12
+    },
+    {
+        "id": "5d64677e7cda840014567135",
+        "title": "Federation Services",
+        "collection_count": 3
+    },
+    {
+        "id": "5d64677f7cda840014567136",
+        "title": "Cryptography",
+        "collection_count": 6
+    },
+    { "id": "5d64677fe1cf57001529f337", "title": "CIA", "collection_count": 3 },
+    {
+        "id": "5d657fc57cda840014567137",
+        "title": "OSI Model",
+        "collection_count": 9
+    },
+    {
+        "id": "5d657fc57cda840014567138",
+        "title": "Policies",
+        "collection_count": 5
+    },
+    {
+        "id": "5d657fc57cda840014567139",
+        "title": "Incident Response",
+        "collection_count": 5
+    },
+    {
+        "id": "5d657fc53e88f500152f85cf",
+        "title": "Physical Security",
+        "collection_count": 4
+    },
+    {
+        "id": "5d657fc53e88f500152f85d0",
+        "title": "Malware",
+        "collection_count": 4
+    },
+    {
+        "id": "5d657ffd3e88f500152f85d1",
+        "title": "VPN",
+        "collection_count": 17
+    },
+    {
+        "id": "5d657ffd3e88f500152f85d2",
+        "title": "AWS Billing and Pricing",
+        "collection_count": 3
+    },
+    {
+        "id": "5d657ffde1cf57001529f338",
+        "title": "White Hat",
+        "collection_count": 3
+    },
+    {
+        "id": "5d657ffd7cda84001456713a",
+        "title": "AWS Services",
+        "collection_count": 1
+    },
+    {
+        "id": "5d657ffde1cf57001529f339",
+        "title": "Cloud Concepts",
+        "collection_count": 8
+    },
+    { "id": "5d6580063e88f500152f85d3", "title": "SWF", "collection_count": 1 },
+    {
+        "id": "5d658006e1cf57001529f33a",
+        "title": "Network Services",
+        "collection_count": 6
+    },
+    { "id": "5d6580063e88f500152f85d4", "title": "SQS", "collection_count": 1 },
+    {
+        "id": "5d6580067cda84001456713b",
+        "title": "Security Services",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658006e1cf57001529f33b",
+        "title": "Access Control",
+        "collection_count": 13
+    },
+    { "id": "5d6580063e88f500152f85d5", "title": "RDS", "collection_count": 5 },
+    { "id": "5d6580067cda84001456713c", "title": "DMS", "collection_count": 1 },
+    {
+        "id": "5d6580067cda84001456713d",
+        "title": "Storage Solutions",
+        "collection_count": 5
+    },
+    {
+        "id": "5d6580067cda84001456713e",
+        "title": "Automation",
+        "collection_count": 10
+    },
+    { "id": "5d6580067cda84001456713f", "title": "SNS", "collection_count": 1 },
+    {
+        "id": "5d65801b7cda840014567140",
+        "title": "Policies & Profiles",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65801be1cf57001529f33c",
+        "title": "Identity Policies",
+        "collection_count": 2
+    },
+    { "id": "5d65801be1cf57001529f33d", "title": "API", "collection_count": 3 },
+    {
+        "id": "5d65801b3e88f500152f85d6",
+        "title": "Endpoint Security",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65801ce1cf57001529f33e",
+        "title": "Access Management",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65801c3e88f500152f85d7",
+        "title": "Active Directory",
+        "collection_count": 20
+    },
+    { "id": "5d65801ce1cf57001529f33f", "title": "SSO", "collection_count": 1 },
+    {
+        "id": "5d65801c7cda840014567141",
+        "title": "Security Policies",
+        "collection_count": 5
+    },
+    {
+        "id": "5d65801c3e88f500152f85d8",
+        "title": "CloudTrail",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65801c7cda840014567142",
+        "title": "Logging",
+        "collection_count": 4
+    },
+    {
+        "id": "5d658025e1cf57001529f340",
+        "title": "Shared Security",
+        "collection_count": 1
+    },
+    { "id": "5d6580253e88f500152f85d9", "title": "EBS", "collection_count": 1 },
+    {
+        "id": "5d6580257cda840014567143",
+        "title": "Transit Gateway",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580253e88f500152f85da",
+        "title": "Traffic Filtering",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658025e1cf57001529f341",
+        "title": "DynamoDB",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580263e88f500152f85db",
+        "title": "NoSQL",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580267cda840014567144",
+        "title": "Buckets",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580267cda840014567145",
+        "title": "12c",
+        "collection_count": 10
+    },
+    {
+        "id": "5d658026e1cf57001529f342",
+        "title": "Cloud Migration",
+        "collection_count": 2
+    },
+    { "id": "5d6580263e88f500152f85dc", "title": "S3", "collection_count": 1 },
+    {
+        "id": "5d658026e1cf57001529f343",
+        "title": "Cloud Technology",
+        "collection_count": 1
+    },
+    { "id": "5d6580263e88f500152f85dd", "title": "EC2", "collection_count": 1 },
+    {
+        "id": "5d658026e1cf57001529f344",
+        "title": "Bootstrap",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658026e1cf57001529f345",
+        "title": "ACLs",
+        "collection_count": 15
+    },
+    {
+        "id": "5d6580267cda840014567146",
+        "title": "Shared Responsibility Model",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580317cda840014567147",
+        "title": "Scalability",
+        "collection_count": 2
+    },
+    { "id": "5d6580313e88f500152f85de", "title": "GCP", "collection_count": 1 },
+    {
+        "id": "5d6580317cda840014567148",
+        "title": "Application Deployment",
+        "collection_count": 0
+    },
+    {
+        "id": "5d6580317cda840014567149",
+        "title": "Nexus",
+        "collection_count": 5
+    },
+    {
+        "id": "5d6580313e88f500152f85df",
+        "title": "Playbooks",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658031e1cf57001529f346",
+        "title": "SPAN",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580313e88f500152f85e0",
+        "title": "DCNM",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658031e1cf57001529f347",
+        "title": "Troubleshooting",
+        "collection_count": 11
+    },
+    {
+        "id": "5d6580317cda84001456714a",
+        "title": "Data Binding",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580313e88f500152f85e1",
+        "title": "Azure Pricing and Support",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580317cda84001456714b",
+        "title": "VSAN",
+        "collection_count": 2
+    },
+    {
+        "id": "5d658031e1cf57001529f348",
+        "title": "Confederations",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658031e1cf57001529f349",
+        "title": "B Series",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580313e88f500152f85e2",
+        "title": "CentOS",
+        "collection_count": 2
+    },
+    {
+        "id": "5d658031e1cf57001529f34a",
+        "title": "AJAX",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658031e1cf57001529f34b",
+        "title": "Expressions",
+        "collection_count": 2
+    },
+    {
+        "id": "5d658031e1cf57001529f34c",
+        "title": "Ansible",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580313e88f500152f85e3",
+        "title": "Angular JS",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580313e88f500152f85e4",
+        "title": "Fabric",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580317cda84001456714c",
+        "title": "Fibre Channel",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580317cda84001456714d",
+        "title": "Controllers",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658031e1cf57001529f34d",
+        "title": "Data Flows",
+        "collection_count": 3
+    },
+    { "id": "5d658031e1cf57001529f34e", "title": "SAN", "collection_count": 5 },
+    {
+        "id": "5d6580313e88f500152f85e5",
+        "title": "Python",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580313e88f500152f85e6",
+        "title": "FCoE",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580313e88f500152f85e7",
+        "title": "Compliance",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580317cda84001456714e",
+        "title": "Java",
+        "collection_count": 4
+    },
+    {
+        "id": "5d6580317cda840014567150",
+        "title": "C Series",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580317cda84001456714f",
+        "title": "Apache",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580313e88f500152f85e8",
+        "title": "File Management",
+        "collection_count": 4
+    },
+    {
+        "id": "5d6580317cda840014567151",
+        "title": "Data Models",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580313e88f500152f85e9",
+        "title": "Linux OS",
+        "collection_count": 6
+    },
+    {
+        "id": "5d658031e1cf57001529f350",
+        "title": "JavaScript",
+        "collection_count": 3
+    },
+    {
+        "id": "5d658031e1cf57001529f34f",
+        "title": "BGP",
+        "collection_count": 13
+    },
+    { "id": "5d658031e1cf57001529f351", "title": "ORF", "collection_count": 1 },
+    {
+        "id": "5d658031e1cf57001529f352",
+        "title": "NLRI",
+        "collection_count": 2
+    },
+    { "id": "5d6580317cda840014567153", "title": "BFD", "collection_count": 1 },
+    {
+        "id": "5d6580317cda840014567154",
+        "title": "Filters",
+        "collection_count": 1
+    },
+    { "id": "5d6580317cda840014567152", "title": "PIC", "collection_count": 1 },
+    {
+        "id": "5d6580317cda840014567155",
+        "title": "Privacy",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580313e88f500152f85ea",
+        "title": "Loops",
+        "collection_count": 3
+    },
+    { "id": "5d6580313e88f500152f85eb", "title": "LAN", "collection_count": 4 },
+    {
+        "id": "5d6580313e88f500152f85ec",
+        "title": "Conditionals",
+        "collection_count": 3
+    },
+    { "id": "5d658031e1cf57001529f353", "title": "UI", "collection_count": 1 },
+    {
+        "id": "5d6580317cda840014567156",
+        "title": "FabricPath",
+        "collection_count": 4
+    },
+    {
+        "id": "5d658031e1cf57001529f354",
+        "title": "GAiA",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580313e88f500152f85ed",
+        "title": "Hadoop",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658032e1cf57001529f355",
+        "title": "VLAN",
+        "collection_count": 19
+    },
+    {
+        "id": "5d6580327cda840014567157",
+        "title": "Functions",
+        "collection_count": 13
+    },
+    {
+        "id": "5d658032e1cf57001529f356",
+        "title": "Directives",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803ee1cf57001529f357",
+        "title": "Static Routing",
+        "collection_count": 7
+    },
+    {
+        "id": "5d65803e3e88f500152f85ee",
+        "title": "Remote Management",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65803e3e88f500152f85f0",
+        "title": "VACL",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803e3e88f500152f85ef",
+        "title": "Layer 2",
+        "collection_count": 11
+    },
+    { "id": "5d65803e7cda840014567158", "title": "UDP", "collection_count": 3 },
+    {
+        "id": "5d65803e3e88f500152f85f1",
+        "title": "HDLC",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803e3e88f500152f85f2",
+        "title": "Ports",
+        "collection_count": 5
+    },
+    {
+        "id": "5d65803e3e88f500152f85f3",
+        "title": "Restore",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65803ee1cf57001529f358",
+        "title": "Wireshark",
+        "collection_count": 4
+    },
+    { "id": "5d65803e7cda840014567159", "title": "IOS", "collection_count": 4 },
+    {
+        "id": "5d65803ee1cf57001529f359",
+        "title": "Snooping",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65803ee1cf57001529f35a",
+        "title": "PSTN",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65803ee1cf57001529f35b",
+        "title": "Port Security",
+        "collection_count": 11
+    },
+    { "id": "5d65803e3e88f500152f85f6", "title": "GRE", "collection_count": 2 },
+    {
+        "id": "5d65803e3e88f500152f85f5",
+        "title": "Cloud Computing",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65803e3e88f500152f85f4",
+        "title": "Device Management",
+        "collection_count": 8
+    },
+    {
+        "id": "5d65803e3e88f500152f85f7",
+        "title": "DHCP",
+        "collection_count": 21
+    },
+    { "id": "5d65803e7cda84001456715a", "title": "NTP", "collection_count": 7 },
+    {
+        "id": "5d65803e7cda84001456715b",
+        "title": "Network Operations",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803e7cda84001456715c",
+        "title": "PACL",
+        "collection_count": 1
+    },
+    { "id": "5d65803e7cda84001456715d", "title": "VRF", "collection_count": 2 },
+    {
+        "id": "5d65803e7cda84001456715e",
+        "title": "IGMP",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803e7cda84001456715f",
+        "title": "Switching",
+        "collection_count": 17
+    },
+    {
+        "id": "5d65803e7cda840014567160",
+        "title": "Video",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65803e7cda840014567161",
+        "title": "Configuration Management",
+        "collection_count": 7
+    },
+    {
+        "id": "5d65803ee1cf57001529f35e",
+        "title": "Layer 3",
+        "collection_count": 10
+    },
+    {
+        "id": "5d65803ee1cf57001529f35d",
+        "title": "Wireless Access Points",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65803ee1cf57001529f35c",
+        "title": "Layer 3 Technologies",
+        "collection_count": 5
+    },
+    { "id": "5d65803ee1cf57001529f35f", "title": "VTP", "collection_count": 6 },
+    {
+        "id": "5d65803ee1cf57001529f360",
+        "title": "Optimization",
+        "collection_count": 4
+    },
+    { "id": "5d65803e3e88f500152f85f8", "title": "PPP", "collection_count": 3 },
+    {
+        "id": "5d65803e3e88f500152f85fa",
+        "title": "RBAC",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65803e3e88f500152f85fb",
+        "title": "Network Fundamentals",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65803e3e88f500152f85f9",
+        "title": "Unity Connection",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65803e3e88f500152f85fc",
+        "title": "Filesystems",
+        "collection_count": 5
+    },
+    {
+        "id": "5d65803e7cda840014567162",
+        "title": "Spine Leaf",
+        "collection_count": 0
+    },
+    { "id": "5d65803e7cda840014567165", "title": "ARP", "collection_count": 5 },
+    {
+        "id": "5d65803e7cda840014567163",
+        "title": "Cisco IOS",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65803e7cda840014567164",
+        "title": "TCP/IP",
+        "collection_count": 10
+    },
+    {
+        "id": "5d65803ee1cf57001529f361",
+        "title": "Network Devices",
+        "collection_count": 11
+    },
+    {
+        "id": "5d65803ee1cf57001529f364",
+        "title": "Multipath",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803ee1cf57001529f363",
+        "title": "AS Path",
+        "collection_count": 1
+    },
+    { "id": "5d65803ee1cf57001529f362", "title": "LSR", "collection_count": 1 },
+    {
+        "id": "5d65803e3e88f500152f85ff",
+        "title": "VLSM",
+        "collection_count": 2
+    },
+    { "id": "5d65803e3e88f500152f8600", "title": "CME", "collection_count": 3 },
+    {
+        "id": "5d65803e3e88f500152f8601",
+        "title": "IP Phones",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803e3e88f500152f8602",
+        "title": "Multi-point Control Units (MCUs)",
+        "collection_count": 0
+    },
+    { "id": "5d65803e3e88f500152f85fe", "title": "TCP", "collection_count": 8 },
+    { "id": "5d65803e3e88f500152f85fd", "title": "VTI", "collection_count": 2 },
+    {
+        "id": "5d65803fe1cf57001529f365",
+        "title": "DNS",
+        "collection_count": 16
+    },
+    {
+        "id": "5d65803fe1cf57001529f366",
+        "title": "Ethernet Switching",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803fe1cf57001529f367",
+        "title": "OSPFv3",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65803fe1cf57001529f368",
+        "title": "SNMP",
+        "collection_count": 5
+    },
+    {
+        "id": "5d65803fe1cf57001529f369",
+        "title": "Encryption",
+        "collection_count": 8
+    },
+    { "id": "5d65803fe1cf57001529f36a", "title": "NAS", "collection_count": 1 },
+    {
+        "id": "5d65803e7cda840014567166",
+        "title": "Three-Tier Architecture",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803e7cda840014567169",
+        "title": "VIRL",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65803e7cda840014567167",
+        "title": "WebEx",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65803e7cda840014567168",
+        "title": "NX-OS",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65803f7cda84001456716a",
+        "title": "Server Virtualization",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803fe1cf57001529f36b",
+        "title": "GNS3",
+        "collection_count": 6
+    },
+    {
+        "id": "5d65803fe1cf57001529f36c",
+        "title": "Route Plans",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65803fe1cf57001529f36d",
+        "title": "MBGP",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803e3e88f500152f8609",
+        "title": "Hypervisor",
+        "collection_count": 5
+    },
+    { "id": "5d65803e3e88f500152f8605", "title": "TMS", "collection_count": 1 },
+    {
+        "id": "5d65803e3e88f500152f8608",
+        "title": "Endpoints",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803e3e88f500152f8607",
+        "title": "Voice",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65803e3e88f500152f8603",
+        "title": "DMVPN",
+        "collection_count": 3
+    },
+    { "id": "5d65803e3e88f500152f8606", "title": "FEX", "collection_count": 1 },
+    {
+        "id": "5d65803e3e88f500152f8604",
+        "title": "Network Virtualization",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65803f7cda84001456716d",
+        "title": "Jabber",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803f7cda84001456716b",
+        "title": "Trunking",
+        "collection_count": 9
+    },
+    {
+        "id": "5d65803f7cda84001456716c",
+        "title": "L2TPV3",
+        "collection_count": 1
+    },
+    { "id": "5d65803f7cda84001456716f", "title": "SSH", "collection_count": 8 },
+    { "id": "5d65803f7cda84001456716e", "title": "RIP", "collection_count": 3 },
+    {
+        "id": "5d65803f7cda840014567170",
+        "title": "Routing Fundamentals",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65803fe1cf57001529f36e",
+        "title": "Video Conferencing",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803fe1cf57001529f36f",
+        "title": "Storage Devices",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65803fe1cf57001529f370",
+        "title": "Network Storage",
+        "collection_count": 1
+    },
+    { "id": "5d65803fe1cf57001529f371", "title": "LSP", "collection_count": 2 },
+    {
+        "id": "5d65803fe1cf57001529f372",
+        "title": "Peering",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65803fe1cf57001529f373",
+        "title": "RIPv2",
+        "collection_count": 4
+    },
+    { "id": "5d65803f7cda840014567175", "title": "VCS", "collection_count": 1 },
+    {
+        "id": "5d65803f7cda840014567172",
+        "title": "NHRP",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803f7cda840014567173",
+        "title": "Layer 2 Technologies",
+        "collection_count": 5
+    },
+    { "id": "5d65803f7cda840014567176", "title": "PKI", "collection_count": 4 },
+    {
+        "id": "5d65803f7cda840014567177",
+        "title": "Network Communication",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65803f7cda840014567174",
+        "title": "Security Concepts",
+        "collection_count": 1
+    },
+    { "id": "5d65803f3e88f500152f860b", "title": "CAC", "collection_count": 1 },
+    { "id": "5d65803f3e88f500152f860c", "title": "PAT", "collection_count": 4 },
+    {
+        "id": "5d65803f3e88f500152f860f",
+        "title": "Port Mirroring",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65803f3e88f500152f860d",
+        "title": "Phone Configuration",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65803e3e88f500152f860a",
+        "title": "Dial Plans",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65803f3e88f500152f860e",
+        "title": "CUCM",
+        "collection_count": 5
+    },
+    {
+        "id": "5d65803fe1cf57001529f374",
+        "title": "DevNet",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65803fe1cf57001529f375",
+        "title": "Cloud Service",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65803f7cda840014567178",
+        "title": "Telepresence",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803fe1cf57001529f376",
+        "title": "Unified Fabric",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658040e1cf57001529f377",
+        "title": "ICMP",
+        "collection_count": 4
+    },
+    {
+        "id": "5d6580623e88f500152f8610",
+        "title": "Change Management",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580627cda840014567179",
+        "title": "Advanced Network Infrastructure",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580627cda84001456717a",
+        "title": "Workstation Security",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580623e88f500152f8611",
+        "title": "Constraints",
+        "collection_count": 2
+    },
+    {
+        "id": "5d658062e1cf57001529f378",
+        "title": "Wired Network Troubleshooting",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658062e1cf57001529f379",
+        "title": "Routers",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580623e88f500152f8612",
+        "title": "Cost Control",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658062e1cf57001529f37a",
+        "title": "Cloud Management",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580627cda84001456717b",
+        "title": "Troubleshooting Methodology",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580623e88f500152f8613",
+        "title": "Project Tools",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580623e88f500152f8614",
+        "title": "Windows Network",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580623e88f500152f8615",
+        "title": "Network Services Troubleshooting",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580627cda84001456717c",
+        "title": "Dashboard",
+        "collection_count": 4
+    },
+    {
+        "id": "5d658062e1cf57001529f37b",
+        "title": "IP Forwarding",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658062e1cf57001529f37c",
+        "title": "Conflict Resolution",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580623e88f500152f8616",
+        "title": "Documentation",
+        "collection_count": 5
+    },
+    {
+        "id": "5d6580627cda84001456717e",
+        "title": "Vulnerabilities",
+        "collection_count": 5
+    },
+    {
+        "id": "5d6580623e88f500152f8617",
+        "title": "Dynamic Routing",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580627cda84001456717d",
+        "title": "Business Continuity",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580627cda84001456717f",
+        "title": "Troubleshooting Tools",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580627cda840014567180",
+        "title": "Switches",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658062e1cf57001529f37d",
+        "title": "RACI",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658062e1cf57001529f37e",
+        "title": "Network Patching",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580623e88f500152f8618",
+        "title": "BASH",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580623e88f500152f8619",
+        "title": "Rapport",
+        "collection_count": 1
+    },
+    { "id": "5d6580623e88f500152f861b", "title": "LVM", "collection_count": 1 },
+    {
+        "id": "5d6580623e88f500152f861a",
+        "title": "Charts",
+        "collection_count": 11
+    },
+    {
+        "id": "5d6580623e88f500152f861c",
+        "title": "Threat Mitigation",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580623e88f500152f861d",
+        "title": "Schedule",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580627cda840014567181",
+        "title": "Resource Management",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580627cda840014567182",
+        "title": "Initiation",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580627cda840014567184",
+        "title": "Storage Management",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580627cda840014567183",
+        "title": "Windows Updates",
+        "collection_count": 2
+    },
+    {
+        "id": "5d658062e1cf57001529f37f",
+        "title": "Mobile Security",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580627cda840014567185",
+        "title": "Forensics",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580623e88f500152f861e",
+        "title": "Tunneling",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580627cda840014567186",
+        "title": "Fileservers",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580627cda840014567187",
+        "title": "Network Analysis",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580627cda840014567188",
+        "title": "BIG-IP",
+        "collection_count": 0
+    },
+    { "id": "5d6580623e88f500152f861f", "title": "DMZ", "collection_count": 2 },
+    {
+        "id": "5d6580623e88f500152f8620",
+        "title": "Personnel",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580627cda840014567189",
+        "title": "Structures",
+        "collection_count": 1
+    },
+    { "id": "5d6580623e88f500152f8621", "title": "NFS", "collection_count": 4 },
+    {
+        "id": "5d6580623e88f500152f8622",
+        "title": "Network Diagrams",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580623e88f500152f8623",
+        "title": "Red Hat",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580627cda84001456718a",
+        "title": "System Utilities",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580627cda84001456718b",
+        "title": "DNSMasq",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658062e1cf57001529f380",
+        "title": "Execution",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658062e1cf57001529f381",
+        "title": "Meetings",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658062e1cf57001529f384",
+        "title": "Server Migration",
+        "collection_count": 3
+    },
+    {
+        "id": "5d658062e1cf57001529f382",
+        "title": "Windows",
+        "collection_count": 17
+    },
+    { "id": "5d658062e1cf57001529f383", "title": "PHP", "collection_count": 1 },
+    {
+        "id": "5d658062e1cf57001529f385",
+        "title": "Persistent Data",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658062e1cf57001529f386",
+        "title": "CIFS",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580623e88f500152f8624",
+        "title": "Relationship Building",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580623e88f500152f8625",
+        "title": "Network Configuration",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580627cda84001456718c",
+        "title": "Wireless Security",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580627cda84001456718d",
+        "title": "Gantt Chart",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580627cda84001456718e",
+        "title": "Fault Tolerance",
+        "collection_count": 5
+    },
+    {
+        "id": "5d6580627cda84001456718f",
+        "title": "Professional Communication",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580623e88f500152f8626",
+        "title": "Password Recovery",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580623e88f500152f8627",
+        "title": "Tasks",
+        "collection_count": 4
+    },
+    {
+        "id": "5d6580627cda840014567190",
+        "title": "Packet Filtering",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580623e88f500152f8628",
+        "title": "Security Zones",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580623e88f500152f8629",
+        "title": "Ubuntu",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580627cda840014567191",
+        "title": "Images",
+        "collection_count": 4
+    },
+    {
+        "id": "5d6580627cda840014567192",
+        "title": "Penetration Testing",
+        "collection_count": 4
+    },
+    {
+        "id": "5d658062e1cf57001529f388",
+        "title": "Protocol Security",
+        "collection_count": 3
+    },
+    {
+        "id": "5d658062e1cf57001529f38c",
+        "title": "Core Azure Services",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658062e1cf57001529f38a",
+        "title": "Logical Security",
+        "collection_count": 0
+    },
+    {
+        "id": "5d658062e1cf57001529f389",
+        "title": "Network Components",
+        "collection_count": 0
+    },
+    {
+        "id": "5d658062e1cf57001529f38b",
+        "title": "Virtual Routers",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658062e1cf57001529f387",
+        "title": "Security Principles",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658063e1cf57001529f38d",
+        "title": "Threat Management",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658063e1cf57001529f38e",
+        "title": "Security Assessment",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580633e88f500152f862a",
+        "title": "Performance Measurement",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580633e88f500152f862b",
+        "title": "WebDAV",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580637cda840014567193",
+        "title": "Social Engineering",
+        "collection_count": 2
+    },
+    {
+        "id": "5d658063e1cf57001529f392",
+        "title": "Root Account",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658063e1cf57001529f390",
+        "title": "Containers",
+        "collection_count": 6
+    },
+    {
+        "id": "5d658063e1cf57001529f391",
+        "title": "SWOT",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658063e1cf57001529f395",
+        "title": "NGFW",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658063e1cf57001529f393",
+        "title": "Tablespaces",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658063e1cf57001529f394",
+        "title": "Variables",
+        "collection_count": 6
+    },
+    {
+        "id": "5d658063e1cf57001529f396",
+        "title": "Triggers",
+        "collection_count": 2
+    },
+    {
+        "id": "5d658063e1cf57001529f38f",
+        "title": "Network Tools",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580637cda840014567195",
+        "title": "Security Tools",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580637cda840014567194",
+        "title": "Roles & Responsibilities",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580633e88f500152f862c",
+        "title": "While Loops",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658063e1cf57001529f397",
+        "title": "Samba",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580633e88f500152f862d",
+        "title": "For Loops",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580633e88f500152f862e",
+        "title": "Reports",
+        "collection_count": 4
+    },
+    {
+        "id": "5d6580633e88f500152f862f",
+        "title": "Task Manager",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580637cda840014567196",
+        "title": "Profiles",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580633e88f500152f8630",
+        "title": "Virtual Hosts",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580637cda840014567197",
+        "title": "HTTPS",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580633e88f500152f8631",
+        "title": "Planning",
+        "collection_count": 2
+    },
+    {
+        "id": "5d658063e1cf57001529f398",
+        "title": "Network Scanning",
+        "collection_count": 3
+    },
+    {
+        "id": "5d658063e1cf57001529f399",
+        "title": "IP Routing",
+        "collection_count": 2
+    },
+    { "id": "5d6580633e88f500152f8632", "title": "LTM", "collection_count": 0 },
+    {
+        "id": "5d658093e1cf57001529f39a",
+        "title": "Websites",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580933e88f500152f8633",
+        "title": "RDBMS",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580937cda840014567198",
+        "title": "ADO.NET",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580937cda840014567199",
+        "title": "What-if Analysis",
+        "collection_count": 3
+    },
+    {
+        "id": "5d658093e1cf57001529f39b",
+        "title": "Excel",
+        "collection_count": 4
+    },
+    {
+        "id": "5d6580933e88f500152f8634",
+        "title": "Spreadsheets",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580937cda84001456719a",
+        "title": "Indexes",
+        "collection_count": 5
+    },
+    {
+        "id": "5d6580937cda84001456719b",
+        "title": "Database Integrity",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580947cda84001456719c",
+        "title": "Data Validation",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658094e1cf57001529f39c",
+        "title": "Exchange Server",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580947cda84001456719e",
+        "title": "LINQ",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580947cda84001456719d",
+        "title": "PowerPivot",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580947cda84001456719f",
+        "title": "Excel Office 365",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658094e1cf57001529f39d",
+        "title": "Auditing",
+        "collection_count": 2
+    },
+    {
+        "id": "5d658094e1cf57001529f39e",
+        "title": "Diagnostics",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658094e1cf57001529f39f",
+        "title": "Debugging",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580943e88f500152f8635",
+        "title": "Formatting",
+        "collection_count": 6
+    },
+    {
+        "id": "5d6580943e88f500152f8636",
+        "title": "Excel 2016",
+        "collection_count": 1
+    },
+    { "id": "5d6580943e88f500152f8637", "title": "AI", "collection_count": 1 },
+    { "id": "5d6580947cda8400145671a0", "title": "WMI", "collection_count": 2 },
+    {
+        "id": "5d658094e1cf57001529f3a0",
+        "title": "Failover Clustering",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658094e1cf57001529f3a1",
+        "title": "Exchange Server 2016",
+        "collection_count": 2
+    },
+    {
+        "id": "5d658094e1cf57001529f3a2",
+        "title": "Azure Storage",
+        "collection_count": 1
+    },
+    { "id": "5d658094e1cf57001529f3a3", "title": "IoT", "collection_count": 2 },
+    { "id": "5d658094e1cf57001529f3a5", "title": "GUI", "collection_count": 1 },
+    {
+        "id": "5d658094e1cf57001529f3a4",
+        "title": "SCCM",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658094e1cf57001529f3a6",
+        "title": "Data Prep",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580943e88f500152f8638",
+        "title": "Excel 2019",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580947cda8400145671a1",
+        "title": "VM Configuration",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580943e88f500152f863a",
+        "title": "Templates",
+        "collection_count": 5
+    },
+    {
+        "id": "5d6580943e88f500152f8639",
+        "title": "PowerPoint",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580947cda8400145671a2",
+        "title": "Windows Tools",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580947cda8400145671a4",
+        "title": "OS Installation",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580947cda8400145671a3",
+        "title": "Collaborate",
+        "collection_count": 8
+    },
+    {
+        "id": "5d658094e1cf57001529f3a7",
+        "title": "Animations",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658094e1cf57001529f3a8",
+        "title": "Workbooks",
+        "collection_count": 1
+    },
+    { "id": "5d6580943e88f500152f863b", "title": "DAX", "collection_count": 3 },
+    { "id": "5d6580943e88f500152f863c", "title": "CIM", "collection_count": 3 },
+    {
+        "id": "5d6580943e88f500152f863d",
+        "title": "SQL Server 2012",
+        "collection_count": 5
+    },
+    {
+        "id": "5d6580947cda8400145671a5",
+        "title": "Diagrams",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580943e88f500152f863e",
+        "title": "Password Management",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580947cda8400145671a6",
+        "title": "Database Design",
+        "collection_count": 2
+    },
+    {
+        "id": "5d658094e1cf57001529f3a9",
+        "title": "Availability Groups",
+        "collection_count": 1
+    },
+    { "id": "5d658094e1cf57001529f3aa", "title": "ARM", "collection_count": 1 },
+    {
+        "id": "5d658094e1cf57001529f3ab",
+        "title": "Calendar",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658094e1cf57001529f3ac",
+        "title": "Query",
+        "collection_count": 4
+    },
+    {
+        "id": "5d658094e1cf57001529f3ad",
+        "title": "Worksheet",
+        "collection_count": 4
+    },
+    {
+        "id": "5d6580943e88f500152f863f",
+        "title": "Apps & Data",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658094e1cf57001529f3ae",
+        "title": "PivotTables",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580943e88f500152f8640",
+        "title": ".NET 4",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580947cda8400145671a7",
+        "title": "Macros",
+        "collection_count": 4
+    },
+    {
+        "id": "5d6580943e88f500152f8641",
+        "title": "Server Installation",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580943e88f500152f8643",
+        "title": "Presentations",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580943e88f500152f8642",
+        "title": "BLOB Storage",
+        "collection_count": 3
+    },
+    { "id": "5d6580943e88f500152f8644", "title": "XML", "collection_count": 3 },
+    {
+        "id": "5d6580943e88f500152f8645",
+        "title": "Navigation",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580943e88f500152f8646",
+        "title": "Azure PowerShell",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658094e1cf57001529f3af",
+        "title": "Database Objects",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658094e1cf57001529f3b0",
+        "title": "Datasources",
+        "collection_count": 2
+    },
+    {
+        "id": "5d658094e1cf57001529f3b1",
+        "title": "Autofill",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580947cda8400145671a8",
+        "title": "Workflows",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580947cda8400145671a9",
+        "title": "UNDO Data",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580947cda8400145671aa",
+        "title": "Server Instances",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580943e88f500152f8647",
+        "title": "KPIs",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580947cda8400145671ab",
+        "title": "Scaling",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580947cda8400145671ac",
+        "title": "Log Shipping",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580947cda8400145671ad",
+        "title": "Power BI",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658094e1cf57001529f3b2",
+        "title": "Contacts",
+        "collection_count": 2
+    },
+    {
+        "id": "5d658094e1cf57001529f3b3",
+        "title": "Microsoft Office",
+        "collection_count": 6
+    },
+    {
+        "id": "5d658094e1cf57001529f3b4",
+        "title": "COM Objects",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658094e1cf57001529f3b5",
+        "title": "Data",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580943e88f500152f8648",
+        "title": "Server 2014",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580943e88f500152f8649",
+        "title": "Permissions",
+        "collection_count": 6
+    },
+    {
+        "id": "5d6580943e88f500152f864a",
+        "title": "ElseIf",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580943e88f500152f864b",
+        "title": "SQL Server",
+        "collection_count": 4
+    },
+    {
+        "id": "5d6580943e88f500152f864c",
+        "title": "Commands",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580943e88f500152f864e",
+        "title": "Productivity",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580943e88f500152f864f",
+        "title": "Domain Controllers",
+        "collection_count": 4
+    },
+    {
+        "id": "5d6580943e88f500152f864d",
+        "title": "Error Handling",
+        "collection_count": 2
+    },
+    {
+        "id": "5d658094e1cf57001529f3b6",
+        "title": "Server Administration",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658094e1cf57001529f3b7",
+        "title": "Server Configuration",
+        "collection_count": 3
+    },
+    {
+        "id": "5d658094e1cf57001529f3b8",
+        "title": "App Services",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658094e1cf57001529f3b9",
+        "title": "Pipeline",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580947cda8400145671b4",
+        "title": "Statistics",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580947cda8400145671b3",
+        "title": "Powershell Remoting",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580947cda8400145671b1",
+        "title": "VM Management",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580947cda8400145671b2",
+        "title": "Implementation",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580947cda8400145671ae",
+        "title": "Text",
+        "collection_count": 4
+    },
+    {
+        "id": "5d6580947cda8400145671b0",
+        "title": "Tables",
+        "collection_count": 9
+    },
+    {
+        "id": "5d6580947cda8400145671b5",
+        "title": "Database Security",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580947cda8400145671af",
+        "title": "Cmdlets",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658094e1cf57001529f3ba",
+        "title": "Web Apps",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580953e88f500152f8650",
+        "title": "Controller Scripts",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580953e88f500152f8651",
+        "title": "Client Access Services",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580953e88f500152f8652",
+        "title": "Graphs",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580947cda8400145671b8",
+        "title": "Active Directory Federation Services (ADFS)",
+        "collection_count": 5
+    },
+    {
+        "id": "5d6580957cda8400145671b9",
+        "title": "Data Optimization",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580947cda8400145671b7",
+        "title": "Outlook",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580947cda8400145671b6",
+        "title": "Data Objects",
+        "collection_count": 5
+    },
+    {
+        "id": "5d6580953e88f500152f8653",
+        "title": "Data Access",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580ad7cda8400145671ba",
+        "title": "Network Defense",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ad3e88f500152f8654",
+        "title": "Salesforce Apps",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ade1cf57001529f3bb",
+        "title": "Leads",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580ad3e88f500152f8655",
+        "title": "Linux Services",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ad3e88f500152f8656",
+        "title": "Oracle",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ad7cda8400145671bb",
+        "title": "Puppet",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ad7cda8400145671bc",
+        "title": "Logic",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ad7cda8400145671bd",
+        "title": "Antivirus",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580ad3e88f500152f8657",
+        "title": "Photoshop",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ade1cf57001529f3bc",
+        "title": "Sprint Execution",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ade1cf57001529f3bd",
+        "title": "Resource Pools",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ad3e88f500152f8658",
+        "title": "Skype",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ad3e88f500152f8659",
+        "title": "Data Filtering",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ade1cf57001529f3be",
+        "title": "BackTrack",
+        "collection_count": 1
+    },
+    { "id": "5d6580ade1cf57001529f3bf", "title": "ACC", "collection_count": 1 },
+    { "id": "5d6580ade1cf57001529f3c0", "title": "DRS", "collection_count": 2 },
+    {
+        "id": "5d6580ade1cf57001529f3c1",
+        "title": "JOINs",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ade1cf57001529f3c2",
+        "title": "ESXi Shell",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f865a",
+        "title": "Affinity",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580ae3e88f500152f865b",
+        "title": "Elements",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671bf",
+        "title": "Server Access",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671be",
+        "title": "Penetration Tools",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671c0",
+        "title": "Kali",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671c1",
+        "title": "Rendering",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671c3",
+        "title": "Scrum",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671c2",
+        "title": "Sprint Planning",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f865c",
+        "title": "vSphere Networking",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f865d",
+        "title": "Organizational Manangement",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671c4",
+        "title": "Lightning",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580ae7cda8400145671c5",
+        "title": "Word 2019",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580aee1cf57001529f3c3",
+        "title": "vMotion",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580aee1cf57001529f3c4",
+        "title": "SQL Injection",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580aee1cf57001529f3c5",
+        "title": "Page Layouts",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580aee1cf57001529f3c7",
+        "title": "System Hacking",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580aee1cf57001529f3c8",
+        "title": "Tableau Server",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580aee1cf57001529f3c6",
+        "title": "Horizon View",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580aee1cf57001529f3c9",
+        "title": "vSphere Distributed Switch",
+        "collection_count": 3
+    },
+    { "id": "5d6580aee1cf57001529f3ca", "title": "JSX", "collection_count": 1 },
+    {
+        "id": "5d6580ae7cda8400145671c6",
+        "title": "Network Policies",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f865e",
+        "title": "Tableau",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671c7",
+        "title": "Custom Fields",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f8660",
+        "title": "DCUI",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671c8",
+        "title": "Secure Identities",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f865f",
+        "title": "Collections",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f8661",
+        "title": "Security Controls",
+        "collection_count": 1
+    },
+    { "id": "5d6580ae7cda8400145671c9", "title": "OOP", "collection_count": 1 },
+    {
+        "id": "5d6580ae3e88f500152f8662",
+        "title": "vSwitch",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580ae7cda8400145671ca",
+        "title": "Remote Monitoring",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f8663",
+        "title": "Software-defined Switching",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671cb",
+        "title": "VTEP",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f8664",
+        "title": "Decryption",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671cc",
+        "title": "Budget Management",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f8665",
+        "title": "vSphere Storage",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f8666",
+        "title": "Microsoft Word",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580ae3e88f500152f8667",
+        "title": "vSphere",
+        "collection_count": 4
+    },
+    {
+        "id": "5d6580ae7cda8400145671cd",
+        "title": "VXLAN",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671ce",
+        "title": "View Agent",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671d0",
+        "title": "Performance",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671cf",
+        "title": "Objects",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671d1",
+        "title": "vSphere Deployment",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f8668",
+        "title": "PyPI",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f8669",
+        "title": "Graphic Design",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f866a",
+        "title": "Virtual Memory",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f866b",
+        "title": "Linked Clones",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580aee1cf57001529f3d0",
+        "title": "Honeypots",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580aee1cf57001529f3cc",
+        "title": "ESXi Host",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580aee1cf57001529f3d4",
+        "title": "PyQT",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580aee1cf57001529f3cf",
+        "title": "vApps",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580aee1cf57001529f3cd",
+        "title": "Upgrade",
+        "collection_count": 0
+    },
+    {
+        "id": "5d6580aee1cf57001529f3d3",
+        "title": "Sniffing",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580aee1cf57001529f3d2",
+        "title": "Components",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580aee1cf57001529f3ce",
+        "title": "vCenter Server",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6580aee1cf57001529f3d1",
+        "title": "Command Prompt",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f866c",
+        "title": "vCSA",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6580ae7cda8400145671d2",
+        "title": "Snapshots",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671d3",
+        "title": "Session Hacking",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f866d",
+        "title": "Deliverables",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae7cda8400145671d4",
+        "title": "Virtual Switch",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f866e",
+        "title": "Reference",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6598067cda8400145671d6",
+        "title": "Authentication",
+        "collection_count": 18
+    },
+    {
+        "id": "5d6598067cda8400145671d7",
+        "title": "Hacking",
+        "collection_count": 3
+    },
+    { "id": "5d6598063e88f500152f866f", "title": "IDS", "collection_count": 5 },
+    {
+        "id": "5d6598063e88f500152f8670",
+        "title": "Security",
+        "collection_count": 43
+    },
+    {
+        "id": "5d6598067cda8400145671d8",
+        "title": "Deployment",
+        "collection_count": 6
+    },
+    { "id": "5d6598063e88f500152f8671", "title": "IPS", "collection_count": 7 },
+    {
+        "id": "5d659806e1cf57001529f3d5",
+        "title": "Deployment and Provisioning",
+        "collection_count": 1
+    },
+    {
+        "id": "5d659806e1cf57001529f3d7",
+        "title": "Risk Management",
+        "collection_count": 6
+    },
+    {
+        "id": "5d6598067cda8400145671d9",
+        "title": "Application Services",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6598063e88f500152f8672",
+        "title": "Threats",
+        "collection_count": 4
+    },
+    {
+        "id": "5d6598067cda8400145671da",
+        "title": "Data Integrity",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6598067cda8400145671db",
+        "title": "Data Analysis",
+        "collection_count": 2
+    },
+    {
+        "id": "5d6598073e88f500152f8673",
+        "title": "Recovery",
+        "collection_count": 12
+    },
+    {
+        "id": "5d659807e1cf57001529f3d8",
+        "title": "Security Architecture",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6598077cda8400145671dc",
+        "title": "Data Management",
+        "collection_count": 6
+    },
+    {
+        "id": "5d6598073e88f500152f8674",
+        "title": "Firewalls",
+        "collection_count": 15
+    },
+    {
+        "id": "5d659807e1cf57001529f3d9",
+        "title": "Cloud Security",
+        "collection_count": 3
+    },
+    {
+        "id": "5d6598077cda8400145671dd",
+        "title": "Cloud Storage",
+        "collection_count": 6
+    },
+    {
+        "id": "5d6598073e88f500152f8675",
+        "title": "Compute Services",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65b9d53e88f500152f8676",
+        "title": "Elasticity",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65b9d53e88f500152f8677",
+        "title": "User Management",
+        "collection_count": 10
+    },
+    { "id": "5d65b9d5e1cf57001529f3da", "title": "ELB", "collection_count": 1 },
+    {
+        "id": "5d65b9d5e1cf57001529f3db",
+        "title": "AWS Shield",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65b9d57cda8400145671de",
+        "title": "Azure",
+        "collection_count": 15
+    },
+    {
+        "id": "5d65b9d53e88f500152f8678",
+        "title": "Security Group Rules",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65b9d57cda8400145671df",
+        "title": "Network Traffic",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65b9d57cda8400145671e0",
+        "title": "Network Connectivity",
+        "collection_count": 7
+    },
+    {
+        "id": "5d65b9d53e88f500152f8679",
+        "title": "Network Management",
+        "collection_count": 7
+    },
+    {
+        "id": "5d65b9d5e1cf57001529f3dc",
+        "title": "Reactive Controls",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65b9d53e88f500152f867a",
+        "title": "High Availability",
+        "collection_count": 11
+    },
+    {
+        "id": "5d65b9d53e88f500152f867b",
+        "title": "DoS/DDoS",
+        "collection_count": 2
+    },
+    { "id": "5d65b9d57cda8400145671e1", "title": "IAM", "collection_count": 5 },
+    {
+        "id": "5d65b9d57cda8400145671e2",
+        "title": "Private Database",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65b9d5e1cf57001529f3dd",
+        "title": "Load Balancing",
+        "collection_count": 9
+    },
+    {
+        "id": "5d65b9d5e1cf57001529f3de",
+        "title": "Gateways",
+        "collection_count": 4
+    },
+    { "id": "5d65b9d53e88f500152f867c", "title": "VPC", "collection_count": 3 },
+    {
+        "id": "5d65b9d53e88f500152f867d",
+        "title": "Public Web Server",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65b9d57cda8400145671e3",
+        "title": "Protective Controls",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65b9d57cda8400145671e4",
+        "title": "User Security",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65b9dc3e88f500152f867e",
+        "title": "Cookbooks",
+        "collection_count": 2
+    },
+    { "id": "5d65b9dc7cda8400145671e5", "title": "CLI", "collection_count": 8 },
+    {
+        "id": "5d65b9dce1cf57001529f3e0",
+        "title": "Configuration",
+        "collection_count": 8
+    },
+    {
+        "id": "5d65b9dce1cf57001529f3df",
+        "title": "Network Load Balancing (NLB)",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65b9dc3e88f500152f867f",
+        "title": "Network Address Translation (NAT)",
+        "collection_count": 19
+    },
+    {
+        "id": "5d65b9dc3e88f500152f8680",
+        "title": "Traffic Manager",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65b9dc7cda8400145671e6",
+        "title": "IPsec",
+        "collection_count": 10
+    },
+    {
+        "id": "5d65b9dce1cf57001529f3e1",
+        "title": "Chef Repo",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65b9dce1cf57001529f3e2",
+        "title": "Site-to-site",
+        "collection_count": 5
+    },
+    {
+        "id": "5d65b9dce1cf57001529f3e3",
+        "title": "Remote Connectivity",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65b9dc7cda8400145671e7",
+        "title": "Android",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65b9dce1cf57001529f3e4",
+        "title": "Recipes",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65b9dce1cf57001529f3e5",
+        "title": "App Development",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65b9dc3e88f500152f8681",
+        "title": "Chef",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65b9dc3e88f500152f8682",
+        "title": "Forms",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65b9dc7cda8400145671e8",
+        "title": "Data Storage",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65b9dc7cda8400145671e9",
+        "title": "Virtual Networking",
+        "collection_count": 5
+    },
+    {
+        "id": "5d65b9dce1cf57001529f3e6",
+        "title": "Network Troubleshooting",
+        "collection_count": 6
+    },
+    {
+        "id": "5d65b9dc7cda8400145671ea",
+        "title": "URL Filtering",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65b9dc3e88f500152f8683",
+        "title": "Chef Server",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65b9ef7cda8400145671eb",
+        "title": "Methodology",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65b9ef7cda8400145671ec",
+        "title": "Campus Networks",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65b9ef3e88f500152f8684",
+        "title": "Roles",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65b9ef7cda8400145671ee",
+        "title": "IP Addressing",
+        "collection_count": 11
+    },
+    { "id": "5d65b9ef3e88f500152f8686", "title": "ECN", "collection_count": 1 },
+    {
+        "id": "5d65b9ef7cda8400145671ed",
+        "title": "Vagrant",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65b9ef3e88f500152f8685",
+        "title": "EtherChannels",
+        "collection_count": 6
+    },
+    {
+        "id": "5d65b9ef7cda8400145671ef",
+        "title": "Data Center",
+        "collection_count": 6
+    },
+    {
+        "id": "5d65b9efe1cf57001529f3e7",
+        "title": "Fiber Optics",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65b9efe1cf57001529f3e8",
+        "title": "Ethernet",
+        "collection_count": 10
+    },
+    {
+        "id": "5d65b9efe1cf57001529f3e9",
+        "title": "Network Design",
+        "collection_count": 6
+    },
+    {
+        "id": "5d65b9efe1cf57001529f3ea",
+        "title": "Network Architecture",
+        "collection_count": 6
+    },
+    {
+        "id": "5d65b9efe1cf57001529f3eb",
+        "title": "Data Bags",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65b9efe1cf57001529f3ec",
+        "title": "IP SLA",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65b9efe1cf57001529f3ed",
+        "title": "IPv4",
+        "collection_count": 17
+    },
+    {
+        "id": "5d65b9ef3e88f500152f8688",
+        "title": "Routing Protocols",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65b9ef3e88f500152f8689",
+        "title": "E-commerce",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65b9ef7cda8400145671f0",
+        "title": "FHRP",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65b9ef7cda8400145671f1",
+        "title": "Enterprise Network Architecture",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba047cda8400145671f2",
+        "title": "IPv6",
+        "collection_count": 20
+    },
+    {
+        "id": "5d65ba047cda8400145671f3",
+        "title": "Netflow",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba043e88f500152f868a",
+        "title": "Remote Access",
+        "collection_count": 7
+    },
+    {
+        "id": "5d65ba043e88f500152f868b",
+        "title": "Routing",
+        "collection_count": 17
+    },
+    {
+        "id": "5d65ba043e88f500152f868c",
+        "title": "IS-IS",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65ba043e88f500152f868d",
+        "title": "MPLS",
+        "collection_count": 5
+    },
+    {
+        "id": "5d65ba043e88f500152f868e",
+        "title": "OSPF",
+        "collection_count": 13
+    },
+    {
+        "id": "5d65ba043e88f500152f868f",
+        "title": "Multicast",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65ba043e88f500152f8690",
+        "title": "Subnetting",
+        "collection_count": 13
+    },
+    { "id": "5d65ba047cda8400145671f4", "title": "SLA", "collection_count": 2 },
+    { "id": "5d65ba047cda8400145671f5", "title": "WAN", "collection_count": 5 },
+    {
+        "id": "5d65ba047cda8400145671f6",
+        "title": "Software Defined Networking (SDN)",
+        "collection_count": 6
+    },
+    { "id": "5d65ba057cda8400145671f7", "title": "STP", "collection_count": 9 },
+    {
+        "id": "5d65ba057cda8400145671f9",
+        "title": "VPLS",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba057cda8400145671f8",
+        "title": "Protocols",
+        "collection_count": 17
+    },
+    {
+        "id": "5d65ba05e1cf57001529f3ee",
+        "title": "LAN Switching",
+        "collection_count": 2
+    },
+    { "id": "5d65ba05e1cf57001529f3f1", "title": "QoS", "collection_count": 8 },
+    {
+        "id": "5d65ba05e1cf57001529f3ef",
+        "title": "Telephony",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba05e1cf57001529f3f0",
+        "title": "Spanning Tree",
+        "collection_count": 5
+    },
+    {
+        "id": "5d65ba05e1cf57001529f3f2",
+        "title": "Service Provider",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba507cda8400145671fa",
+        "title": "GRE Tunneling",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba503e88f500152f8692",
+        "title": "SOHO",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba503e88f500152f8691",
+        "title": "GLBP",
+        "collection_count": 5
+    },
+    {
+        "id": "5d65ba50e1cf57001529f3f3",
+        "title": "Hardening",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba50e1cf57001529f3f4",
+        "title": "Infrastructure Services",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba507cda8400145671fb",
+        "title": "Unified Computing",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba503e88f500152f8693",
+        "title": "Network Topologies",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65ba503e88f500152f8694",
+        "title": "Virtual Machines (VM)",
+        "collection_count": 10
+    },
+    {
+        "id": "5d65ba507cda8400145671fc",
+        "title": "Frame Relay",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65ba507cda8400145671fd",
+        "title": "WLAN",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba503e88f500152f8695",
+        "title": "PVLAN",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba503e88f500152f8696",
+        "title": "HSRP",
+        "collection_count": 6
+    },
+    {
+        "id": "5d65ba507cda8400145671fe",
+        "title": "Information Security",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba50e1cf57001529f3f5",
+        "title": "Access List",
+        "collection_count": 2
+    },
+    { "id": "5d65ba503e88f500152f8697", "title": "DAI", "collection_count": 2 },
+    { "id": "5d65ba503e88f500152f8698", "title": "SSL", "collection_count": 8 },
+    {
+        "id": "5d65ba50e1cf57001529f3f6",
+        "title": "Wireless Networks",
+        "collection_count": 2
+    },
+    { "id": "5d65ba50e1cf57001529f3f7", "title": "ASA", "collection_count": 1 },
+    {
+        "id": "5d65ba50e1cf57001529f3f8",
+        "title": "PPPoE",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba50e1cf57001529f3f9",
+        "title": "Secure Access",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba577cda8400145671ff",
+        "title": "Endpoint Addressing",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba577cda840014567200",
+        "title": "Media Resources",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba57e1cf57001529f3fa",
+        "title": "RIPng",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba573e88f500152f8699",
+        "title": "Call Coverage",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba573e88f500152f869a",
+        "title": "Spoofing",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba573e88f500152f869b",
+        "title": "Collaboration",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba57e1cf57001529f3fb",
+        "title": "ROUTE Maps",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba57e1cf57001529f3fc",
+        "title": "Numbering Plans",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba57e1cf57001529f3fd",
+        "title": "Touchless Install",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba577cda840014567201",
+        "title": "H.245",
+        "collection_count": 1
+    },
+    { "id": "5d65ba577cda840014567202", "title": "SIP", "collection_count": 1 },
+    {
+        "id": "5d65ba57e1cf57001529f3fe",
+        "title": "CUBE",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba573e88f500152f869c",
+        "title": "H.225",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba573e88f500152f869d",
+        "title": "Redistribution",
+        "collection_count": 1
+    },
+    { "id": "5d65ba57e1cf57001529f3ff", "title": "PBR", "collection_count": 1 },
+    {
+        "id": "5d65ba57e1cf57001529f400",
+        "title": "Wireless Technologies",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba57e1cf57001529f401",
+        "title": "H.323",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba573e88f500152f869e",
+        "title": "User Accounts",
+        "collection_count": 9
+    },
+    {
+        "id": "5d65ba57e1cf57001529f402",
+        "title": "Call Privileges",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba577cda840014567203",
+        "title": "VRRP",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba5b3e88f500152f869f",
+        "title": "Email Security",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba5b3e88f500152f86a0",
+        "title": "GETVPN",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba5be1cf57001529f403",
+        "title": "Mitigation",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba5b7cda840014567204",
+        "title": "Trunks",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba5b7cda840014567205",
+        "title": "Web Security",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba5be1cf57001529f404",
+        "title": "Hand-on Lab",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba5b7cda840014567206",
+        "title": "Threat Defense",
+        "collection_count": 3
+    },
+    { "id": "5d65ba5b3e88f500152f86a1", "title": "RSA", "collection_count": 1 },
+    {
+        "id": "5d65ba5be1cf57001529f405",
+        "title": "ESXi",
+        "collection_count": 5
+    },
+    {
+        "id": "5d65ba5be1cf57001529f406",
+        "title": "Router Security",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65ba5be1cf57001529f407",
+        "title": "Network Attacks",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65ba5b7cda840014567207",
+        "title": "AnyConnect",
+        "collection_count": 1
+    },
+    { "id": "5d65ba5b7cda840014567208", "title": "WSA", "collection_count": 1 },
+    {
+        "id": "5d65ba5b3e88f500152f86a2",
+        "title": "Monitoring",
+        "collection_count": 17
+    },
+    {
+        "id": "5d65ba5b3e88f500152f86a3",
+        "title": "Edge Devices",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba5b3e88f500152f86a4",
+        "title": "VM Maestro",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba5b7cda840014567209",
+        "title": "WCCP",
+        "collection_count": 1
+    },
+    { "id": "5d65ba5be1cf57001529f408", "title": "ISE", "collection_count": 1 },
+    { "id": "5d65ba5b3e88f500152f86a5", "title": "ESA", "collection_count": 1 },
+    {
+        "id": "5d65ba5b7cda84001456720a",
+        "title": "FlexVPN",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba757cda84001456720b",
+        "title": "LDAP",
+        "collection_count": 5
+    },
+    { "id": "5d65ba753e88f500152f86a6", "title": "CSS", "collection_count": 1 },
+    {
+        "id": "5d65ba75e1cf57001529f409",
+        "title": "Architecture and Design",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba753e88f500152f86a7",
+        "title": "Certificates",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65ba757cda84001456720c",
+        "title": "Cables",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba757cda84001456720d",
+        "title": "Unified Presence",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba753e88f500152f86a8",
+        "title": "CPUs",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba753e88f500152f86a9",
+        "title": "Safety Procedures",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba75e1cf57001529f40a",
+        "title": "Multisite",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba753e88f500152f86aa",
+        "title": "Secure Configurations",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba757cda84001456720e",
+        "title": "XenDesktop",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba753e88f500152f86ab",
+        "title": "NS Gateway",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba757cda84001456720f",
+        "title": "XenApp",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba75e1cf57001529f40b",
+        "title": "BIOS",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba75e1cf57001529f40d",
+        "title": "Netscaler 10.5",
+        "collection_count": 1
+    },
+    { "id": "5d65ba75e1cf57001529f40c", "title": "CCD", "collection_count": 1 },
+    {
+        "id": "5d65ba75e1cf57001529f40e",
+        "title": "Netscaler",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba757cda840014567210",
+        "title": "Partitions",
+        "collection_count": 4
+    },
+    { "id": "5d65ba753e88f500152f86ac", "title": "TLS", "collection_count": 1 },
+    {
+        "id": "5d65ba753e88f500152f86ad",
+        "title": "VMWare",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65ba7be1cf57001529f40f",
+        "title": "Mobile Device Management",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba7b7cda840014567211",
+        "title": "Hardware",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65ba7b7cda840014567212",
+        "title": "Datastore",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba7b3e88f500152f86ae",
+        "title": "UEFI",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba7be1cf57001529f410",
+        "title": "Display",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba7b3e88f500152f86af",
+        "title": "Hardware Troubleshooting",
+        "collection_count": 1
+    },
+    { "id": "5d65ba7b3e88f500152f86b0", "title": "RAM", "collection_count": 1 },
+    {
+        "id": "5d65ba7be1cf57001529f411",
+        "title": "Peripherals",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba7b7cda840014567213",
+        "title": "Mobile Accessories",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba7b3e88f500152f86b1",
+        "title": "Mac OS",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba7b3e88f500152f86b3",
+        "title": "Motherboards",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba7b3e88f500152f86b2",
+        "title": "Wireless Network Troubleshooting",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba7b7cda840014567214",
+        "title": "WiFi",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba7b7cda840014567215",
+        "title": "RAID",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65ba7be1cf57001529f412",
+        "title": "App Engine",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba7be1cf57001529f413",
+        "title": "Mobile Devices",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65ba7b7cda840014567216",
+        "title": "Connectors",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba7be1cf57001529f414",
+        "title": "Printers",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65ba7be1cf57001529f415",
+        "title": "Control Panel",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba7ce1cf57001529f416",
+        "title": "Disk Management",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba813e88f500152f86b4",
+        "title": "BigQuery",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba817cda840014567217",
+        "title": "REST API",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba813e88f500152f86b5",
+        "title": "Google Cloud",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba813e88f500152f86b6",
+        "title": "Google Cloud SQL",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba813e88f500152f86b7",
+        "title": "Instances",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba817cda840014567218",
+        "title": "Google Cloud Datastore",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba817cda840014567219",
+        "title": "Google",
+        "collection_count": 1
+    },
+    { "id": "5d65ba817cda84001456721a", "title": "GCE", "collection_count": 1 },
+    {
+        "id": "5d65ba81e1cf57001529f417",
+        "title": "Data Visualization",
+        "collection_count": 6
+    },
+    {
+        "id": "5d65ba81e1cf57001529f418",
+        "title": "Metadata",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba81e1cf57001529f419",
+        "title": "Cloud SQL",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba813e88f500152f86b8",
+        "title": "Google Cloud Storage",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba813e88f500152f86b9",
+        "title": "Querying",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba817cda84001456721b",
+        "title": "Memcache",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba817cda84001456721d",
+        "title": "mySQL",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba817cda84001456721c",
+        "title": "Persistent Disks",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba81e1cf57001529f41a",
+        "title": "Replication Solutions",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba82e1cf57001529f41b",
+        "title": "Google App Engine (GAE)",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba823e88f500152f86ba",
+        "title": "Storage Policies",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba827cda84001456721e",
+        "title": "Google Container Engine",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba893e88f500152f86bb",
+        "title": "Design",
+        "collection_count": 5
+    },
+    {
+        "id": "5d65ba897cda84001456721f",
+        "title": "Information Technology",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba89e1cf57001529f41c",
+        "title": "Service Design",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65ba897cda840014567220",
+        "title": "Office 365",
+        "collection_count": 5
+    },
+    {
+        "id": "5d65ba893e88f500152f86bc",
+        "title": "Racks",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba893e88f500152f86bd",
+        "title": "Network Discovery",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba897cda840014567221",
+        "title": "Microsoft Exchange",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba893e88f500152f86be",
+        "title": "Mailboxes",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba893e88f500152f86bf",
+        "title": "Migration",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba893e88f500152f86c0",
+        "title": "AnyCast",
+        "collection_count": 1
+    },
+    { "id": "5d65ba893e88f500152f86c1", "title": "OWA", "collection_count": 1 },
+    {
+        "id": "5d65ba893e88f500152f86c2",
+        "title": "Service Lifecycle",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65ba897cda840014567223",
+        "title": "Service Strategy",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65ba897cda840014567222",
+        "title": "6VPE",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba897cda840014567224",
+        "title": "Project Development",
+        "collection_count": 3
+    },
+    { "id": "5d65ba89e1cf57001529f41d", "title": "WAP", "collection_count": 6 },
+    { "id": "5d65ba89e1cf57001529f41e", "title": "UPS", "collection_count": 1 },
+    {
+        "id": "5d65ba89e1cf57001529f41f",
+        "title": "Powershell",
+        "collection_count": 7
+    },
+    {
+        "id": "5d65ba89e1cf57001529f421",
+        "title": "Service Operations",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba89e1cf57001529f420",
+        "title": "Hybrid Exchange",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba8c7cda840014567225",
+        "title": "Event Management",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba8ce1cf57001529f422",
+        "title": "Continuous Improvement",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba8c3e88f500152f86c3",
+        "title": "Hyper-V Storage",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65ba8c7cda840014567226",
+        "title": "Security Operations",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba8c7cda840014567227",
+        "title": "Windows Server 2016",
+        "collection_count": 7
+    },
+    {
+        "id": "5d65ba8c7cda840014567228",
+        "title": "Request Fulfillment",
+        "collection_count": 0
+    },
+    { "id": "5d65ba8ce1cf57001529f423", "title": "OSA", "collection_count": 0 },
+    {
+        "id": "5d65ba8ce1cf57001529f424",
+        "title": "Asset Security",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba8ce1cf57001529f425",
+        "title": "Service Transition",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba8c3e88f500152f86c4",
+        "title": "Storage Pools",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba8ce1cf57001529f426",
+        "title": "Storage Spaces",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba8c7cda840014567229",
+        "title": "iSCSI",
+        "collection_count": 5
+    },
+    {
+        "id": "5d65ba8c7cda84001456722a",
+        "title": "Operational Activities",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65ba8ce1cf57001529f427",
+        "title": "Windows Containers",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba8c3e88f500152f86c5",
+        "title": "Problem Management",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba8ce1cf57001529f428",
+        "title": "Hyper-V",
+        "collection_count": 6
+    },
+    {
+        "id": "5d65ba8c3e88f500152f86c6",
+        "title": "Hyper-V Networking",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65ba8ce1cf57001529f429",
+        "title": "Data Deduplication",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba8c7cda84001456722b",
+        "title": "Service Management",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba8c3e88f500152f86c7",
+        "title": "Security Engineering",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba917cda84001456722c",
+        "title": "Modifiers",
+        "collection_count": 1
+    },
+    { "id": "5d65ba917cda84001456722d", "title": "LSA", "collection_count": 1 },
+    {
+        "id": "5d65ba913e88f500152f86c8",
+        "title": "Software Development",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba913e88f500152f86c9",
+        "title": "Classes",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba917cda84001456722e",
+        "title": "RTGs",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65ba91e1cf57001529f42a",
+        "title": "Image Deployment",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba913e88f500152f86ca",
+        "title": "Data Types",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65ba91e1cf57001529f42c",
+        "title": "Strings",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba913e88f500152f86cb",
+        "title": "Virtual Chassis",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65ba91e1cf57001529f42b",
+        "title": "Characters",
+        "collection_count": 1
+    },
+    { "id": "5d65ba917cda84001456722f", "title": "DSC", "collection_count": 4 },
+    {
+        "id": "5d65ba91e1cf57001529f42d",
+        "title": "Parameters",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba913e88f500152f86cc",
+        "title": "LAGs",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65ba917cda840014567230",
+        "title": ".NET",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65ba913e88f500152f86cd",
+        "title": "SDLC",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba913e88f500152f86ce",
+        "title": "eBGP",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65ba91e1cf57001529f42e",
+        "title": "Operators",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba917cda840014567231",
+        "title": "ISSU",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65ba913e88f500152f86cf",
+        "title": "Arrays",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba91e1cf57001529f42f",
+        "title": "Object-oriented Programming",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba953e88f500152f86d0",
+        "title": "STaaS",
+        "collection_count": 1
+    },
+    { "id": "5d65ba957cda840014567233", "title": "FTP", "collection_count": 1 },
+    {
+        "id": "5d65ba953e88f500152f86d1",
+        "title": "XFS Filesystems",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba957cda840014567234",
+        "title": "Boot Loaders",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba953e88f500152f86d2",
+        "title": "Hard Drives",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba957cda840014567235",
+        "title": "Disk I/O",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba957cda840014567236",
+        "title": "PaaS",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba95e1cf57001529f430",
+        "title": "EXT Filesystems",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba953e88f500152f86d3",
+        "title": "Kernels",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba95e1cf57001529f432",
+        "title": "Filter-based Forwarding",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65ba95e1cf57001529f431",
+        "title": "Open Source",
+        "collection_count": 3
+    },
+    { "id": "5d65ba95e1cf57001529f433", "title": "LDP", "collection_count": 1 },
+    {
+        "id": "5d65ba953e88f500152f86d4",
+        "title": "IaaS",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba957cda840014567237",
+        "title": "SystemV",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba953e88f500152f86d5",
+        "title": "Database Instances",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba95e1cf57001529f434",
+        "title": "BIND",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65ba95e1cf57001529f435",
+        "title": "Network Monitoring",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65ba96e1cf57001529f436",
+        "title": "System Maintenance",
+        "collection_count": 5
+    },
+    {
+        "id": "5d65ba96e1cf57001529f437",
+        "title": "GRUB",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab07cda840014567238",
+        "title": "Concurrency",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab07cda840014567239",
+        "title": "Data Cleaning",
+        "collection_count": 1
+    },
+    { "id": "5d65bab07cda84001456723a", "title": "MDS", "collection_count": 1 },
+    { "id": "5d65bab0e1cf57001529f438", "title": "DQS", "collection_count": 1 },
+    {
+        "id": "5d65bab0e1cf57001529f439",
+        "title": "Multidimensional Models",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65bab0e1cf57001529f43a",
+        "title": "SSIS",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65bab03e88f500152f86d7",
+        "title": "Attribute Relationships",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab03e88f500152f86d6",
+        "title": "Server 2012",
+        "collection_count": 5
+    },
+    {
+        "id": "5d65bab03e88f500152f86d8",
+        "title": "SSAS",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65bab07cda84001456723b",
+        "title": "Data Partitioning",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab07cda84001456723c",
+        "title": "Source Data",
+        "collection_count": 1
+    },
+    { "id": "5d65bab07cda84001456723e", "title": "SCD", "collection_count": 2 },
+    {
+        "id": "5d65bab07cda84001456723d",
+        "title": "Database Architecture",
+        "collection_count": 2
+    },
+    { "id": "5d65bab03e88f500152f86d9", "title": "MDX", "collection_count": 1 },
+    {
+        "id": "5d65bab03e88f500152f86da",
+        "title": "Data Modeling",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65bab03e88f500152f86db",
+        "title": "Tabular Modeling",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65bab1e1cf57001529f43b",
+        "title": "Data Warehouse",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65bab1e1cf57001529f43c",
+        "title": "Data Quality",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab13e88f500152f86dc",
+        "title": "Dimensional Modeling",
+        "collection_count": 1
+    },
+    { "id": "5d65bab1e1cf57001529f43d", "title": "CDC", "collection_count": 1 },
+    {
+        "id": "5d65bab47cda84001456723f",
+        "title": "CSS3",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab43e88f500152f86dd",
+        "title": "File Sharing",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65bab47cda840014567240",
+        "title": "SharePoint",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65bab43e88f500152f86de",
+        "title": "Value Stream Mapping",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab4e1cf57001529f43e",
+        "title": "Site Management",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab43e88f500152f86df",
+        "title": "SharePoint 2007",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab4e1cf57001529f43f",
+        "title": "SharePoint Server",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab43e88f500152f86e0",
+        "title": "OneNote",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65bab4e1cf57001529f440",
+        "title": "Sites",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab4e1cf57001529f441",
+        "title": "Ribbon",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab4e1cf57001529f442",
+        "title": "Timelines",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab47cda840014567241",
+        "title": "Teams",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab43e88f500152f86e1",
+        "title": "Views",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab43e88f500152f86e2",
+        "title": "Visio",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab47cda840014567242",
+        "title": "Visio 2013",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab43e88f500152f86e3",
+        "title": "Web Parts",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab47cda840014567243",
+        "title": "Quick Styles",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65bab4e1cf57001529f443",
+        "title": "Document Libraries",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab4e1cf57001529f444",
+        "title": "Flowcharts",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab43e88f500152f86e4",
+        "title": "Content Management",
+        "collection_count": 1
+    },
+    { "id": "5d65bab87cda840014567244", "title": "WDS", "collection_count": 2 },
+    {
+        "id": "5d65bab87cda840014567245",
+        "title": "Visual Studio",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab83e88f500152f86e5",
+        "title": "Web Browser",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab83e88f500152f86e6",
+        "title": "Direct Access",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab87cda840014567246",
+        "title": "Windows Desktop",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab83e88f500152f86e8",
+        "title": "HTML5",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab83e88f500152f86e7",
+        "title": "Microsoft Edge",
+        "collection_count": 1
+    },
+    { "id": "5d65bab87cda840014567247", "title": "MMC", "collection_count": 1 },
+    {
+        "id": "5d65bab83e88f500152f86e9",
+        "title": "Event Viewer",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab83e88f500152f86ea",
+        "title": "Task Scheduler",
+        "collection_count": 1
+    },
+    { "id": "5d65bab87cda840014567248", "title": "MDT", "collection_count": 1 },
+    { "id": "5d65bab87cda840014567249", "title": "UAC", "collection_count": 2 },
+    {
+        "id": "5d65bab87cda84001456724a",
+        "title": "Taskbar",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab83e88f500152f86eb",
+        "title": "User Profiles",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab87cda84001456724b",
+        "title": "Internet Explorer",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bab8e1cf57001529f445",
+        "title": "Group Policy",
+        "collection_count": 6
+    },
+    {
+        "id": "5d65bab8e1cf57001529f447",
+        "title": "Windows 10",
+        "collection_count": 11
+    },
+    { "id": "5d65bab8e1cf57001529f446", "title": "ICD", "collection_count": 1 },
+    {
+        "id": "5d65bab8e1cf57001529f448",
+        "title": "Cortana",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65bab8e1cf57001529f449",
+        "title": "Apps",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65babe3e88f500152f86ec",
+        "title": "Group Policy Objects (GPOs)",
+        "collection_count": 2
+    },
+    { "id": "5d65babee1cf57001529f44a", "title": "VMM", "collection_count": 1 },
+    { "id": "5d65babe7cda84001456724c", "title": "DFS", "collection_count": 2 },
+    {
+        "id": "5d65babe3e88f500152f86ed",
+        "title": "Windows Server 2012",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65babee1cf57001529f44b",
+        "title": "Storage Spaces Direct",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65babe3e88f500152f86ee",
+        "title": "System Center",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65babee1cf57001529f44c",
+        "title": "Storage Virtualization",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65babe7cda84001456724d",
+        "title": "Clustering",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65babe7cda84001456724e",
+        "title": "IPAM",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65babe3e88f500152f86ef",
+        "title": "NTFS",
+        "collection_count": 2
+    },
+    { "id": "5d65babe7cda84001456724f", "title": "VHD", "collection_count": 2 },
+    {
+        "id": "5d65babee1cf57001529f44d",
+        "title": "DirectAccess",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65babee1cf57001529f44e",
+        "title": "Server Monitoring",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65babee1cf57001529f44f",
+        "title": "Enumeration",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65babee1cf57001529f450",
+        "title": "Failover",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65babe7cda840014567250",
+        "title": "Active Directory Certificate Services (ADCS)",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65babe7cda840014567251",
+        "title": "Windows Firewall",
+        "collection_count": 4
+    },
+    {
+        "id": "5d65babe3e88f500152f86f0",
+        "title": "Network Policy Solutions (NPS)",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65babe3e88f500152f86f1",
+        "title": "WSUS",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65babe7cda840014567252",
+        "title": "FSRM",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bac27cda840014567253",
+        "title": "Active Directory Domain Services (ADDS)",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65bac23e88f500152f86f2",
+        "title": "Windows Vista",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bac27cda840014567254",
+        "title": "Service Accounts",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bac2e1cf57001529f451",
+        "title": "Hyper-V Configuration",
+        "collection_count": 2
+    },
+    {
+        "id": "5d65bac2e1cf57001529f452",
+        "title": "Windows Defender",
+        "collection_count": 1
+    },
+    { "id": "5d65bac27cda840014567256", "title": "OUs", "collection_count": 1 },
+    { "id": "5d65bac23e88f500152f86f3", "title": "SLB", "collection_count": 1 },
+    {
+        "id": "5d65bac2e1cf57001529f453",
+        "title": "Hyper-V Installation",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bac23e88f500152f86f4",
+        "title": "RADIUS",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bac23e88f500152f86f5",
+        "title": "WinRM",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bac23e88f500152f86f6",
+        "title": "Remote Desktop",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bac2e1cf57001529f454",
+        "title": "Citation",
+        "collection_count": 3
+    },
+    {
+        "id": "5d65bac27cda840014567257",
+        "title": "Mail Merge",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bac2e1cf57001529f455",
+        "title": "SPNs",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bac23e88f500152f86f7",
+        "title": "Server Roles",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bac27cda840014567258",
+        "title": "Remote Servers",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65bac27cda840014567259",
+        "title": "Namespaces",
+        "collection_count": 1
+    },
+    {
+        "id": "5d66ac1c7d2d1a0301dce31f",
+        "title": "XK0-004",
+        "collection_count": 3
+    }
+]

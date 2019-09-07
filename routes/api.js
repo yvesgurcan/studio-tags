@@ -14,6 +14,15 @@ const QA = false;
 
 const VHS = `https://${QA ? 'qa-' : ''}api.cbtnuggets.com/video-historical/v2`;
 
+const doSlug = tagTitle =>
+    tagTitle
+        .replace(/ /g, '-')
+        .replace(/\//g, '-')
+        .toLowerCase();
+
+const hasIllegalChars = string =>
+    string.indexOf(' ') > -1 || string.indexOf('/') > -1;
+
 function errorWrapper(promise, res) {
     return promise.catch(error => {
         console.error({ response: error.response.data });
@@ -155,7 +164,7 @@ function getTags(callback, res) {
             errorWrapper(
                 axios(`${VHS}/tags?access_token=${_token}`).then(({ data }) => {
                     thetags = data;
-                    console.log(`Tag count: ${data.length}`);
+                    console.log(`Tag count in DB: ${data.length}`);
                     if (callback) {
                         callback({
                             _tags: thetags
@@ -169,6 +178,312 @@ function getTags(callback, res) {
 
 module.exports = function() {
     const { app } = ExpressAppCore.getInstance();
+
+    app.get('/deletetags/:start/:end', (req, res) => {
+        const { start, end } = req.params;
+
+        
+        return;
+
+        getAllTokens(() => {
+            csvParser()
+                .fromFile('./data/new-tags-for-collections.csv')
+                .then(data => {
+                    const formattedData = data.map(row => ({
+                        title: row['Collection Title'],
+                        tags: row['Skill Tags']
+                    }));
+
+                    // get a list of the tags that were allegedly created from the data
+                    const uniqueTags = [];
+
+                    const sanitizedData = formattedData
+                        .filter(row => row.tags)
+                        .map(row => {
+                            const sanitizedTags = row.tags
+                                .split(',')
+                                .map(tag => tag.trim())
+                                .filter(tag => {
+                                    if (
+                                        tag &&
+                                        tag !== '???' &&
+                                        uniqueTags.indexOf(tag) === -1
+                                    ) {
+                                        uniqueTags.push(tag);
+                                        return true;
+                                    }
+
+                                    return false;
+                                })
+                                .sort((a, b) => (a > b ? 1 : -1));
+                            return {
+                                ...row,
+                                tags: sanitizedTags
+                            };
+                        })
+                        .filter(row => row.tags.length > 0)
+                        .sort((a, b) => (a.title > b.title ? 1 : -1));
+
+                    getTags(({ _tags: allTags }) => {
+                        const existingTags = allTags.filter(dbTag =>
+                            uniqueTags.includes(dbTag.title)
+                        );
+
+                        const batch = existingTags.slice(start, end);
+
+                        batch.map(tag => {
+                            axios
+                                .delete(
+                                    `${VHS}/tag/${tag.id}?access_token=${userToken}`
+                                )
+                                .then(result => {
+                                    console.log(`--- success!`, {
+                                        tag,
+                                        result: result.data
+                                    });
+                                })
+                                .catch(error => {
+                                    console.log('--- error!', {
+                                        tag,
+                                        error: error.response.data
+                                    });
+                                });
+                        });
+
+                        res.status(200).send({ batch });
+                    });
+                });
+        });
+    });
+
+    app.get('/fixtags/:dryrun/:start/:end', (req, res) => {
+        const { dryrun, start, end } = req.params;
+        console.log({ dryrun });
+        getAllTokens(() => {
+            csvParser()
+                .fromFile('./data/new-tags-for-collections.csv')
+                .then(data => {
+                    const formattedData = data.map(row => ({
+                        title: row['Collection Title'],
+                        tags: row['Skill Tags']
+                    }));
+
+                    // get a list of the tags that were allegedly created from the data
+                    const uniqueTags = [];
+
+                    const sanitizedData = formattedData
+                        .filter(row => row.tags)
+                        .map(row => {
+                            const sanitizedTags = row.tags
+                                .split(',')
+                                .map(tag => tag.trim())
+                                .filter(tag => {
+                                    if (
+                                        tag &&
+                                        tag !== '???' &&
+                                        uniqueTags.indexOf(tag) === -1
+                                    ) {
+                                        uniqueTags.push(tag);
+                                        return true;
+                                    }
+
+                                    return false;
+                                })
+                                .sort((a, b) => (a > b ? 1 : -1));
+                            return {
+                                ...row,
+                                tags: sanitizedTags
+                            };
+                        })
+                        .filter(row => row.tags.length > 0)
+                        .sort((a, b) => (a.title > b.title ? 1 : -1));
+
+                    getAllTokens(() =>
+                        getTags(({ _tags: allTags }) => {
+                            console.log(
+                                '--- only keep tags which already exist in the DB by comparing names'
+                            );
+                            const existingTags = allTags.filter(dbTag =>
+                                uniqueTags.includes(dbTag.title)
+                            );
+
+                            console.log(
+                                '--- only keep tags that would most likely produce slugs with illegal characters'
+                            );
+                            const tagsWithIllegalChars = existingTags.filter(
+                                eTag => hasIllegalChars(eTag.title)
+                            );
+
+                            console.log(
+                                `--- found ${tagsWithIllegalChars.length} tags which might have illegal characters in their slug`
+                            );
+
+                            // batch to run queries on
+
+                            console.log('--- batch');
+
+                            const tagsToProcess = tagsWithIllegalChars.slice(
+                                start,
+                                end
+                            );
+
+                            // no need to run the query
+                            if (tagsToProcess.length === 0) {
+                                res.status(200).send('No tags to process.');
+                                return;
+                            }
+
+                            // can't run the query
+                            if (tagsToProcess.length > 200) {
+                                console.log(
+                                    `--- tags to process: ${tagsToProcess.length}`
+                                );
+                                res.status(200).send(
+                                    'Too many tags to process.'
+                                );
+                                return;
+                            }
+
+                            // just keep the IDs
+                            console.log('--- keeping tag IDs');
+                            const tagIds = tagsToProcess.map(tag => tag.id);
+
+                            axios
+                                .get(
+                                    `${VHS}/internal/tags/by/ids/${tagIds.join(
+                                        ','
+                                    )}?access_token=${serviceToken}`
+                                )
+                                .then(({ data: retrievedTags }) => {
+                                    console.log(
+                                        '--- only keep tags which actually have illegal chars in their slugs'
+                                    );
+                                    const retrievedTagsWithIllegalChars = retrievedTags.filter(
+                                        rTag => true //hasIllegalChars(rTag.seoslug)
+                                    );
+
+                                    console.log(
+                                        `--- found ${retrievedTagsWithIllegalChars.length} tags to fix`
+                                    );
+
+                                    // don't change these values!!!
+                                    const tagsThatWillProcess = retrievedTagsWithIllegalChars.slice(
+                                        0,
+                                        10
+                                    );
+                                    if (
+                                        retrievedTagsWithIllegalChars.length > 5
+                                    ) {
+                                        console.log(
+                                            `--- too many (${retrievedTagsWithIllegalChars.length}) tags to fix; only 10 will be processed`
+                                        );
+                                    }
+
+                                    const tagsWithNewSlug = tagsThatWillProcess.map(
+                                        tag => ({
+                                            ...tag,
+                                            new_seoslug: doSlug(tag.title)
+                                        })
+                                    );
+
+                                    console.log(tagsWithNewSlug);
+
+                                    if (dryrun === 'false') {
+                                        if (tagsWithNewSlug.length === 0) {
+                                            console.log('--- nothing to fix');
+                                            res.status(200).send(
+                                                'Nothing to fix.'
+                                            );
+                                            return;
+                                        }
+
+                                        console.log('--- doing it!');
+
+                                        tagsWithNewSlug.map(tag => {
+                                            console.log('--- processing tag', {
+                                                tag
+                                            });
+
+                                            axios
+                                                // check if this slug already exists
+                                                .get(
+                                                    `${VHS}/internal/tags/by/seoslugs/${tag.new_seoslug}?access_token=${serviceToken}`
+                                                )
+                                                .then(({ data }) => {
+                                                    if (data.length > 0) {
+                                                        console.log(
+                                                            `--- SEOSLUG "${tag.new_seoslug}" ALREADY EXISTS. TAG "${tag.title}" WILL NOT BE UPDATED.`,
+                                                            {
+                                                                data
+                                                            }
+                                                        );
+                                                    } else {
+                                                        console.log(
+                                                            `--- SEOSLUG "${tag.new_seoslug}" DOES NOT EXIST. TAG "${tag.title}" WILL BE UPDATED`
+                                                        );
+
+                                                        axios
+                                                            // update tags with the new SEO slug
+                                                            .post(
+                                                                `${VHS}/tag/${tag.id}?access_token=${userToken}`,
+                                                                {
+                                                                    title:
+                                                                        tag.title,
+                                                                    seoslug:
+                                                                        tag.new_seoslug
+                                                                }
+                                                            )
+                                                            .then(result => {
+                                                                console.log(
+                                                                    `--- success! slug of tag '${tag.title} was replaced: '${tag.seoslug}' -> '${tag.new_seoslug}'`
+                                                                );
+                                                            })
+                                                            .catch(error => {
+                                                                console.log(
+                                                                    '--- error!',
+                                                                    {
+                                                                        tag,
+                                                                        error:
+                                                                            error
+                                                                                .response
+                                                                                .data
+                                                                    }
+                                                                );
+                                                            });
+                                                    }
+                                                })
+                                                .catch(error => {
+                                                    console.error(
+                                                        `--- ERROR WHILE CHECKING IF SEOSLUG "${tag.new_seoslug}" EXISTS.`,
+                                                        { error }
+                                                    );
+                                                });
+                                        });
+
+                                        res.status(200).send(
+                                            'Working on it...'
+                                        );
+                                    } else {
+                                        console.log('--- dryrun end');
+
+                                        res.status(200).send({
+                                            tagsWithNewSlug
+                                        });
+                                    }
+                                })
+                                .catch(errorResponse => {
+                                    console.log(errorResponse.data);
+                                    res.status(500).send(
+                                        `Could not query /internal/tags/by/ids/${tagIds.join(
+                                            ','
+                                        )}`
+                                    );
+                                });
+                        }, res)
+                    );
+                });
+        });
+    });
 
     app.get('/associate/:start/:end', (req, res) => {
         csvParser()
@@ -484,6 +799,9 @@ module.exports = function() {
 
     // get collection details (including tags) by collection title and apply tags to it
     app.get('/dontcreatetags/collection/:title/:tags', (req, res) => {
+        // DEBUG
+        const dryrun = true;
+
         const { title: t, tags: tt } = req.params;
         const tags = tt.replace(/___/g, '/');
         const title = t.replace(/___/g, '/').replace(/__DASH__/g, '-');
@@ -627,6 +945,15 @@ module.exports = function() {
                                                     tag => tag.id
                                                 )
                                             ];
+
+                                            if (dryrun) {
+                                                res.status(200).send({
+                                                    tagTitles,
+                                                    collectionTitle,
+                                                    tagsToAdd
+                                                });
+                                                return;
+                                            }
 
                                             console.log(
                                                 `Updating collection "${collectionTitle}"...`
