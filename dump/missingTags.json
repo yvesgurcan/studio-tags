@@ -1,0 +1,5008 @@
+[
+    {
+        "title": "Microsoft Windows",
+        "collections": [
+            "Microsoft Windows Server 2008 Applications Infrastructure 70-643",
+            "Microsoft Windows Essential Business Server Config 70-654",
+            "Microsoft Windows Server 2008: Server Core In Depth",
+            "Microsoft System Center Configuration Manager SCCM 2012 70-243",
+            "Microsoft Windows 8 First Look",
+            "PowerShell Toolmaking and Scripting",
+            "Microsoft PRO Windows Vista Upgrade 70-621",
+            "Microsoft Windows Server 2012 70-412",
+            "Microsoft Windows Server 2012 70-414 with R2 Updates",
+            "Microsoft Windows Server 2012 70-417",
+            "Microsoft MCSA Windows 8.1 70-688",
+            "Microsoft Windows 7 Config 70-680",
+            "Microsoft Windows Server 2012 70-414",
+            "Microsoft Server 2008 Upgrade 70-648 R2",
+            "Microsoft Windows XP Professional Admin 70-270",
+            "Microsoft Windows Server 2003 Managing 70-290",
+            "Microsoft Windows Server 2008 Network Infrastructure 70-642",
+            "Microsoft Windows Server 2012 70-410",
+            "Microsoft Windows Server 2012 70-416",
+            "Microsoft Desktop Support PRO Windows 7 Upgrade 70-682",
+            "Microsoft Windows Server 2012: Installing and Configuring (70-410)",
+            "Microsoft Windows Server 2012 70-411 with R2 Updates",
+            "Microsoft Windows Server 2003 Active Directory Infrastructure Design 70-297",
+            "Microsoft Windows Server 2012 70-411",
+            "Microsoft Windows Server 2016: Networking (70-741)",
+            "Microsoft MCSA 2003 Upgrade 70-292",
+            "Microsoft Windows Server 2003 Network Infrastructure Maintain 70-293",
+            "Microsoft Windows 8 70-689",
+            "Microsoft Windows Server 2012: Administering (70-411)",
+            "Microsoft Windows Server 2012 70-417 with R2 Updates",
+            "Microsoft SharePoint Server 2013 70-331",
+            "Microsoft Desktop Support PRO Windows 7 Enterprise Administration 70-686",
+            "Microsoft Windows Server 2003 Network Security 70-299",
+            "Microsoft Windows Vista Configuring 70-620",
+            "Microsoft 70-415 MCSE: Desktop Infrastructure",
+            "Microsoft Windows Server 2008 Active Directory 70-640",
+            "Microsoft Windows Server 2012 MCSA 70-412 with R2 Updates",
+            "PowerShell 3 Foundations",
+            "Microsoft Windows Server 2003 Network Infrastructure Implementation 70-291",
+            "Microsoft Windows Vista OS First Look",
+            "Microsoft Automating Windows Server 2008 Admin",
+            "Microsoft MTA Windows OS Fundamentals 98-349",
+            "Microsoft Windows Server 2012 70-413 with R2 Updates",
+            "Microsoft Windows 10 70-697",
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "Microsoft PRO Windows Server 2008 70-646",
+            "Microsoft Windows 10: Configuring Windows Devices (70-697)",
+            "Microsoft Windows Server 2012 First Look",
+            "Microsoft Windows Server 2012 70-410 R2",
+            "Microsoft Windows 2000 Network Infrastructure  70-216",
+            "Microsoft MCSE 2003 Upgrade 70-296",
+            "Microsoft Windows Server 2003 Active Directory Infrastructure Implementation 70-294",
+            "Microsoft Desktop Support PRO Windows 7 Enterprise Technician 70-685",
+            "Microsoft 70-649: Upgrading MCSE to MCITP with R2 updates",
+            "Microsoft MCSA Windows 8 70-687",
+            "Microsoft MCSA Windows 8.1 70-687",
+            "Microsoft MCSA Windows 8 70-688",
+            "Microsoft Windows Server 2003 Network Security 70-298",
+            "Microsoft Small Business Server 70-282",
+            "Migrating Windows XP to Windows 7 and/or 8: An Accelerated Guide",
+            "What's New in Server 2016?",
+            "Microsoft Windows 10: Manage and Protect",
+            "Windows 10 Power User",
+            "Microsoft Windows Server 2012 70-413",
+            "Microsoft Windows 10: Deploying Devices",
+            "Microsoft Windows 10: Deploy and Update",
+            "Microsoft  PRO Windows Server 2008 Enterprise 70-647",
+            "Microsoft Windows 10: Maintaining Devices",
+            "Using Windows 10",
+            "Microsoft Windows 10: Managing Devices",
+            "Microsoft Windows 10: Manage Apps and Data",
+            "Microsoft Windows 10: Policies and Profiles"
+        ],
+        "collCount": 72
+    },
+    {
+        "title": "SQL",
+        "collections": [
+            "Microsoft Database SQL Server 2005 Implementation 70-431",
+            "Microsoft Database SQL Server 2008 Implementation 70-432",
+            "MySQL Database 5.0 Administrator 2 006-002",
+            "Microsoft Database PRO SQL Server 2005 Administration 70-444",
+            "Database Various SQL Languages",
+            "Microsoft SQL Server 2014: Developing Databases (70-464)",
+            "Microsoft Database PRO SQL Server 2008 Admin 70-450",
+            "Microsoft Database PRO SQL Server 2008 Design 70-451",
+            "Microsoft SQL Server 2012: Administering Databases (70-462)",
+            "Microsoft SQL Server: Database Fundamentals (98-364)",
+            "MySQL Database 5.0 Administrator 1 005-002",
+            "Google Cloud SQL: Qualified Developer",
+            "Microsoft SQL 2000 Fundamentals and Admin 70-228",
+            "Microsoft MCTS Accessing Data with .NET Framework 4 70-516",
+            "Microsoft SQL Server 2012: Designing Database Solutions (70-465)",
+            "Microsoft Database PRO SQL Server 2008 Business Design 70-452",
+            "Microsoft Database SQL Server 2008 Business Development 70-448",
+            "Microsoft Database PRO SQL Server 2005 Design 70-443",
+            "Microsoft SQL Server 2012: Implementing a Data Warehouse (70-463)",
+            "MySQL Database CMA 010-002",
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "Microsoft Database SQL Server 2008 Develop 70-433",
+            "Microsoft SQL Server 2012: Querying (70-461)",
+            "Microsoft SQL Server 2012: Developing Databases (70-464)",
+            "Microsoft SQL: Designing a Data Warehouse",
+            "Microsoft MCSA SQL Server 2016 (70-764): 2.3 Manage Database Integrity",
+            "Microsoft MCSA SQL Server 2016 (70-765)",
+            "Microsoft SQL: Data Quality",
+            "Oracle Database 12c: SQL Fundamentals (1Z0-071)",
+            "Microsoft SQL: SSAS Tuning",
+            "Oracle Database Architecture",
+            "Using Oracle Database Cloud Service",
+            "Microsoft MCSA SQL Server 2016 (70-764): 1.1 Configure Encryption",
+            "Backup and Recovery Concepts",
+            "Azure SQL Essentials",
+            "Monitoring and Tuning Database Performance",
+            "Microsoft SQL Server 2014: Designing Database Solutions (70-465)",
+            "Managing Database Instances",
+            "Microsoft MCSA SQL Server 2016 (70-764)",
+            "Microsoft SQL: SSIS",
+            "Oracle Network Environment Configuration",
+            "Managing UNDO Data",
+            "Microsoft MCSA SQL Server 2016 (70-764): 2.2 Restore Databases",
+            "Microsoft SQL: Data Modeling",
+            "Oracle Database OCA 11g SQL Fundamentals 1 1Z0-051",
+            "Creating and Managing Tablespaces",
+            "Moving Data",
+            "Microsoft MCSA SQL Server 2016 (70-764): 1.2 Configure Data Access and Permissions",
+            "Administering User Security",
+            "Microsoft MCSA SQL Server 2016 (70-762)",
+            "Microsoft SQL: MDX and DAX"
+        ],
+        "collCount": 51
+    },
+    {
+        "title": "Security",
+        "collections": [
+            "CompTIA Security+ (SY0-401)",
+            "VMware vSphere 6 (VCP6-DCV)",
+            "Microsoft SQL Server 2014: Developing Databases (70-464)",
+            "Cisco CCENT ICND1 640-822",
+            "Microsoft MTA Security Fundamentals 98-367",
+            "Exam Walkthrough: Cisco ICND1/CCENT 100-101",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Microsoft SQL Server: Database Fundamentals (98-364)",
+            "Cisco CCNA 640-875 SPNGN1",
+            "White Hat Hacking v9",
+            "Microsoft Windows Vista Configuring 70-620",
+            "Microsoft SQL Server 2012: Designing Database Solutions (70-465)",
+            "Cisco CCNP Security 300-209 SIMOS",
+            "Cisco CCNP Security 300-207 SITCS",
+            "Cisco CCNP Security VPN v2.0",
+            "Cisco CCNP Security 300-206 SENSS",
+            "AWS Certified SysOps Administrator - Associate",
+            "Information Security: Security and Risk Management",
+            "Information Security: Asset Security",
+            "AWS Certified Solutions Architect - Associate",
+            "Check Point CCSA R80",
+            "Using Palo Alto v8.x Advanced Features",
+            "AWS Certified Cloud Practitioner",
+            "Information Security: Security Operations",
+            "Microsoft Azure: Implementing Infrastructure Solutions (70-533)",
+            "CompTIA Security+ (SY0-501)",
+            "CompTIA CySA+ (CS0-001)",
+            "CompTIA Cloud+ (CV0-002)",
+            "Information Security: Security Architecture and Engineering",
+            "AWS: Certified Solutions Architect - Associate",
+            "AWS Security: Access Management",
+            "Information Security: Identity and Access Management (IAM)",
+            "Information Security: Security Assessment and Testing",
+            "Getting Started with Palo Alto Firewalls v8.x",
+            "Linux Security",
+            "Microsoft Azure: Architecting Solutions (70-535)",
+            "Information Security: Software Development Security",
+            "Ubuntu",
+            "White Hat Hacking v10",
+            "Cisco CCNA Cyber Ops 210-250 SECFND",
+            "Information Security: Communication and Network Security"
+        ],
+        "collCount": 41
+    },
+    {
+        "title": "Storage",
+        "collections": [
+            "Microsoft Windows Server 2012 70-414 with R2 Updates",
+            "CompTIA Storage+ SG0-001",
+            "Cisco Data Center Networking Technologies",
+            "VMware vSphere 6 (VCP6-DCV)",
+            "Microsoft Windows Server 2012: Installing and Configuring (70-410)",
+            "Microsoft Windows Server 2012 with R2 Updates (70-412)",
+            "AWS Technical Essentials",
+            "Microsoft Windows Server 2012 70-417 with R2 Updates",
+            "CompTIA A+ (220-901)",
+            "VMware vSphere 5.5 VCP5-DCV",
+            "NetApp Certified Storage Associate (NCSA) NS0-145",
+            "Microsoft Windows Server 2012 70-413 with R2 Updates",
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "Implement Hyper-V",
+            "AWS Certified Solutions Architect - Associate",
+            "AWS Solutions Architect - Storage Services",
+            "Microsoft Azure: Implementing Infrastructure Solutions (70-533)",
+            "AWS: Certified Solutions Architect - Associate",
+            "Moving Data",
+            "EMC Information Storage and Management",
+            "Cisco CCNA Data Center 200-150 DCICN"
+        ],
+        "collCount": 22
+    },
+    {
+        "title": "DHCP",
+        "collections": [
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Microsoft Windows Server 2016: Networking (70-741)",
+            "Microsoft Windows Server 2012 with R2 Updates (70-412)",
+            "Linux Professional Institute LPIC-2 (202-400)",
+            "IPv6 Subnetting",
+            "CompTIA A+ (220-901)",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCIE RS Core Concepts - Infrastructure Security",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCIE RS Core Concepts - Infrastructure Services",
+            "Microsoft Windows Server 2012 70-413 with R2 Updates",
+            "Cisco CCNA Security 210-260 IINS",
+            "Cisco CCNP Security 300-206 SENSS",
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Juniper JNCIS-ENT (JN0-343) - Layer 2 Security",
+            "Windows 10 Power User",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "Getting Started with Palo Alto Firewalls v8.x",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 21
+    },
+    {
+        "title": "Wireless",
+        "collections": [
+            "CWNP Wireless CWNE Wireless Network Expert PW0-300",
+            "CWNP Wireless CWTS Wireless Technology Specialist PW0-070",
+            "CWNP CWSP Certification Series",
+            "Cisco CCENT ICND1 640-822",
+            "Cisco CCNA Wireless IUWNE 640-722",
+            "CWNA Certification Series",
+            "IPv6 Subnetting",
+            "CompTIA A+ (220-901)",
+            "Penetration Testing with Linux Tools",
+            "CWNP Wireless Certification Course",
+            "Professional Course: Building a Network Design that Works",
+            "Cisco CCNA Wireless IUWNE 640-721",
+            "CompTIA Network+ (N10-006)",
+            "CWNA 2006 Update",
+            "CWNP CWSP",
+            "CWNP Wireless CWNA Wireless Network Administrator PW0-104",
+            "CWNP Wireless CWSP Wireless Security Professional PW0-204",
+            "IT Expert: Building and Configuring a Business Wireless Network",
+            "CompTIA Network+ (N10-007)",
+            "Cisco CCNA Wireless 200-355 WIFUND"
+        ],
+        "collCount": 20
+    },
+    {
+        "title": "VLAN",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - Layer 2 Technologies",
+            "Cisco CCNA 640-878 SPNGN2",
+            "Basic Cisco Unified Fabric Troubleshooting",
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCIE RS Core Concepts - Infrastructure Security",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCNP SWITCH 300-115 Hands-on Labs Exam Prep",
+            "Cisco CCENT/CCNA 100-101 ICND1 v2.0",
+            "Professional Course: Building a Network Design that Works",
+            "Cisco CCNP Security 300-206 SENSS",
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Juniper JNCIS-ENT (JN0-343) - Layer 2",
+            "Cisco CCNA Collaboration 210-060 CICD",
+            "IT Expert: Switching VLAN Design and Implementation",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "Cisco CCNA Data Center 200-150 DCICN",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 20
+    },
+    {
+        "title": "Network Address Translation (NAT)",
+        "collections": [
+            "Check Point CCSA GAiA 156-215.76",
+            "CompTIA Security+ (SY0-401)",
+            "Palo Alto Networks Firewall",
+            "Microsoft Windows Server 2016: Networking (70-741)",
+            "Linux Professional Institute LPIC-2 (202-400)",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCIE RS Core Concepts - Infrastructure Services",
+            "Cisco CCENT/CCNA 100-101 ICND1 v2.0",
+            "Cisco CCNA Security 210-260 IINS",
+            "Cisco CCNP Security 300-206 SENSS",
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Juniper JNCIS-ENT (JN0-343) – BGP",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Check Point CCSA R80",
+            "CompTIA Security+ (SY0-501)",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "Getting Started with Palo Alto Firewalls v8.x",
+            "Cisco CCNA ICND2 640-816",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 20
+    },
+    {
+        "title": "IPv6",
+        "collections": [
+            "Cisco CCNA 640-878 SPNGN2",
+            "Microsoft Windows Server 2016: Networking (70-741)",
+            "Microsoft Windows Server 2012 with R2 Updates (70-412)",
+            "IPv6 Subnetting",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCIE RS Core Concepts - Infrastructure Security",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCIE RS Core Concepts - Network Principles",
+            "Cisco CCENT/CCNA 100-101 ICND1 v2.0",
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "Juniper JNCIA-Junos (JN0-102)",
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Cisco CCNP Routing and Switching 300-101 ROUTE",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "Cisco CCNA ICND2 640-816",
+            "Cisco CCNP ROUTE 300-101 Hands-on Labs Exam Prep"
+        ],
+        "collCount": 20
+    },
+    {
+        "title": "Active Directory",
+        "collections": [
+            "Microsoft Windows Server 2016: Identity (70-742)",
+            "Microsoft Windows Server 2012 70-414 with R2 Updates",
+            "VMware vSphere 6 (VCP6-DCV)",
+            "Microsoft Windows Server 2012: Installing and Configuring (70-410)",
+            "Microsoft Windows Server 2012 with R2 Updates (70-412)",
+            "Microsoft Windows Server 2012: Administering (70-411)",
+            "Microsoft Windows Server 2012 70-417 with R2 Updates",
+            "Microsoft Windows Server 2008 Active Directory 70-640",
+            "Microsoft Windows Server 2012 70-413 with R2 Updates",
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "Microsoft Office 365: Managing Identities and Requirements (70-346)",
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "Windows 10 Power User",
+            "Using Palo Alto v8.x Advanced Features",
+            "Azure SQL Essentials",
+            "Microsoft Exchange Server 2016: Mailbox Databases",
+            "AWS Security: Access Management",
+            "Microsoft Azure: Architecting Solutions (70-535)",
+            "IT Expert: Office 365 Exchange Migration"
+        ],
+        "collCount": 19
+    },
+    {
+        "title": "Routing",
+        "collections": [
+            "Cisco CCENT ICND1 640-822",
+            "IPv6 Subnetting",
+            "Exam Walkthrough: Cisco ICND1/CCENT 100-101",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCENT/CCNA 100-101 ICND1 v2.0",
+            "Cisco CCNA Security 210-260 IINS",
+            "Juniper JNCIA-Junos (JN0-102)",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Cisco R&S Troubleshooting Mastery",
+            "IT Expert: Switching VLAN Design and Implementation",
+            "GNS3 1.2 Fundamentals",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Microsoft Azure: Implementing Infrastructure Solutions (70-533)",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "Cisco CCNA ICND2 640-816",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 17
+    },
+    {
+        "title": "Switching",
+        "collections": [
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Exam Walkthrough: Cisco ICND1/CCENT 100-101",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCENT/CCNA 100-101 ICND1 v2.0",
+            "Professional Course: Building a Network Design that Works",
+            "Cisco CCNA Security 210-260 IINS",
+            "CompTIA Network+ (N10-006)",
+            "Juniper JNCIS-ENT (JN0-343) - Layer 2",
+            "Cisco R&S Troubleshooting Mastery",
+            "IT Expert: Switching VLAN Design and Implementation",
+            "GNS3 1.2 Fundamentals",
+            "CompTIA Network+ (N10-007)",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "Cisco CCNA ICND2 640-816",
+            "Cisco CCNA Data Center 200-150 DCICN"
+        ],
+        "collCount": 17
+    },
+    {
+        "title": "Protocols",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - Layer 2 Technologies",
+            "CompTIA Security+ (SY0-401)",
+            "IPv6 Subnetting",
+            "Exam Walkthrough: Cisco ICND1/CCENT 100-101",
+            "Cisco CCDP Design 300-320 ARCH",
+            "CompTIA A+ (220-901)",
+            "Cisco VoIP CCNP Voice CVOICE v8.0 642-437",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCNA Collaboration 210-065 CIVND2",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Cisco CCNP Routing and Switching 300-101 ROUTE",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "CompTIA Network+ (N10-007)",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "MPLS Fundamentals",
+            "Cisco CCNA ICND2 640-816",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 17
+    },
+    {
+        "title": "Authentication",
+        "collections": [
+            "Citrix NetScaler 10.5 1Y0-253",
+            "Microsoft Windows Server 2016: Identity (70-742)",
+            "Everything Linux",
+            "Google Cloud Storage: Qualified Developer",
+            "CompTIA Security+ (SY0-401)",
+            "Palo Alto Networks Firewall",
+            "Google App Engine: Qualified Developer",
+            "AngularJS",
+            "Linux Professional Institute LPIC-2 (202-400)",
+            "Microsoft Windows Server 2012: Administering (70-411)",
+            "Cisco CCIE RS Core Concepts - Infrastructure Security",
+            "Cisco CCNP Security 300-209 SIMOS",
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "Cisco CCNP Security 300-206 SENSS",
+            "CompTIA Network+ (N10-007)",
+            "Microsoft Azure: Architecting Solutions (70-535)",
+            "White Hat Hacking v10"
+        ],
+        "collCount": 17
+    },
+    {
+        "title": "DNS",
+        "collections": [
+            "VMware vSphere 6 (VCP6-DCV)",
+            "Microsoft Windows Server 2016: Networking (70-741)",
+            "Microsoft Windows Server 2012 with R2 Updates (70-412)",
+            "Linux Professional Institute LPIC-2 (202-400)",
+            "Microsoft Windows Server 2012: Administering (70-411)",
+            "IPv6 Subnetting",
+            "CompTIA A+ (220-901)",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Microsoft Windows Server 2008 Active Directory 70-640",
+            "Microsoft Windows Server 2012 70-413 with R2 Updates",
+            "CompTIA Network+ (N10-006)",
+            "Microsoft Office 365: Managing Identities and Requirements (70-346)",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Getting Started with Palo Alto Firewalls v8.x",
+            "IT Expert: Office 365 Exchange Migration",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 16
+    },
+    {
+        "title": "Windows",
+        "collections": [
+            "CompTIA A+ (220-902)",
+            "Microsoft Windows Server 2012: Installing and Configuring (70-410)",
+            "Microsoft MTA Windows OS Fundamentals 98-349",
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "Microsoft Windows 10: Configuring Windows Devices (70-697)",
+            "Install Windows Server in Host and Compute Environments",
+            "Microsoft Windows 10: Manage and Protect",
+            "Implement Hyper-V",
+            "Microsoft Windows 10: Connecting Devices",
+            "Microsoft Windows 10: Deploying Devices",
+            "Microsoft Windows 10: Deploy and Update",
+            "Microsoft Windows 10: Maintaining Devices",
+            "Microsoft Windows 10: Managing Devices",
+            "Microsoft Windows 10: Manage Apps and Data",
+            "Microsoft Windows 10: Policies and Profiles",
+            "Implement Windows Containers"
+        ],
+        "collCount": 16
+    },
+    {
+        "title": "ACLs",
+        "collections": [
+            "Google Cloud Storage: Qualified Developer",
+            "CompTIA Security+ (SY0-401)",
+            "CentOS System Administrator Prep",
+            "Cisco CCNA 640-878 SPNGN2",
+            "Linux Professional Institute LPIC-2 (202-400)",
+            "AWS Technical Essentials",
+            "Cisco CCIE RS Core Concepts - Infrastructure Security",
+            "Cisco CCNA Security 210-260 IINS",
+            "Cisco CCNP Security 300-206 SENSS",
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "CompTIA Security+ (SY0-501)",
+            "CompTIA CySA+ (CS0-001)",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "Cisco CCNP ROUTE 300-101 Hands-on Labs Exam Prep",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 15
+    },
+    {
+        "title": "Scripting",
+        "collections": [
+            "PowerShell Toolmaking and Scripting",
+            "Everything Linux",
+            "Microsoft Scripting Windows PowerShell",
+            "Microsoft PowerShell 4 Foundations",
+            "Microsoft Scripting Advanced Windows PowerShell V2",
+            "Microsoft VBScript Windows Administration",
+            "Puppet Fundamentals",
+            "PowerShell 3 Foundations",
+            "VBScript to Windows PowerShell",
+            "Microsoft PowerShell Reference Training",
+            "Docker",
+            "Chef: Using Chef",
+            "Chef Fundamentals",
+            "Chef: Setting Up the Chef Environment",
+            "Microsoft PowerShell 6 Foundations"
+        ],
+        "collCount": 15
+    },
+    {
+        "title": "VPN",
+        "collections": [
+            "Everything Linux",
+            "Check Point CCSA GAiA 156-215.76",
+            "Palo Alto Networks Firewall",
+            "Microsoft Windows Server 2016: Networking (70-741)",
+            "Linux Professional Institute LPIC-2 (202-400)",
+            "Microsoft Windows Server 2012: Administering (70-411)",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCNP Security 300-209 SIMOS",
+            "Cisco CCNP Security VPN v2.0",
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "Cisco CCNA Security 210-260 IINS",
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Check Point CCSA R80",
+            "Cisco CCNA Routing and Switching 200-105 ICND2"
+        ],
+        "collCount": 15
+    },
+    {
+        "title": "IPv4",
+        "collections": [
+            "IPv4 Subnetting",
+            "Microsoft Windows Server 2016: Networking (70-741)",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCIE RS Core Concepts - Infrastructure Security",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCIE RS Core Concepts - Network Principles",
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "Juniper JNCIA-Junos (JN0-102)",
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNP ROUTE 300-101 Hands-on Labs Exam Prep",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 15
+    },
+    {
+        "title": "Firewalls",
+        "collections": [
+            "Check Point CCSA GAiA 156-215.76",
+            "Palo Alto Networks Firewall",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCNA Security 210-260 IINS",
+            "Juniper JNCIA-Junos (JN0-102)",
+            "Cisco CCNP Security 300-206 SENSS",
+            "CompTIA Network+ (N10-006)",
+            "Juniper JNCIS-ENT (JN0-343) - Layer 2 Security",
+            "Check Point CCSA R80",
+            "Using Palo Alto v8.x Advanced Features",
+            "CompTIA Security+ (SY0-501)",
+            "Getting Started with Palo Alto Firewalls v8.x",
+            "White Hat Hacking v10"
+        ],
+        "collCount": 14
+    },
+    {
+        "title": "BGP",
+        "collections": [
+            "Cisco CCNA 640-878 SPNGN2",
+            "IPv6 Subnetting",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCNP Routing and Switching 300-101 ROUTE",
+            "Border Gateway Protocol (BGP): Basic Operations",
+            "Juniper JNCIS-ENT (JN0-343) – BGP",
+            "Border Gateway Protocol (BGP): Scalability Mechanisms",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "Border Gateway Protocol (BGP): Advanced Topics",
+            "Cisco CCNP ROUTE 300-101 Hands-on Labs Exam Prep",
+            "Border Gateway Protocol (BGP): Peerings",
+            "Border Gateway Protocol (BGP): Advertising NLRI"
+        ],
+        "collCount": 13
+    },
+    {
+        "title": "Subnetting",
+        "collections": [
+            "Citrix NetScaler 10.5 1Y0-253",
+            "IPv4 Subnetting",
+            "Cisco CCENT ICND1 640-822",
+            "Exam Walkthrough: Cisco ICND1/CCENT 100-101",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCENT/CCNA 100-101 ICND1 v2.0",
+            "Professional Course: Building a Network Design that Works",
+            "Juniper JNCIA-Junos (JN0-102)",
+            "IT Expert: Switching VLAN Design and Implementation",
+            "CompTIA Network+ (N10-007)",
+            "Cisco CCNA ICND2 640-816",
+            "Cisco Data Center Networking Fundamentals"
+        ],
+        "collCount": 13
+    },
+    {
+        "title": "Functions",
+        "collections": [
+            "Microsoft SQL Server 2014: Developing Databases (70-464)",
+            "Microsoft SQL Server: Database Fundamentals (98-364)",
+            "Java Essentials",
+            "Microsoft PowerShell Reference Training",
+            "Microsoft Excel 2016",
+            "Python Programming",
+            "Microsoft SQL Server 2012: Developing Databases (70-464)",
+            "Microsoft Excel 2019",
+            "Microsoft Word 2019",
+            "Microsoft Word for Office 365",
+            "Ansible Essentials",
+            "Microsoft Excel for Office 365",
+            "Microsoft MCSA Analyzing and Visualizing Data with Power BI (70-778)"
+        ],
+        "collCount": 13
+    },
+    {
+        "title": "OSPF",
+        "collections": [
+            "Cisco CCNA 640-878 SPNGN2",
+            "IPv6 Subnetting",
+            "Exam Walkthrough: Cisco ICND1/CCENT 100-101",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCENT/CCNA 100-101 ICND1 v2.0",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Cisco CCNP Routing and Switching 300-101 ROUTE",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "Cisco CCNP ROUTE 300-101 Hands-on Labs Exam Prep",
+            "Juniper JNCIS-ENT (JN0-343) - OSPF"
+        ],
+        "collCount": 12
+    },
+    {
+        "title": "Recovery",
+        "collections": [
+            "Microsoft Windows Server 2012 70-414 with R2 Updates",
+            "Microsoft Windows Server 2012 with R2 Updates (70-412)",
+            "Microsoft SQL Server: Database Fundamentals (98-364)",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Microsoft MTA Windows OS Fundamentals 98-349",
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "Microsoft Windows 10: Configuring Windows Devices (70-697)",
+            "AWS Certified SysOps Administrator - Associate",
+            "Backup and Recovery Concepts",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "Juniper JNCIS-ENT (JN0-343) - OSPF"
+        ],
+        "collCount": 11
+    },
+    {
+        "title": "Network Devices",
+        "collections": [
+            "Linux Professional Institute LPIC-2 (201-400)",
+            "CompTIA A+ (220-901)",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Juniper JNCIA-Junos (JN0-102)",
+            "Cisco CCNP Security 300-206 SENSS",
+            "CompTIA Network+ (N10-006)",
+            "IT Expert: Building and Configuring a Business Switch Network",
+            "CompTIA Network+ (N10-007)",
+            "CompTIA Security+ (SY0-501)",
+            "Cisco Data Center Networking Fundamentals",
+            "IT Expert: Installing Network Cabling and Devices"
+        ],
+        "collCount": 11
+    },
+    {
+        "title": "Troubleshooting",
+        "collections": [
+            "Basic Cisco UCS Troubleshooting",
+            "Cisco CCNP TSHOOT 300-135 Hands-on Labs Exam Prep",
+            "Microsoft SQL Server 2014: Developing Databases (70-464)",
+            "Basic Cisco Unified Fabric Troubleshooting",
+            "Cisco VoIP CCNA Voice ICOMM 640-461",
+            "Microsoft SQL Server 2012: Designing Database Solutions (70-465)",
+            "Cisco CCNP Security 300-206 SENSS",
+            "Cisco R&S Troubleshooting Mastery",
+            "CompTIA Network+ (N10-007)",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "CompTIA Cloud+ (CV0-002)"
+        ],
+        "collCount": 11
+    },
+    {
+        "title": "Backup",
+        "collections": [
+            "Microsoft Windows Server 2012 70-414 with R2 Updates",
+            "Microsoft Windows Server 2012 with R2 Updates (70-412)",
+            "Linux Professional Institute LPIC-2 (201-400)",
+            "Microsoft SQL Server: Database Fundamentals (98-364)",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Microsoft Windows Server 2008 Active Directory 70-640",
+            "Microsoft MTA Windows OS Fundamentals 98-349",
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "AWS Certified SysOps Administrator - Associate",
+            "Backup and Recovery Concepts",
+            "Microsoft MCSA SQL Server 2016 (70-764)"
+        ],
+        "collCount": 11
+    },
+    {
+        "title": "Charts",
+        "collections": [
+            "Microsoft Visio 2013",
+            "CompTIA Project+ (PK0-004)",
+            "Microsoft Word 2016",
+            "Microsoft PowerPoint 2016",
+            "What's New in Office 2016",
+            "Microsoft Excel 2016",
+            "Microsoft Excel 2019",
+            "Tableau Essentials",
+            "Salesforce Admin - Classic Interface",
+            "Microsoft Excel for Office 365",
+            "Microsoft MCSA Analyzing and Visualizing Data with Power BI (70-778)"
+        ],
+        "collCount": 11
+    },
+    {
+        "title": "Port Security",
+        "collections": [
+            "Palo Alto Networks Firewall",
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Cisco CCIE RS Core Concepts - Infrastructure Security",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCNP SWITCH 300-115 Hands-on Labs Exam Prep",
+            "Cisco CCENT/CCNA 100-101 ICND1 v2.0",
+            "Cisco CCNA Security 210-260 IINS",
+            "Cisco CCNP Security 300-206 SENSS",
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "CompTIA Security+ (SY0-501)"
+        ],
+        "collCount": 11
+    },
+    {
+        "title": "Azure",
+        "collections": [
+            "Microsoft Azure 70-534",
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "Microsoft MCSA SQL Server 2016 (70-765)",
+            "Azure SQL Essentials",
+            "Microsoft Azure: Implementing Infrastructure Solutions (70-533)",
+            "Microsoft SQL Server 2014: Designing Database Solutions (70-465)",
+            "Microsoft Exchange Server 2016: Mailbox Databases",
+            "Microsoft Azure: Architecting Solutions (70-535)",
+            "Secure Identities with Azure",
+            "Azure Pricing and Support",
+            "Core Azure Services"
+        ],
+        "collCount": 11
+    },
+    {
+        "title": "Windows Server",
+        "collections": [
+            "Microsoft Windows Server 2016: Identity (70-742)",
+            "Microsoft Windows Server 2012 70-414 with R2 Updates",
+            "Microsoft Windows Server 2012: Installing and Configuring (70-410)",
+            "Microsoft Windows Server 2016: Networking (70-741)",
+            "Microsoft Windows Server 2012 with R2 Updates (70-412)",
+            "Microsoft Windows Server 2012: Administering (70-411)",
+            "Microsoft Windows Server 2012 70-417 with R2 Updates",
+            "Microsoft Windows Server 2008 Active Directory 70-640",
+            "Microsoft Windows Server 2012 70-413 with R2 Updates",
+            "Install Windows Server in Host and Compute Environments",
+            "Implement Hyper-V"
+        ],
+        "collCount": 11
+    },
+    {
+        "title": "User Management",
+        "collections": [
+            "Microsoft Windows Server 2016: Identity (70-742)",
+            "Cisco VoIP CCNP Voice CIPT1 v8.0 642-447",
+            "Linux Essentials",
+            "Microsoft Windows Server 2008 Active Directory 70-640",
+            "Microsoft Office 365: Managing Identities and Requirements (70-346)",
+            "Salesforce Admin - Classic Interface",
+            "Microsoft Windows 10: Deploying Devices",
+            "AWS Security: Access Management",
+            "Microsoft SQL: Data Modeling",
+            "Microsoft Windows 10: Managing Devices"
+        ],
+        "collCount": 10
+    },
+    {
+        "title": "IP Addressing",
+        "collections": [
+            "Microsoft Windows Server 2016: Networking (70-741)",
+            "Microsoft Windows Server 2012 with R2 Updates (70-412)",
+            "IPv6 Subnetting",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCENT/CCNA 100-101 ICND1 v2.0",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Cisco CCDA Design 200-310 DESGN",
+            "CompTIA Network+ (N10-007)",
+            "Cisco CCNA Routing and Switching 200-105 ICND2"
+        ],
+        "collCount": 10
+    },
+    {
+        "title": "Layer 2",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - Layer 2 Technologies",
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Exam Walkthrough: Cisco ICND1/CCENT 100-101",
+            "Juniper JNCIA-Junos (JN0-102)",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Juniper JNCIS-ENT (JN0-343) - Layer 2",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "Cisco CCNA Data Center 200-150 DCICN",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 10
+    },
+    {
+        "title": "Virtual Machines (VM)",
+        "collections": [
+            "Microsoft Windows Server 2012 70-414 with R2 Updates",
+            "VMware vSphere 6 (VCP6-DCV)",
+            "Microsoft Windows Server 2012 with R2 Updates (70-412)",
+            "Microsoft Windows Server 2012 70-413 with R2 Updates",
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "Microsoft MCSA SQL Server 2016 (70-765)",
+            "Implement Hyper-V",
+            "Microsoft Azure: Implementing Infrastructure Solutions (70-533)",
+            "VMware vSphere 6.5 (VCP6.5-DCV) with 6.7 Updates",
+            "Cisco CCNA Data Center 200-155 DCICT"
+        ],
+        "collCount": 10
+    },
+    {
+        "title": "TCP/IP",
+        "collections": [
+            "Cisco CCENT ICND1 640-822",
+            "CompTIA A+ (220-901)",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCENT/CCNA 100-101 ICND1 v2.0",
+            "CompTIA Network+ (N10-007)",
+            "Cisco CCNA ICND2 640-816",
+            "Cisco Data Center Networking Fundamentals",
+            "Cisco CCNA Data Center 200-150 DCICN",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 10
+    },
+    {
+        "title": "Layer 3",
+        "collections": [
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Exam Walkthrough: Cisco ICND1/CCENT 100-101",
+            "Professional Course: Building a Network Design that Works",
+            "Cisco CCIE RS Core Concepts - VPN Technologies",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Cisco CCNP Routing and Switching 300-101 ROUTE",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Cisco CCNP ROUTE 300-101 Hands-on Labs Exam Prep",
+            "Cisco CCNA Data Center 200-150 DCICN",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 10
+    },
+    {
+        "title": "IPsec",
+        "collections": [
+            "Check Point CCSA GAiA 156-215.76",
+            "Palo Alto Networks Firewall",
+            "Cisco CCNP Security 300-209 SIMOS",
+            "Cisco CCNP Security VPN v2.0",
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "Cisco CCNA Security 210-260 IINS",
+            "Cisco CCIE RS Core Concepts - VPN Technologies",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "CompTIA Security+ (SY0-501)",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 10
+    },
+    {
+        "title": "High Availability",
+        "collections": [
+            "Citrix NetScaler 10.5 1Y0-253",
+            "Microsoft Windows Server 2012 70-414 with R2 Updates",
+            "Palo Alto Networks Firewall",
+            "VMware vSphere 6 (VCP6-DCV)",
+            "Cisco CCDP Design 300-320 ARCH",
+            "VMware vSphere 5.5 VCP5-DCV",
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "AWS Certified SysOps Administrator - Associate",
+            "Using Palo Alto v8.x Advanced Features",
+            "AWS: Certified Solutions Architect - Associate"
+        ],
+        "collCount": 10
+    },
+    {
+        "title": "Ethernet",
+        "collections": [
+            "Cisco CCNA 640-878 SPNGN2",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Juniper JNCIA-Junos (JN0-102)",
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "CompTIA Network+ (N10-007)",
+            "Cisco Data Center Networking Fundamentals",
+            "IT Expert: Installing Network Cabling and Devices",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 9
+    },
+    {
+        "title": "Trunking",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - Layer 2 Technologies",
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "VMware vSphere 5.5 VCP5-DCV",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCNP SWITCH 300-115 Hands-on Labs Exam Prep",
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 9
+    },
+    {
+        "title": "Tables",
+        "collections": [
+            "Microsoft Word 2016",
+            "Microsoft PowerPoint 2016",
+            "Microsoft SQL Server 2014: Developing Databases (70-464)",
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "Microsoft SQL Server 2012: Developing Databases (70-464)",
+            "Microsoft Excel 2019",
+            "Oracle Database 12c: SQL Fundamentals (1Z0-071)",
+            "Microsoft Word 2019",
+            "Microsoft Word for Office 365"
+        ],
+        "collCount": 9
+    },
+    {
+        "title": "CLI",
+        "collections": [
+            "Everything Linux",
+            "CompTIA A+ (220-902)",
+            "Linux Essentials",
+            "VMware vSphere 5.5 VCP5-DCV",
+            "Juniper JNCIA-Junos (JN0-102)",
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCNA Collaboration 210-065 CIVND2",
+            "Check Point CCSA R80",
+            "Microsoft Azure: Implementing Infrastructure Solutions (70-533)"
+        ],
+        "collCount": 9
+    },
+    {
+        "title": "User Accounts",
+        "collections": [
+            "Microsoft Windows Server 2016: Identity (70-742)",
+            "Linux Essentials",
+            "Microsoft Windows Server 2012: Administering (70-411)",
+            "Microsoft MTA Windows OS Fundamentals 98-349",
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "Juniper JNCIA-Junos (JN0-102)",
+            "Microsoft Office 365: Managing Identities and Requirements (70-346)",
+            "Cisco CCNP Collaboration CIPTV1 300-070",
+            "Salesforce Lightning for Business Users"
+        ],
+        "collCount": 9
+    },
+    {
+        "title": "STP",
+        "collections": [
+            "Cisco CCNA 640-878 SPNGN2",
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Professional Course: Building a Network Design that Works",
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Juniper JNCIS-ENT (JN0-343) - Layer 2",
+            "Juniper JNCIS-ENT (JN0-343) - Layer 2 Security",
+            "Cisco CCNA Routing and Switching 200-105 ICND2"
+        ],
+        "collCount": 9
+    },
+    {
+        "title": "TCP",
+        "collections": [
+            "Cisco CCENT ICND1 640-822",
+            "CompTIA A+ (220-901)",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCIE RS Core Concepts - Network Principles",
+            "Cisco CCENT/CCNA 100-101 ICND1 v2.0",
+            "CompTIA Network+ (N10-007)",
+            "Cisco CCNA ICND2 640-816",
+            "Cisco CCNA Data Center 200-150 DCICN"
+        ],
+        "collCount": 9
+    },
+    {
+        "title": "EIGRP",
+        "collections": [
+            "IPv6 Subnetting",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Cisco CCNP Routing and Switching 300-101 ROUTE",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "Cisco CCNP ROUTE 300-101 Hands-on Labs Exam Prep"
+        ],
+        "collCount": 9
+    },
+    {
+        "title": "Collaborate",
+        "collections": [
+            "Microsoft Teams",
+            "Microsoft Word 2016",
+            "Microsoft PowerPoint 2016",
+            "What's New in Office 2016",
+            "Microsoft Excel 2019",
+            "Microsoft Word 2019",
+            "Microsoft Word for Office 365",
+            "Microsoft Excel for Office 365"
+        ],
+        "collCount": 8
+    },
+    {
+        "title": "OSI Model",
+        "collections": [
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCENT/CCNA 100-101 ICND1 v2.0",
+            "Juniper JNCIA-Junos (JN0-102)",
+            "CompTIA Network+ (N10-006)",
+            "CompTIA Network+ (N10-007)",
+            "Cisco Data Center Networking Fundamentals",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 8
+    },
+    {
+        "title": "SSL",
+        "collections": [
+            "Citrix NetScaler 10.5 1Y0-253",
+            "Everything Linux",
+            "Palo Alto Networks Firewall",
+            "Linux Professional Institute LPIC-2 (202-400)",
+            "Cisco CCNP Security VPN v2.0",
+            "Cisco CCNA Security 210-260 IINS",
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "Using Palo Alto v8.x Advanced Features"
+        ],
+        "collCount": 8
+    },
+    {
+        "title": "Load Balancing",
+        "collections": [
+            "Citrix NetScaler 10.5 1Y0-253",
+            "Juniper JNCIS-ENT (JN0-343) – Protocol Independent Routing Tunnels",
+            "NetApp Certified Storage Associate (NCSA) NS0-145",
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCNP Routing and Switching 300-101 ROUTE",
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "Google Compute Engine: Qualified Developer",
+            "Cisco CCNA Routing and Switching 200-105 ICND2"
+        ],
+        "collCount": 8
+    },
+    {
+        "title": "Encryption",
+        "collections": [
+            "Palo Alto Networks Firewall",
+            "Microsoft Windows Server 2012: Administering (70-411)",
+            "Microsoft MTA Windows OS Fundamentals 98-349",
+            "Microsoft Azure: Implementing Infrastructure Solutions (70-533)",
+            "Microsoft MCSA SQL Server 2016 (70-764)",
+            "Information Security: Security Architecture and Engineering",
+            "Microsoft Windows 10: Managing Devices",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 8
+    },
+    {
+        "title": "SSH",
+        "collections": [
+            "Everything Linux",
+            "Linux Professional Institute LPIC-2 (202-400)",
+            "IPv6 Subnetting",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCNP SWITCH 300-115 Hands-on Labs Exam Prep",
+            "Cisco CCNP Security 300-206 SENSS",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Microsoft PowerShell 6 Foundations"
+        ],
+        "collCount": 8
+    },
+    {
+        "title": "Device Management",
+        "collections": [
+            "Exam Walkthrough: Cisco ICND1/CCENT 100-101",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCIE RS Core Concepts - Infrastructure Services",
+            "Microsoft MTA Windows OS Fundamentals 98-349",
+            "Microsoft Windows 10: Configuring Windows Devices (70-697)",
+            "Microsoft Windows 10: Connecting Devices",
+            "Microsoft Windows 10: Maintaining Devices"
+        ],
+        "collCount": 8
+    },
+    {
+        "title": "Configuration",
+        "collections": [
+            "Introducing the Cisco UCS",
+            "Cisco VoIP CCNP Voice CIPT1 v8.0 642-447",
+            "Microsoft SQL Server 2012: Administering Databases (70-462)",
+            "Linux Professional Institute LPIC-2 (201-400)",
+            "NetApp Certified Storage Associate (NCSA) NS0-145",
+            "Cisco Virtual Internet Routing Lab (VIRL)",
+            "Check Point CCSA R80",
+            "CompTIA Cloud+ (CV0-002)"
+        ],
+        "collCount": 8
+    },
+    {
+        "title": "Static Routing",
+        "collections": [
+            "Citrix NetScaler 10.5 1Y0-253",
+            "Juniper JNCIS-ENT (JN0-343) – Protocol Independent Routing Tunnels",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCENT/CCNA 100-101 ICND1 v2.0",
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Cisco CCNA Routing and Switching 200-105 ICND2"
+        ],
+        "collCount": 8
+    },
+    {
+        "title": "QoS",
+        "collections": [
+            "Microsoft Windows Server 2016: Networking (70-741)",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco VoIP CCNP Voice CVOICE v8.0 642-437",
+            "Cisco CCIE RS Core Concepts - Infrastructure Services",
+            "Cisco CCNA Collaboration 210-065 CIVND1",
+            "Cisco CCNA Collaboration 210-060 CICD",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "Cisco CCNP Collaboration CIPTV1 300-070"
+        ],
+        "collCount": 8
+    },
+    {
+        "title": "12c",
+        "collections": [
+            "Oracle Database Architecture",
+            "Backup and Recovery Concepts",
+            "Monitoring and Tuning Database Performance",
+            "Managing Database Instances",
+            "Oracle Network Environment Configuration",
+            "Managing UNDO Data",
+            "Creating and Managing Tablespaces",
+            "Moving Data"
+        ],
+        "collCount": 8
+    },
+    {
+        "title": "EtherChannels",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - Layer 2 Technologies",
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCNP SWITCH 300-115 Hands-on Labs Exam Prep",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "Cisco CCNA Data Center 200-150 DCICN"
+        ],
+        "collCount": 7
+    },
+    {
+        "title": "Cloud Concepts",
+        "collections": [
+            "CompTIA A+ (220-902)",
+            "Google Cloud Platform Fundamentals",
+            "CompTIA Network+ (N10-007)",
+            "AWS Certified Cloud Practitioner",
+            "Cisco CCNA Data Center 200-155 DCICT",
+            "AWS: Certified Solutions Architect - Associate",
+            "Cisco CCNA Cloud 210-451 CLDFND"
+        ],
+        "collCount": 7
+    },
+    {
+        "title": "NTP",
+        "collections": [
+            "Citrix NetScaler 10.5 1Y0-253",
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCIE RS Core Concepts - Infrastructure Services",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 7
+    },
+    {
+        "title": "GNS3",
+        "collections": [
+            "Palo Alto Networks Firewall",
+            "Cisco CCNA Security 210-260 IINS",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Cisco CCNA Collaboration 210-060 CICD",
+            "GNS3 1.2 Fundamentals",
+            "GNS3 0.8",
+            "Cisco CCNA Data Center 200-150 DCICN"
+        ],
+        "collCount": 7
+    },
+    {
+        "title": "Remote Access",
+        "collections": [
+            "Microsoft Windows Server 2016: Networking (70-741)",
+            "Microsoft Windows Server 2012: Administering (70-411)",
+            "Cisco CCDP Design 300-320 ARCH",
+            "White Hat Hacking v9",
+            "Microsoft Windows Vista Configuring 70-620",
+            "CompTIA Network+ (N10-007)",
+            "Microsoft PowerShell 6 Foundations"
+        ],
+        "collCount": 7
+    },
+    {
+        "title": "Network Management",
+        "collections": [
+            "Cisco CCDA Design 640-864 DESGN",
+            "Cisco CCNP TSHOOT 300-135 Hands-on Labs Exam Prep",
+            "Cisco CCENT ICND1 640-822",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCNP Security 300-206 SENSS",
+            "AWS Security: Protective Controls",
+            "Core Azure Services"
+        ],
+        "collCount": 7
+    },
+    {
+        "title": "Permissions",
+        "collections": [
+            "Microsoft Windows Server 2012: Installing and Configuring (70-410)",
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "Microsoft SharePoint 2016 Fundamentals",
+            "Microsoft MCSA SQL Server 2016 (70-764)",
+            "Microsoft SQL: Data Modeling",
+            "Microsoft Windows 10: Managing Devices"
+        ],
+        "collCount": 6
+    },
+    {
+        "title": "IPS",
+        "collections": [
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCNA Security 210-260 IINS",
+            "Cisco CCNP Security 300-206 SENSS",
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 6
+    },
+    {
+        "title": "Data Center",
+        "collections": [
+            "Cisco Data Center Networking Technologies",
+            "Cisco CCDA Design 640-864 DESGN",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCNA Data Center 200-155 DCICT",
+            "Cisco Data Center Networking Fundamentals",
+            "Cisco CCNA Data Center 200-150 DCICN"
+        ],
+        "collCount": 6
+    },
+    {
+        "title": "CUCM",
+        "collections": [
+            "Cisco VoIP CCNP Voice CIPT1 v8.0 642-447",
+            "Cisco VoIP CCNA Voice ICOMM 640-461",
+            "Cisco VoIP CCNP Voice CIPT2 v8.0 642-457",
+            "Cisco CCNA Collaboration 210-065 CIVND2",
+            "Cisco CCNA Collaboration 210-060 CICD",
+            "Cisco CCNP Collaboration CIPTV1 300-070"
+        ],
+        "collCount": 6
+    },
+    {
+        "title": "Deployment",
+        "collections": [
+            "Microsoft SQL Server 2012: Implementing a Data Warehouse (70-463)",
+            "AWS Certified SysOps Administrator - Associate",
+            "Microsoft MCSA SQL Server 2016 (70-765)",
+            "Microsoft Windows 10: Deploying Devices",
+            "CompTIA Cloud+ (CV0-002)",
+            "Cisco CCNP Collaboration CIPTV1 300-070"
+        ],
+        "collCount": 6
+    },
+    {
+        "title": "Variables",
+        "collections": [
+            "Everything Linux",
+            "Microsoft Visual Studio 2012 70-480",
+            "Python Programming",
+            "Microsoft SQL: SSIS",
+            "Microsoft PowerShell 6 Foundations",
+            "Microsoft MCSA Analyzing and Visualizing Data with Power BI (70-778)"
+        ],
+        "collCount": 6
+    },
+    {
+        "title": "VTP",
+        "collections": [
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCNP SWITCH 300-115 Hands-on Labs Exam Prep",
+            "Cisco CCENT/CCNA 100-101 ICND1 v2.0",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNA Routing and Switching 200-105 ICND2"
+        ],
+        "collCount": 6
+    },
+    {
+        "title": "Network Design",
+        "collections": [
+            "CompTIA Security+ (SY0-401)",
+            "Cisco CCDA Design 640-864 DESGN",
+            "Professional Course: Building a Network Design that Works",
+            "Cisco CCDA Design 200-310 DESGN",
+            "IT Expert: Switching VLAN Design and Implementation",
+            "Cisco CCNA Wireless 200-355 WIFUND"
+        ],
+        "collCount": 6
+    },
+    {
+        "title": "Formatting",
+        "collections": [
+            "Microsoft Word 2016",
+            "Microsoft PowerPoint 2016",
+            "Microsoft Excel 2016",
+            "Microsoft Word 2019",
+            "Microsoft Word for Office 365",
+            "Microsoft MCSA Analyzing and Visualizing Data with Power BI (70-778)"
+        ],
+        "collCount": 6
+    },
+    {
+        "title": "Cloud Storage",
+        "collections": [
+            "Google Cloud Storage: Qualified Developer",
+            "AWS Technical Essentials",
+            "Google Cloud Platform Fundamentals",
+            "AWS Certified Solutions Architect - Associate",
+            "AWS: Certified Solutions Architect - Associate",
+            "Cisco CCNA Cloud 210-451 CLDFND"
+        ],
+        "collCount": 6
+    },
+    {
+        "title": "Spanning Tree",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - Layer 2 Technologies",
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNA Data Center 200-150 DCICN"
+        ],
+        "collCount": 6
+    },
+    {
+        "title": "Network Services",
+        "collections": [
+            "Microsoft Windows Server 2012: Installing and Configuring (70-410)",
+            "Microsoft Windows Server 2012: Administering (70-411)",
+            "Microsoft Windows Server 2012 70-417 with R2 Updates",
+            "CompTIA Network+ (N10-006)",
+            "AWS Certified Solutions Architect - Associate",
+            "CompTIA Network+ (N10-007)"
+        ],
+        "collCount": 6
+    },
+    {
+        "title": "Network Architecture",
+        "collections": [
+            "Microsoft Windows Server 2012 70-414 with R2 Updates",
+            "Cisco Data Center Networking Technologies",
+            "Cisco VoIP CCNP Voice CIPT1 v8.0 642-447",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Professional Course: Building a Network Design that Works",
+            "Cisco CCDA Design 200-310 DESGN"
+        ],
+        "collCount": 6
+    },
+    {
+        "title": "Data Management",
+        "collections": [
+            "CompTIA A+ (220-902)",
+            "Microsoft SQL Server 2012: Administering Databases (70-462)",
+            "Google BigQuery: Qualified Developer",
+            "AWS Certified SysOps Administrator - Associate",
+            "Salesforce Admin - Classic Interface",
+            "Salesforce Lightning for Business Users"
+        ],
+        "collCount": 6
+    },
+    {
+        "title": "Network Connectivity",
+        "collections": [
+            "Microsoft Windows Server 2016: Networking (70-741)",
+            "Microsoft Windows Vista Configuring 70-620",
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "Microsoft Windows 10: Connecting Devices",
+            "CompTIA Network+ (N10-007)",
+            "IT Expert: Installing Network Cabling and Devices"
+        ],
+        "collCount": 6
+    },
+    {
+        "title": "HSRP",
+        "collections": [
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "IPv6 Subnetting",
+            "Cisco CCNP SWITCH 300-115 Hands-on Labs Exam Prep",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNA Routing and Switching 200-105 ICND2"
+        ],
+        "collCount": 6
+    },
+    {
+        "title": "Risk Management",
+        "collections": [
+            "CompTIA Security+ (SY0-401)",
+            "CompTIA Project+ (PK0-004)",
+            "CompTIA Network+ (N10-006)",
+            "Information Security: Security and Risk Management",
+            "Project Management for the Real World"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "IAM",
+        "collections": [
+            "AWS Technical Essentials",
+            "AWS Certified SysOps Administrator - Associate",
+            "AWS: Certified Solutions Architect - Associate",
+            "AWS Security: Access Management",
+            "Information Security: Identity and Access Management (IAM)"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Fault Tolerance",
+        "collections": [
+            "VMware vSphere 6 (VCP6-DCV)",
+            "Microsoft Windows Server 2012 with R2 Updates (70-412)",
+            "Microsoft Windows Server 2012 70-417 with R2 Updates",
+            "VMware vSphere 5.5 VCP5-DCV",
+            "CompTIA Network+ (N10-006)"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Network Troubleshooting",
+        "collections": [
+            "Linux Professional Institute LPIC-2 (201-400)",
+            "CompTIA A+ (220-901)",
+            "Microsoft Windows Vista Configuring 70-620",
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "CompTIA Network+ (N10-006)"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Software Defined Networking (SDN)",
+        "collections": [
+            "Microsoft Windows Server 2016: Networking (70-741)",
+            "Cisco CCDP Design 300-320 ARCH",
+            "VMware NSX Introduction and Installation",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "Cisco CCNA Cloud 210-451 CLDFND"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "SQL Server 2012",
+        "collections": [
+            "Microsoft SQL Server 2012: Administering Databases (70-462)",
+            "Microsoft SQL Server 2012: Designing Database Solutions (70-465)",
+            "Microsoft SQL Server 2012: Implementing a Data Warehouse (70-463)",
+            "Microsoft SQL Server 2012: Querying (70-461)",
+            "Microsoft SQL Server 2012: Developing Databases (70-464)"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Containers",
+        "collections": [
+            "Google Cloud Platform Fundamentals",
+            "Docker",
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "Microsoft Azure: Implementing Infrastructure Solutions (70-533)",
+            "Implement Windows Containers"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "GLBP",
+        "collections": [
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "IPv6 Subnetting",
+            "Cisco CCNP SWITCH 300-115 Hands-on Labs Exam Prep",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Security Policies",
+        "collections": [
+            "Palo Alto Networks Firewall",
+            "Check Point CCSA R80",
+            "CompTIA Security+ (SY0-501)",
+            "AWS Security: Access Management",
+            "Getting Started with Palo Alto Firewalls v8.x"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Layer 3 Technologies",
+        "collections": [
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Cisco CCIE RS Core Concepts - VPN Technologies",
+            "Cisco CCNP Routing and Switching 300-101 ROUTE",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Cisco CCNP ROUTE 300-101 Hands-on Labs Exam Prep"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Hypervisor",
+        "collections": [
+            "VMware vSphere 6 (VCP6-DCV)",
+            "VMware vSphere 5.5 VCP5-DCV",
+            "VMware VCA-DCV",
+            "VMware vSphere 6.5 (VCP6.5-DCV) with 6.7 Updates",
+            "Cisco CCNA Data Center 200-155 DCICT"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Linux OS",
+        "collections": [
+            "CentOS System Administrator Prep",
+            "CompTIA A+ (220-902)",
+            "Linux Essentials",
+            "LPI Linux LPIC-1 and CompTIA Linux+ Prep 4.0",
+            "Ubuntu"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "SAN",
+        "collections": [
+            "Introducing the Cisco UCS",
+            "Basic Cisco UCS Troubleshooting",
+            "VMware vSphere 6 (VCP6-DCV)",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCNA Cloud 210-451 CLDFND"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Filesystems",
+        "collections": [
+            "Everything Linux",
+            "CompTIA A+ (220-902)",
+            "Linux Professional Institute LPIC-2 (201-400)",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Microsoft Windows 10: Installing and Configuring (70-698)"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Data Objects",
+        "collections": [
+            "Microsoft PowerShell 4 Foundations",
+            "Microsoft SQL Server: Database Fundamentals (98-364)",
+            "Microsoft PowerShell Reference Training",
+            "Microsoft Visual Studio 2012 70-480",
+            "Microsoft SQL Server 2012: Querying (70-461)"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Cryptography",
+        "collections": [
+            "CompTIA Security+ (SY0-401)",
+            "Cisco CCNA Security 210-260 IINS",
+            "Information Security: Security Architecture and Engineering",
+            "White Hat Hacking v10",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "UCS",
+        "collections": [
+            "Introducing the Cisco UCS",
+            "Cisco Data Center Networking Technologies",
+            "Basic Cisco UCS Troubleshooting",
+            "Cisco CCNA Data Center 200-155 DCICT",
+            "Cisco CCNA Cloud 210-451 CLDFND"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Documentation",
+        "collections": [
+            "Microsoft Word 2016",
+            "Microsoft Visual Studio 2012 70-480",
+            "IT Expert: Switching VLAN Design and Implementation",
+            "IT Expert: Building and Configuring a Business Switch Network",
+            "CompTIA Network+ (N10-007)"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Vulnerabilities",
+        "collections": [
+            "Palo Alto Networks Firewall",
+            "Penetration Testing with Linux Tools",
+            "CompTIA Network+ (N10-006)",
+            "CompTIA CySA+ (CS0-001)",
+            "Information Security: Security Architecture and Engineering"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "MPLS",
+        "collections": [
+            "Cisco CCNA 640-878 SPNGN2",
+            "IPv6 Subnetting",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCIE RS Core Concepts - VPN Technologies",
+            "MPLS Fundamentals"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "WAN",
+        "collections": [
+            "Cisco CCDP Design 300-320 ARCH",
+            "CompTIA Network+ (N10-006)",
+            "CompTIA Network+ (N10-007)",
+            "Cisco CCNA Routing and Switching 200-105 ICND2",
+            "Cisco CCNA ICND2 640-816"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Indexes",
+        "collections": [
+            "Microsoft Word 2016",
+            "Microsoft SQL Server 2014: Developing Databases (70-464)",
+            "Microsoft SQL Server 2012: Developing Databases (70-464)",
+            "Microsoft SQL: Designing a Data Warehouse",
+            "Microsoft MCSA SQL Server 2016 (70-764)"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Layer 2 Technologies",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - Layer 2 Technologies",
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Juniper JNCIA-Junos (JN0-102)",
+            "Juniper JNCIS-ENT (JN0-343) - Layer 2",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "SNMP",
+        "collections": [
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCIE RS Core Concepts - Infrastructure Services",
+            "Professional Course: Building a Network Design that Works",
+            "Cisco CCNA Routing and Switching 200-105 ICND2"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Ports",
+        "collections": [
+            "CompTIA Security+ (SY0-401)",
+            "CompTIA A+ (220-901)",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Templates",
+        "collections": [
+            "Microsoft Visio 2013",
+            "Microsoft Word 2016",
+            "Microsoft PowerPoint 2016",
+            "Microsoft SharePoint 2016 Fundamentals",
+            "Microsoft Word 2019"
+        ],
+        "collCount": 5
+    },
+    {
+        "title": "Tasks",
+        "collections": [
+            "Google App Engine: Qualified Developer",
+            "CompTIA Project+ (PK0-004)",
+            "Microsoft Outlook 2016",
+            "Salesforce Admin - Classic Interface"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Policies",
+        "collections": [
+            "Citrix NetScaler 10.5 1Y0-253",
+            "Microsoft Windows Server 2012: Administering (70-411)",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Using Palo Alto v8.x Advanced Features"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "NFS",
+        "collections": [
+            "Everything Linux",
+            "VMware vSphere 6 (VCP6-DCV)",
+            "Microsoft Windows Server 2012 with R2 Updates (70-412)",
+            "Linux Professional Institute LPIC-2 (202-400)"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Data Storage",
+        "collections": [
+            "Microsoft SQL Server: Database Fundamentals (98-364)",
+            "NetApp Certified Storage Associate (NCSA) NS0-145",
+            "Android App Development with Java",
+            "Microsoft Azure: Architecting Solutions (70-535)"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Worksheet",
+        "collections": [
+            "Microsoft Excel 2016",
+            "Microsoft Excel 2019",
+            "Tableau Essentials",
+            "Microsoft Excel for Office 365"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Multicast",
+        "collections": [
+            "Microsoft Windows Server 2016: Networking (70-741)",
+            "Microsoft Windows Server 2012 with R2 Updates (70-412)",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "ARP",
+        "collections": [
+            "Cisco CCNP Security 300-206 SENSS",
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Reports",
+        "collections": [
+            "CompTIA Project+ (PK0-004)",
+            "Wireshark",
+            "Salesforce Admin - Classic Interface",
+            "Microsoft MCSA Analyzing and Visualizing Data with Power BI (70-778)"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Virtual Networking",
+        "collections": [
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "Microsoft Azure: Implementing Infrastructure Solutions (70-533)",
+            "Microsoft Exchange Server 2016: Mailbox Databases",
+            "Cisco CCNA Cloud 210-451 CLDFND"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "LAN",
+        "collections": [
+            "Introducing the Cisco UCS",
+            "Basic Cisco UCS Troubleshooting",
+            "Cisco CCENT ICND1 640-822",
+            "CompTIA Network+ (N10-006)"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Storage Devices",
+        "collections": [
+            "Microsoft Windows Server 2012 70-417 with R2 Updates",
+            "CompTIA A+ (220-901)",
+            "Microsoft MTA Windows OS Fundamentals 98-349",
+            "Cisco CCNA Cloud 210-451 CLDFND"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Network Topologies",
+        "collections": [
+            "Cisco CCNA Security 210-260 IINS",
+            "CompTIA Network+ (N10-006)",
+            "Cisco Virtual Internet Routing Lab (VIRL)",
+            "CompTIA Network+ (N10-007)"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Roles",
+        "collections": [
+            "Microsoft Windows Server 2012: Installing and Configuring (70-410)",
+            "Microsoft Office 365: Managing Identities and Requirements (70-346)",
+            "Chef: Using Chef",
+            "Chef Fundamentals"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Network Traffic",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "CompTIA Security+ (SY0-501)",
+            "AWS Security: Protective Controls"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Remote Management",
+        "collections": [
+            "Microsoft Windows Server 2012 70-417 with R2 Updates",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "Cisco CCNP Security 300-206 SENSS"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Images",
+        "collections": [
+            "Microsoft Windows Server 2012: Administering (70-411)",
+            "Docker",
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "Google Compute Engine: Qualified Developer"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Cisco IOS",
+        "collections": [
+            "Palo Alto Networks Firewall",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCNA Security 210-260 IINS",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Nexus",
+        "collections": [
+            "Cisco Data Center Networking Technologies",
+            "Basic Cisco Unified Fabric Troubleshooting",
+            "Cisco CCNA Cloud 210-451 CLDFND",
+            "Cisco CCNA Data Center 200-150 DCICN"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "FabricPath",
+        "collections": [
+            "Cisco Data Center Networking Technologies",
+            "Basic Cisco Unified Fabric Troubleshooting",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCNA Data Center 200-155 DCICT"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Optimization",
+        "collections": [
+            "Google App Engine: Qualified Developer",
+            "Microsoft SQL Server 2012: Designing Database Solutions (70-465)",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Microsoft SQL Server 2012: Developing Databases (70-464)"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Chef",
+        "collections": [
+            "Chef: Using Chef",
+            "Chef Fundamentals",
+            "Chef: Methodology",
+            "Chef: Setting Up the Chef Environment"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Excel",
+        "collections": [
+            "What's New in Office 2016",
+            "Microsoft Excel 2016",
+            "Microsoft Excel 2019",
+            "Microsoft Excel for Office 365"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Penetration Testing",
+        "collections": [
+            "CompTIA Security+ (SY0-401)",
+            "Penetration Testing with Linux Tools",
+            "CompTIA Security+ (SY0-501)",
+            "White Hat Hacking v10"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Wireless Access Points",
+        "collections": [
+            "Penetration Testing with Linux Tools",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Microsoft Windows Vista Configuring 70-620",
+            "CompTIA Network+ (N10-006)"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "IDS",
+        "collections": [
+            "Cisco CCNA Security 210-260 IINS",
+            "CompTIA Network+ (N10-006)",
+            "White Hat Hacking v10",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Access Management",
+        "collections": [
+            "AWS Security: Access Management",
+            "Getting Started with Palo Alto Firewalls v8.x",
+            "ITIL® Foundation",
+            "White Hat Hacking v10"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Query",
+        "collections": [
+            "Microsoft SQL Server 2014: Developing Databases (70-464)",
+            "Microsoft SQL Server: Database Fundamentals (98-364)",
+            "Microsoft SQL Server 2012: Querying (70-461)",
+            "Microsoft MCSA SQL Server 2016 (70-764)"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "IS-IS",
+        "collections": [
+            "Cisco CCNA 640-878 SPNGN2",
+            "IPv6 Subnetting",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Juniper JNCIS-ENT (JN0-343) – IS-IS"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Dial Plans",
+        "collections": [
+            "Cisco VoIP CCNP Voice CVOICE v8.0 642-437",
+            "Cisco VoIP CCNP Voice CIPT2 v8.0 642-457",
+            "Cisco CCNA Collaboration 210-060 CICD",
+            "Cisco CCNP Collaboration CIPTV1 300-070"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Text",
+        "collections": [
+            "Microsoft Word 2016",
+            "Microsoft PowerPoint 2016",
+            "Microsoft Word 2019",
+            "Microsoft Word for Office 365"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Incident Response",
+        "collections": [
+            "CompTIA Security+ (SY0-401)",
+            "CompTIA Security+ (SY0-501)",
+            "CompTIA CySA+ (CS0-001)",
+            "ITIL® Foundation"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Macros",
+        "collections": [
+            "Microsoft Word 2016",
+            "Microsoft Excel 2016",
+            "Microsoft Excel 2019",
+            "Microsoft Excel for Office 365"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Cabling",
+        "collections": [
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "CompTIA Network+ (N10-006)",
+            "CompTIA Network+ (N10-007)",
+            "IT Expert: Installing Network Cabling and Devices"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Dashboard",
+        "collections": [
+            "CompTIA Project+ (PK0-004)",
+            "Tableau Essentials",
+            "Salesforce Admin - Classic Interface",
+            "Microsoft MCSA Analyzing and Visualizing Data with Power BI (70-778)"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "ICMP",
+        "collections": [
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCIE RS Core Concepts - Network Principles",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "CompTIA Security+ (SY0-501)"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Active Directory Certificate Services (AD CS)",
+        "collections": [
+            "Microsoft Windows Server 2016: Identity (70-742)",
+            "Microsoft Windows Server 2012 70-414 with R2 Updates",
+            "Microsoft Windows Server 2012 with R2 Updates (70-412)",
+            "Microsoft Windows Server 2008 Active Directory 70-640"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Domain Controllers",
+        "collections": [
+            "Microsoft Windows Server 2012: Administering (70-411)",
+            "Microsoft Windows Server 2012 70-417 with R2 Updates",
+            "Windows 10 Power User",
+            "Microsoft Exchange Server 2016: Mailbox Databases"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Logging",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - Infrastructure Services",
+            "Juniper JNCIA-Junos (JN0-102)",
+            "Microsoft Azure: Implementing Infrastructure Solutions (70-533)",
+            "AWS Security: Access Management"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "File Management",
+        "collections": [
+            "Microsoft PowerPoint 2016",
+            "Linux Essentials",
+            "Microsoft MTA Windows OS Fundamentals 98-349",
+            "Ansible Essentials"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Wireshark",
+        "collections": [
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Wireshark",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "SQL Server",
+        "collections": [
+            "Microsoft SQL Server 2014: Developing Databases (70-464)",
+            "Microsoft SQL Server 2012: Developing Databases (70-464)",
+            "Microsoft MCSA SQL Server 2016 (70-765)",
+            "Microsoft SQL Server 2014: Designing Database Solutions (70-465)"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Active Directory Federation Services (ADFS)",
+        "collections": [
+            "Microsoft Windows Server 2016: Identity (70-742)",
+            "Microsoft Windows Server 2012 70-414 with R2 Updates",
+            "Microsoft Windows Server 2012 with R2 Updates (70-412)",
+            "Microsoft Office 365: Managing Identities and Requirements (70-346)"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Site-to-site",
+        "collections": [
+            "Microsoft Windows Server 2016: Networking (70-741)",
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCNA Security 210-260 IINS",
+            "Cisco CCIE RS Core Concepts - VPN Technologies"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "PKI",
+        "collections": [
+            "CompTIA Security+ (SY0-401)",
+            "Cisco CCNA Security 210-260 IINS",
+            "Information Security: Security Architecture and Engineering",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Java",
+        "collections": [
+            "Google App Engine: Qualified Developer",
+            "Java Essentials",
+            "Android App Development with Java",
+            "CPD200: Developing Solutions for Google Cloud Platform"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "PAT",
+        "collections": [
+            "Microsoft Windows Server 2016: Networking (70-741)",
+            "CompTIA Security+ (SY0-501)",
+            "Getting Started with Palo Alto Firewalls v8.x",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "vSphere",
+        "collections": [
+            "VMware vSphere 6 (VCP6-DCV)",
+            "VMware vSphere 5.5 VCP5-DCV",
+            "VMware NSX Introduction and Installation",
+            "VMware vSphere 6.5 (VCP6.5-DCV) with 6.7 Updates"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "IOS",
+        "collections": [
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCNA Security 210-260 IINS",
+            "Cisco CCNA Routing and Switching 200-105 ICND2"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "RIPv2",
+        "collections": [
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNA Routing and Switching 200-105 ICND2"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "FCoE",
+        "collections": [
+            "Cisco Data Center Networking Technologies",
+            "Basic Cisco Unified Fabric Troubleshooting",
+            "Cisco CCNA Data Center 200-155 DCICT",
+            "Cisco CCNA Data Center 200-150 DCICN"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "Routing Fundamentals",
+        "collections": [
+            "Cisco CCENT ICND1 640-822",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCNA ICND2 640-816"
+        ],
+        "collCount": 4
+    },
+    {
+        "title": "RIP",
+        "collections": [
+            "IPv6 Subnetting",
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Cloud Security",
+        "collections": [
+            "AWS Certified Cloud Practitioner",
+            "CompTIA Cloud+ (CV0-002)",
+            "AWS: Certified Solutions Architect - Associate"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "PivotTables",
+        "collections": [
+            "Microsoft Excel 2016",
+            "Microsoft Excel 2019",
+            "Microsoft Excel for Office 365"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "FHRP",
+        "collections": [
+            "Cisco CCNA 640-878 SPNGN2",
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Cisco CCDP Design 300-320 ARCH"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "VIRL",
+        "collections": [
+            "Cisco Virtual Internet Routing Lab (VIRL) 1.x",
+            "Cisco Virtual Internet Routing Lab (VIRL)",
+            "Cisco CCNA Data Center 200-150 DCICN"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Cloud Service",
+        "collections": [
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "Using Oracle Database Cloud Service",
+            "Cisco CCNA Cloud 210-451 CLDFND"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Physical Security",
+        "collections": [
+            "CompTIA Network+ (N10-006)",
+            "CompTIA Network+ (N10-007)",
+            "CompTIA Security+ (SY0-501)"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Network Configuration",
+        "collections": [
+            "Microsoft Windows Server 2012 70-417 with R2 Updates",
+            "GNS3 1.2 Fundamentals",
+            "Oracle Network Environment Configuration"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "VM Management",
+        "collections": [
+            "Microsoft Windows Server 2012 70-414 with R2 Updates",
+            "Microsoft Windows Server 2012 70-417 with R2 Updates",
+            "Microsoft Azure: Developing Solutions (70-532)"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "VPC",
+        "collections": [
+            "AWS Technical Essentials",
+            "AWS Certified SysOps Administrator - Associate",
+            "AWS: Certified Solutions Architect - Associate"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "CME",
+        "collections": [
+            "Cisco VoIP CCNA Voice ICOMM 640-461",
+            "Cisco VoIP CCNP Voice CVOICE v8.0 642-437",
+            "Cisco CCNA Collaboration 210-060 CICD"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "URL Filtering",
+        "collections": [
+            "Check Point CCSA GAiA 156-215.76",
+            "Palo Alto Networks Firewall",
+            "Using Palo Alto v8.x Advanced Features"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "CIM",
+        "collections": [
+            "Microsoft PowerShell 4 Foundations",
+            "Microsoft PowerShell Reference Training",
+            "Microsoft PowerShell 6 Foundations"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "UDP",
+        "collections": [
+            "CompTIA A+ (220-901)",
+            "Cisco CCIE RS Core Concepts - Network Principles",
+            "Cisco CCENT/CCNA 100-101 ICND1 v2.0"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Network Diagrams",
+        "collections": [
+            "Microsoft Visio 2013",
+            "GNS3 1.2 Fundamentals",
+            "CompTIA Network+ (N10-007)"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Conditionals",
+        "collections": [
+            "Everything Linux",
+            "Chef: Using Chef",
+            "Ansible Essentials"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Network Fundamentals",
+        "collections": [
+            "Cisco CCENT ICND1 640-822",
+            "Cisco CCNA ICND2 640-816",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "IP SLA",
+        "collections": [
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCIE RS Core Concepts - Infrastructure Services",
+            "Cisco CCNA Routing and Switching 200-105 ICND2"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "C Series",
+        "collections": [
+            "Introducing the Cisco UCS",
+            "Basic Cisco UCS Troubleshooting",
+            "Cisco CCNA Cloud 210-451 CLDFND"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "PowerPivot",
+        "collections": [
+            "Microsoft Excel 2016",
+            "Microsoft Excel 2019",
+            "Microsoft Excel for Office 365"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "BLOB Storage",
+        "collections": [
+            "Microsoft SQL Server 2014: Developing Databases (70-464)",
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "Microsoft Azure: Implementing Infrastructure Solutions (70-533)"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Threats",
+        "collections": [
+            "CompTIA A+ (220-902)",
+            "CompTIA Network+ (N10-006)",
+            "CompTIA CySA+ (CS0-001)"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Network Scanning",
+        "collections": [
+            "Wireshark",
+            "CompTIA Network+ (N10-007)",
+            "CompTIA Security+ (SY0-501)"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Threat Mitigation",
+        "collections": [
+            "CompTIA Security+ (SY0-401)",
+            "CompTIA Security+ (SY0-501)",
+            "CompTIA CySA+ (CS0-001)"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "B Series",
+        "collections": [
+            "Introducing the Cisco UCS",
+            "Basic Cisco UCS Troubleshooting",
+            "Cisco CCNA Cloud 210-451 CLDFND"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Malware",
+        "collections": [
+            "CompTIA Security+ (SY0-401)",
+            "CompTIA A+ (220-902)",
+            "White Hat Hacking v10"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Voice",
+        "collections": [
+            "Cisco VoIP CCNA Voice ICOMM 640-461",
+            "Cisco VoIP CCNP Voice CVOICE v8.0 642-437",
+            "Cisco CCNA Collaboration 210-060 CICD"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Loops",
+        "collections": [
+            "Java Essentials",
+            "Python Programming",
+            "Ansible Essentials"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "PPP",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - Layer 2 Technologies",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Cisco CCNA Routing and Switching 200-105 ICND2"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "DMVPN",
+        "collections": [
+            "Cisco CCNP Security 300-209 SIMOS",
+            "Cisco CCIE RS Core Concepts - VPN Technologies",
+            "Cisco CCNP ROUTE 300-101 Hands-on Labs Exam Prep"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Resource Management",
+        "collections": [
+            "CompTIA Project+ (PK0-004)",
+            "NetApp Certified Storage Associate (NCSA) NS0-145",
+            "Microsoft Azure: Implementing Infrastructure Solutions (70-533)"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Profiles",
+        "collections": [
+            "Palo Alto Networks Firewall",
+            "Using Palo Alto v8.x Advanced Features",
+            "Getting Started with Palo Alto Firewalls v8.x"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Frame Relay",
+        "collections": [
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3",
+            "Cisco CCNP Routing and Switching 300-101 ROUTE",
+            "Cisco CCNP ROUTE 300-101 Hands-on Labs Exam Prep"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Project Tools",
+        "collections": [
+            "CompTIA Project+ (PK0-004)",
+            "PRINCE2®: Foundation",
+            "Project Management for the Real World"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "What-if Analysis",
+        "collections": [
+            "Microsoft Excel 2016",
+            "Microsoft Excel 2019",
+            "Microsoft Excel for Office 365"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Protocol Security",
+        "collections": [
+            "CompTIA Security+ (SY0-401)",
+            "Palo Alto Networks Firewall",
+            "CompTIA Security+ (SY0-501)"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Apache",
+        "collections": [
+            "Apache Hadoop",
+            "Everything Linux",
+            "Linux Professional Institute LPIC-2 (202-400)"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Data Flows",
+        "collections": [
+            "Microsoft SQL: Data Quality",
+            "Azure SQL Essentials",
+            "Microsoft SQL: SSIS"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Wireless Security",
+        "collections": [
+            "CompTIA Security+ (SY0-401)",
+            "Penetration Testing with Linux Tools",
+            "White Hat Hacking v10"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Data Integrity",
+        "collections": [
+            "Microsoft SQL Server 2014: Developing Databases (70-464)",
+            "Microsoft SQL Server 2012: Developing Databases (70-464)",
+            "AWS Certified SysOps Administrator - Associate"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "OS Installation",
+        "collections": [
+            "Microsoft Windows Vista Configuring 70-620",
+            "Microsoft MTA Windows OS Fundamentals 98-349",
+            "Microsoft Windows 10: Installing and Configuring (70-698)"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Python",
+        "collections": [
+            "Google App Engine: Qualified Developer",
+            "CPD200: Developing Solutions for Google Cloud Platform",
+            "Python Programming"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Workflows",
+        "collections": [
+            "Microsoft PowerShell 4 Foundations",
+            "Microsoft SharePoint Server 2007 Configure 70-630",
+            "Microsoft Visual Studio 2012 70-480"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Snooping",
+        "collections": [
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Cisco CCIE RS Core Concepts - Infrastructure Security",
+            "Juniper JNCIS-ENT (JN0-343) - Layer 2 Security"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "AWS Billing and Pricing",
+        "collections": [
+            "AWS Certified SysOps Administrator - Associate",
+            "AWS Certified Cloud Practitioner",
+            "AWS: Certified Solutions Architect - Associate"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "RBAC",
+        "collections": [
+            "Introducing the Cisco UCS",
+            "Microsoft Azure: Architecting Solutions (70-535)",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "XML",
+        "collections": [
+            "Microsoft SQL Server 2014: Developing Databases (70-464)",
+            "Microsoft MCTS Accessing Data with .NET Framework 4 70-516",
+            "Microsoft SQL Server 2012: Developing Databases (70-464)"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Dynamic Routing",
+        "collections": [
+            "Palo Alto Networks Firewall",
+            "CompTIA Network+ (N10-006)",
+            "Getting Started with Palo Alto Firewalls v8.x"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "API",
+        "collections": [
+            "Cisco CCNA Data Center 200-155 DCICT",
+            "AWS Security: Access Management",
+            "Microsoft Azure: Architecting Solutions (70-535)"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Reference",
+        "collections": [
+            "Microsoft Word 2016",
+            "Microsoft Word 2019",
+            "Microsoft Word for Office 365"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "vCenter Server",
+        "collections": [
+            "VMware Horizon 6 (with View)",
+            "VMware VCA-DCV",
+            "VMware vSphere 6.5 (VCP6.5-DCV) with 6.7 Updates"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Server 2014",
+        "collections": [
+            "Microsoft SQL Server 2014: Developing Databases (70-464)",
+            "Microsoft SQL Server 2012: Designing Database Solutions (70-465)",
+            "Microsoft SQL Server 2014: Designing Database Solutions (70-465)"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Gateways",
+        "collections": [
+            "Cisco VoIP CCNA Voice ICOMM 640-461",
+            "Cisco VoIP CCNP Voice CVOICE v8.0 642-437",
+            "Check Point CCSA R80"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "JavaScript",
+        "collections": [
+            "ReactJS",
+            "AngularJS",
+            "Microsoft Visual Studio 2012 70-480"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "vMotion",
+        "collections": [
+            "VMware vSphere 6 (VCP6-DCV)",
+            "VMware vSphere 5.5 VCP5-DCV",
+            "VMware VCA-DCV"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Server Configuration",
+        "collections": [
+            "Microsoft Windows Server 2012: Installing and Configuring (70-410)",
+            "Microsoft Windows Server 2012 70-417 with R2 Updates",
+            "Microsoft MCSA SQL Server 2016 (70-765)"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "DAX",
+        "collections": [
+            "Microsoft SQL: Data Modeling",
+            "Microsoft MCSA Analyzing and Visualizing Data with Power BI (70-778)",
+            "Microsoft SQL: MDX and DAX"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Navigation",
+        "collections": [
+            "Microsoft Excel 2019",
+            "Microsoft Excel for Office 365",
+            "Salesforce Lightning for Business Users"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "OSPFv3",
+        "collections": [
+            "Cisco CCNP Routing and Switching 300-101 ROUTE",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Cisco CCNA Routing and Switching 200-105 ICND2"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "vSphere Distributed Switch",
+        "collections": [
+            "VMware vSphere 6 (VCP6-DCV)",
+            "VMware vSphere 5.5 VCP5-DCV",
+            "VMware NSX Introduction and Installation"
+        ],
+        "collCount": 3
+    },
+    {
+        "title": "Data Analysis",
+        "collections": [
+            "AWS Certified SysOps Administrator - Associate",
+            "Salesforce Lightning for Business Users"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Data Access",
+        "collections": [
+            "Microsoft Windows 10: Installing and Configuring (70-698)",
+            "Microsoft MCSA SQL Server 2016 (70-764)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Protective Controls",
+        "collections": [
+            "White Hat Hacking v10",
+            "AWS Security: Protective Controls"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Data",
+        "collections": [
+            "Microsoft SQL Server: Database Fundamentals (98-364)",
+            "Microsoft SQL Server 2012: Implementing a Data Warehouse (70-463)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Lightning",
+        "collections": [
+            "Navigate and Personalize Salesforce Lightning",
+            "Transition to Salesforce Lightning for Business Users"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Task Manager",
+        "collections": [
+            "CompTIA A+ (220-902)",
+            "Microsoft Windows 10: Installing and Configuring (70-698)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "DMZ",
+        "collections": [
+            "Palo Alto Networks Firewall",
+            "Getting Started with Palo Alto Firewalls v8.x"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Telephony",
+        "collections": [
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCNA Collaboration 210-060 CICD"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Professional Communication",
+        "collections": [
+            "CompTIA Project+ (PK0-004)",
+            "Project Management for the Real World"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "DAI",
+        "collections": [
+            "Cisco CCNA Security 210-260 IINS",
+            "Juniper JNCIS-ENT (JN0-343) - Layer 2 Security"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Leads",
+        "collections": [
+            "Salesforce Admin - Classic Interface",
+            "Salesforce Lightning for Business Users"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Telepresence",
+        "collections": [
+            "Cisco CCNA Collaboration 210-065 CIVND2",
+            "Cisco CCNA Collaboration 210-065 CIVND1"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "TMS",
+        "collections": [
+            "Cisco CCNA Collaboration 210-065 CIVND2",
+            "Cisco CCNA Collaboration 210-060 CICD"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Cookbooks",
+        "collections": ["Chef: Using Chef", "Chef Fundamentals"],
+        "collCount": 2
+    },
+    {
+        "title": "Data Optimization",
+        "collections": [
+            "Microsoft SQL Server 2012: Administering Databases (70-462)",
+            "Microsoft SQL Server 2012: Querying (70-461)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "PowerPoint",
+        "collections": [
+            "Microsoft PowerPoint 2016",
+            "What's New in Office 2016"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Data Prep",
+        "collections": [
+            "Tableau Essentials",
+            "Microsoft MCSA Analyzing and Visualizing Data with Power BI (70-778)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Contacts",
+        "collections": [
+            "Microsoft Outlook 2016",
+            "Salesforce Lightning for Business Users"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Database Design",
+        "collections": [
+            "Microsoft SQL Server 2012: Designing Database Solutions (70-465)",
+            "Microsoft SQL: Designing a Data Warehouse"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Constraints",
+        "collections": ["CompTIA Project+ (PK0-004)", "Microsoft SQL: SSIS"],
+        "collCount": 2
+    },
+    {
+        "title": "Storage Management",
+        "collections": [
+            "Moving Data",
+            "EMC Information Storage and Management"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Three-Tier Architecture",
+        "collections": [
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Cisco CCNA Data Center 200-150 DCICN"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Public Web Server",
+        "collections": [
+            "White Hat Hacking v10",
+            "AWS Security: Protective Controls"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Microsoft Word",
+        "collections": ["Microsoft Word 2019", "Microsoft Word for Office 365"],
+        "collCount": 2
+    },
+    {
+        "title": "LSP",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - VPN Technologies",
+            "MPLS Fundamentals"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Mobile Security",
+        "collections": ["CompTIA A+ (220-902)", "White Hat Hacking v10"],
+        "collCount": 2
+    },
+    {
+        "title": "Database Security",
+        "collections": [
+            "Microsoft SQL Server 2012: Designing Database Solutions (70-465)",
+            "Microsoft SQL Server 2012: Developing Databases (70-464)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Triggers",
+        "collections": [
+            "CompTIA Project+ (PK0-004)",
+            "Microsoft PowerPoint 2016"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "LAN Switching",
+        "collections": [
+            "Cisco CCENT ICND1 640-822",
+            "Cisco Data Center Networking Fundamentals"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Tunneling",
+        "collections": [
+            "Everything Linux",
+            "Juniper JNCIS-ENT (JN0-343) – Protocol Independent Routing Tunnels"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Datasources",
+        "collections": [
+            "Tableau Essentials",
+            "Microsoft MCSA Analyzing and Visualizing Data with Power BI (70-778)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Port Mirroring",
+        "collections": [
+            "CompTIA Network+ (N10-006)",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Social Engineering",
+        "collections": ["CompTIA Security+ (SY0-401)", "White Hat Hacking v10"],
+        "collCount": 2
+    },
+    {
+        "title": "Ubuntu",
+        "collections": ["Everything Linux", "Ubuntu"],
+        "collCount": 2
+    },
+    {
+        "title": "Diagrams",
+        "collections": ["Microsoft Visio 2013", "Microsoft PowerPoint 2016"],
+        "collCount": 2
+    },
+    {
+        "title": "Unity Connection",
+        "collections": [
+            "Cisco VoIP CCNA Voice ICOMM 640-461",
+            "Cisco CCNA Collaboration 210-060 CICD"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "DoS/DDoS",
+        "collections": [
+            "White Hat Hacking v10",
+            "AWS Security: Protective Controls"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Planning",
+        "collections": [
+            "CompTIA Project+ (PK0-004)",
+            "Professional Course: Building a Network Design that Works"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Sniffing",
+        "collections": ["White Hat Hacking v9", "White Hat Hacking v10"],
+        "collCount": 2
+    },
+    {
+        "title": "Cloud Migration",
+        "collections": [
+            "Azure SQL Essentials",
+            "AWS: Certified Solutions Architect - Associate"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Service Provider",
+        "collections": [
+            "Cisco CCNA 640-878 SPNGN2",
+            "Cisco CCDP Design 300-320 ARCH"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "NLRI",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Border Gateway Protocol (BGP): Advertising NLRI"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Jabber",
+        "collections": [
+            "Cisco CCNA Collaboration 210-065 CIVND2",
+            "Cisco CCNA Collaboration 210-060 CICD"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Pipeline",
+        "collections": [
+            "Microsoft PowerShell 4 Foundations",
+            "Microsoft PowerShell Reference Training"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Server Migration",
+        "collections": [
+            "Microsoft Windows Server 2012 70-417 with R2 Updates",
+            "Install Windows Server in Host and Compute Environments"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "VCS",
+        "collections": [
+            "Cisco CCNA Collaboration 210-065 CIVND2",
+            "Cisco CCNA Collaboration 210-060 CICD"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "RIPng",
+        "collections": [
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNP ROUTE 300-101 Hands-on Labs Exam Prep"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Cloud Computing",
+        "collections": [
+            "Cisco CCNA Cloud 210-451 CLDFND",
+            "White Hat Hacking v10"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "IoT",
+        "collections": [
+            "Microsoft Azure: Architecting Solutions (70-535)",
+            "White Hat Hacking v10"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Chef Server",
+        "collections": ["Chef: Using Chef", "Chef Fundamentals"],
+        "collCount": 2
+    },
+    {
+        "title": "Server Installation",
+        "collections": [
+            "Microsoft Windows Server 2012: Installing and Configuring (70-410)",
+            "Microsoft MCSA SQL Server 2016 (70-765)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Netflow",
+        "collections": [
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCIE RS Core Concepts - Infrastructure Services"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "ESXi Host",
+        "collections": [
+            "VMware vSphere 6 (VCP6-DCV)",
+            "VMware NSX Introduction and Installation"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Chef Repo",
+        "collections": ["Chef: Using Chef", "Chef Fundamentals"],
+        "collCount": 2
+    },
+    {
+        "title": "Elasticity",
+        "collections": [
+            "AWS Certified SysOps Administrator - Associate",
+            "AWS: Certified Solutions Architect - Associate"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Network Analysis",
+        "collections": ["CompTIA Network+ (N10-006)", "Wireshark"],
+        "collCount": 2
+    },
+    {
+        "title": "Security Tools",
+        "collections": [
+            "CompTIA Security+ (SY0-401)",
+            "CompTIA CySA+ (CS0-001)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Change Management",
+        "collections": ["CompTIA Project+ (PK0-004)", "ITIL® Foundation"],
+        "collCount": 2
+    },
+    {
+        "title": "Security Assessment",
+        "collections": [
+            "CompTIA Security+ (SY0-501)",
+            "Information Security: Security Assessment and Testing"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "CentOS",
+        "collections": ["Everything Linux", "CentOS System Administrator Prep"],
+        "collCount": 2
+    },
+    {
+        "title": "Implementation",
+        "collections": [
+            "Microsoft SQL Server 2012: Implementing a Data Warehouse (70-463)",
+            "Microsoft Azure: Architecting Solutions (70-535)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "VLSM",
+        "collections": [
+            "Cisco CCNA 640-875 SPNGN1",
+            "Cisco CCENT/CCNA 100-101 ICND1 v2.0"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "ACI",
+        "collections": [
+            "Cisco CCNA Data Center 200-155 DCICT",
+            "Cisco CCNA Cloud 210-451 CLDFND"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "VPLS",
+        "collections": [
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCIE RS Core Concepts - VPN Technologies"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Endpoints",
+        "collections": [
+            "Cisco CCNA Collaboration 210-065 CIVND2",
+            "Microsoft Azure: Developing Solutions (70-532)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Phone Configuration",
+        "collections": [
+            "Cisco VoIP CCNP Voice CIPT1 v8.0 642-447",
+            "Cisco CCNA Collaboration 210-060 CICD"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Secure Access",
+        "collections": [
+            "Cisco CCNA Security 210-260 IINS",
+            "Microsoft MCSA SQL Server 2016 (70-765)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "CISSP 2018",
+        "collections": [
+            "Information Security: Software Development Security",
+            "Information Security: Communication and Network Security"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Error Handling",
+        "collections": [
+            "Microsoft PowerShell Reference Training",
+            "Microsoft MCSA Analyzing and Visualizing Data with Power BI (70-778)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "VRF",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - VPN Technologies",
+            "MPLS Fundamentals"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Scaling",
+        "collections": [
+            "Microsoft Azure: Developing Solutions (70-532)",
+            "Microsoft Azure: Implementing Infrastructure Solutions (70-533)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "CIA",
+        "collections": [
+            "Cisco CCNA Security 210-260 IINS",
+            "Cisco CCNA Cyber Ops 210-250 SECFND"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Scalability",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Border Gateway Protocol (BGP): Scalability Mechanisms"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "VRRP",
+        "collections": [
+            "Cisco CCNP Routing and Switching 300-115 SWITCH",
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Samba",
+        "collections": [
+            "Everything Linux",
+            "Linux Professional Institute LPIC-2 (202-400)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Network Load Balancing (NLB)",
+        "collections": [
+            "Microsoft Windows Server 2012 with R2 Updates (70-412)",
+            "Google Compute Engine: Qualified Developer"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "IP Routing",
+        "collections": [
+            "CompTIA Network+ (N10-006)",
+            "CompTIA Network+ (N10-007)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "VSAN",
+        "collections": [
+            "VMware vSphere 6 (VCP6-DCV)",
+            "Basic Cisco Unified Fabric Troubleshooting"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "IP Phones",
+        "collections": [
+            "Cisco CCNA Collaboration 210-065 CIVND2",
+            "Cisco CCNA Collaboration 210-060 CICD"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "VTI",
+        "collections": [
+            "Cisco CCNP Security 300-209 SIMOS",
+            "Cisco CCIE RS Core Concepts - VPN Technologies"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Exchange Server",
+        "collections": [
+            "Microsoft Exchange Server 2016: Client Access Services",
+            "Microsoft Exchange Server 2016: Mailbox Databases"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Video",
+        "collections": [
+            "CompTIA A+ (220-901)",
+            "Cisco CCNA Collaboration 210-065 CIVND1"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Exchange Server 2016",
+        "collections": [
+            "Microsoft Exchange Server 2016: Client Access Services",
+            "Microsoft Exchange Server 2016: Mailbox Databases"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Peering",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies",
+            "Microsoft Azure: Implementing Infrastructure Solutions (70-533)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Expressions",
+        "collections": [
+            "AngularJS",
+            "Cisco CCIE RS Core Concepts - Layer 3 Technologies"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Video Conferencing",
+        "collections": [
+            "Cisco CCNA Collaboration 210-065 CIVND2",
+            "Cisco CCNP Collaboration CIPTV1 300-070"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Fabric",
+        "collections": [
+            "Introducing the Cisco UCS",
+            "Basic Cisco Unified Fabric Troubleshooting"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "WMI",
+        "collections": [
+            "Microsoft PowerShell 4 Foundations",
+            "Microsoft PowerShell Reference Training"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Federation Services",
+        "collections": [
+            "Microsoft Windows Server 2012 70-417 with R2 Updates",
+            "AWS Security: Access Management"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "PSTN",
+        "collections": [
+            "Cisco CCNA Collaboration 210-060 CICD",
+            "Cisco CCNP Collaboration CIPTV1 300-070"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Fibre Channel",
+        "collections": [
+            "Cisco Data Center Networking Technologies",
+            "Basic Cisco Unified Fabric Troubleshooting"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Network Storage",
+        "collections": [
+            "CompTIA Network+ (N10-007)",
+            "Cisco CCNA Data Center 200-150 DCICN"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "SPAN",
+        "collections": [
+            "Basic Cisco UCS Troubleshooting",
+            "Cisco CCNA Routing and Switching 200-105 ICND2"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Auditing",
+        "collections": [
+            "Microsoft Windows Server 2012: Administering (70-411)",
+            "Microsoft MCSA SQL Server 2016 (70-764)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "For Loops",
+        "collections": [
+            "Everything Linux",
+            "Microsoft PowerShell 6 Foundations"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Attack Types",
+        "collections": [
+            "CompTIA Security+ (SY0-401)",
+            "Penetration Testing with Linux Tools"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Forensics",
+        "collections": [
+            "CompTIA Security+ (SY0-401)",
+            "CompTIA Network+ (N10-006)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "White Hat",
+        "collections": ["White Hat Hacking v9", "White Hat Hacking v10"],
+        "collCount": 2
+    },
+    {
+        "title": "Forms",
+        "collections": [
+            "Android App Development with Java",
+            "Microsoft Excel 2016"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Antivirus",
+        "collections": [
+            "Palo Alto Networks Firewall",
+            "Using Palo Alto v8.x Advanced Features"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "SOHO",
+        "collections": ["CompTIA A+ (220-901)", "Cisco CCNA ICND2 640-816"],
+        "collCount": 2
+    },
+    {
+        "title": "Network Virtualization",
+        "collections": [
+            "Microsoft Windows Server 2012 70-414 with R2 Updates",
+            "Cisco CCNA Data Center 200-155 DCICT"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Hardening",
+        "collections": [
+            "Cisco CCNA Security 210-260 IINS",
+            "CompTIA Network+ (N10-006)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Windows Updates",
+        "collections": [
+            "CompTIA A+ (220-902)",
+            "Microsoft Windows 10: Configuring Windows Devices (70-697)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Restore",
+        "collections": [
+            "Cisco CCENT/CCNA 100-105 ICND1",
+            "Microsoft MCSA SQL Server 2016 (70-764)"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Wireless Networks",
+        "collections": [
+            "Cisco CCNA Wireless 200-355 WIFUND",
+            "White Hat Hacking v10"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Hacking",
+        "collections": ["White Hat Hacking v9", "White Hat Hacking v10"],
+        "collCount": 2
+    },
+    {
+        "title": "Affinity",
+        "collections": [
+            "VMware vSphere 6 (VCP6-DCV)",
+            "VMware vSphere 5.5 VCP5-DCV"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "GRE",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - VPN Technologies",
+            "Cisco CCNA Hands-on Labs Using Wireshark & GNS3"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Outlook",
+        "collections": ["What's New in Office 2016", "Microsoft Outlook 2016"],
+        "collCount": 2
+    },
+    {
+        "title": "GRE Tunneling",
+        "collections": [
+            "IPv6 Subnetting",
+            "Cisco CCNA Routing and Switching 200-105 ICND2"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Access List",
+        "collections": [
+            "Cisco CCNP Routing and Switching 300-135 TSHOOT",
+            "Cisco CCNA ICND2 640-816"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "SLA",
+        "collections": [
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCNA Routing and Switching 200-105 ICND2"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Word 2019",
+        "collections": ["Microsoft Word 2019", "Microsoft Word for Office 365"],
+        "collCount": 2
+    },
+    {
+        "title": "Route Plans",
+        "collections": [
+            "Cisco VoIP CCNP Voice CIPT1 v8.0 642-447",
+            "Cisco CCNA Collaboration 210-060 CICD"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "vCSA",
+        "collections": [
+            "VMware vSphere 6 (VCP6-DCV)",
+            "VMware vSphere 6.5 (VCP6.5-DCV) with 6.7 Updates"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Routers",
+        "collections": [
+            "CompTIA Network+ (N10-006)",
+            "IT Expert: Installing Network Cabling and Devices"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Routing Protocols",
+        "collections": [
+            "Cisco CCDP Design 300-320 ARCH",
+            "Cisco CCDA Design 200-310 DESGN"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "DRS",
+        "collections": [
+            "VMware vSphere 6 (VCP6-DCV)",
+            "VMware vSphere 5.5 VCP5-DCV"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": ".NET 4",
+        "collections": [
+            "Microsoft Programming .NET 4 Software Development Fundamentals 98-361",
+            "Microsoft MCTS Accessing Data with .NET Framework 4 70-516"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Security Architecture",
+        "collections": [
+            "CompTIA CySA+ (CS0-001)",
+            "Information Security: Security Architecture and Engineering"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "vSwitch",
+        "collections": [
+            "VMware vSphere 6 (VCP6-DCV)",
+            "VMware vSphere 5.5 VCP5-DCV"
+        ],
+        "collCount": 2
+    },
+    {
+        "title": "Objects",
+        "collections": ["Salesforce Admin - Classic Interface"],
+        "collCount": 1
+    },
+    {
+        "title": "Server Instances",
+        "collections": ["Microsoft MCSA SQL Server 2016 (70-765)"],
+        "collCount": 1
+    },
+    {
+        "title": "EC2",
+        "collections": ["AWS Technical Essentials"],
+        "collCount": 1
+    },
+    {
+        "title": "Server Virtualization",
+        "collections": ["Cisco CCNA Cloud 210-451 CLDFND"],
+        "collCount": 1
+    },
+    {
+        "title": "ECN",
+        "collections": ["Cisco CCDP Design 300-320 ARCH"],
+        "collCount": 1
+    },
+    {
+        "title": "Session Hacking",
+        "collections": ["White Hat Hacking v10"],
+        "collCount": 1
+    },
+    {
+        "title": "Shared Responsibility Model",
+        "collections": ["AWS Technical Essentials"],
+        "collCount": 1
+    },
+    {
+        "title": "Shared Security",
+        "collections": ["AWS: Certified Solutions Architect - Associate"],
+        "collCount": 1
+    },
+    {
+        "title": "E-commerce",
+        "collections": ["Cisco CCDP Design 300-320 ARCH"],
+        "collCount": 1
+    },
+    {
+        "title": "Skype",
+        "collections": ["Using Skype for Business"],
+        "collCount": 1
+    },
+    {
+        "title": "ELB",
+        "collections": ["AWS Certified SysOps Administrator - Associate"],
+        "collCount": 1
+    },
+    {
+        "title": "Snapshots",
+        "collections": ["VMware vSphere 5.5 VCP5-DCV"],
+        "collCount": 1
+    },
+    {
+        "title": "Server Access",
+        "collections": ["Palo Alto Networks Firewall"],
+        "collCount": 1
+    },
+    {
+        "title": "DynamoDB",
+        "collections": ["AWS Technical Essentials"],
+        "collCount": 1
+    },
+    {
+        "title": "ESXi Shell",
+        "collections": ["VMware vSphere 5.5 VCP5-DCV"],
+        "collCount": 1
+    },
+    { "title": "Directives", "collections": ["AngularJS"], "collCount": 1 },
+    {
+        "title": "Security Zones",
+        "collections": ["Getting Started with Palo Alto Firewalls v8.x"],
+        "collCount": 1
+    },
+    {
+        "title": "Diagnostics",
+        "collections": ["Microsoft Azure: Developing Solutions (70-532)"],
+        "collCount": 1
+    },
+    { "title": "Elements", "collections": ["ReactJS"], "collCount": 1 },
+    {
+        "title": "DevNet",
+        "collections": ["Cisco CCNA Data Center 200-150 DCICN"],
+        "collCount": 1
+    },
+    {
+        "title": "Security Principles",
+        "collections": ["CompTIA A+ (220-902)"],
+        "collCount": 1
+    },
+    {
+        "title": "Deployment and Provisioning",
+        "collections": ["AWS Certified SysOps Administrator - Associate"],
+        "collCount": 1
+    },
+    {
+        "title": "ElseIf",
+        "collections": ["Microsoft PowerShell 6 Foundations"],
+        "collCount": 1
+    },
+    {
+        "title": "Spine Leaf",
+        "collections": ["Cisco CCNA Data Center 200-150 DCICN"],
+        "collCount": 1
+    },
+    {
+        "title": "Security Group Rules",
+        "collections": ["AWS Security: Protective Controls"],
+        "collCount": 1
+    },
+    {
+        "title": "Spoofing",
+        "collections": ["Cisco CCNP Routing and Switching 300-135 TSHOOT"],
+        "collCount": 1
+    },
+    {
+        "title": "Security Controls",
+        "collections": ["Salesforce Admin - Classic Interface"],
+        "collCount": 1
+    },
+    {
+        "title": "Spreadsheets",
+        "collections": ["Microsoft Excel 2016"],
+        "collCount": 1
+    },
+    {
+        "title": "Security Concepts",
+        "collections": ["Cisco CCNA Cyber Ops 210-250 SECFND"],
+        "collCount": 1
+    },
+    {
+        "title": "Sprint Execution",
+        "collections": ["Scrum Essentials"],
+        "collCount": 1
+    },
+    {
+        "title": "Email Security",
+        "collections": ["Cisco CCNP Security 300-207 SITCS"],
+        "collCount": 1
+    },
+    {
+        "title": "Sprint Planning",
+        "collections": ["Scrum Essentials"],
+        "collCount": 1
+    },
+    {
+        "title": "Endpoint Addressing",
+        "collections": ["Cisco CCNP Collaboration CIPTV1 300-070"],
+        "collCount": 1
+    },
+    {
+        "title": "Deliverables",
+        "collections": ["PRINCE2®: Foundation"],
+        "collCount": 1
+    },
+    {
+        "title": "Endpoint Security",
+        "collections": ["AWS Security: Access Management"],
+        "collCount": 1
+    },
+    {
+        "title": "Statistics",
+        "collections": ["Microsoft MCSA SQL Server 2016 (70-764)"],
+        "collCount": 1
+    },
+    {
+        "title": "Secure Identities",
+        "collections": ["Secure Identities with Azure"],
+        "collCount": 1
+    },
+    {
+        "title": "Decryption",
+        "collections": ["Using Palo Alto v8.x Advanced Features"],
+        "collCount": 1
+    },
+    {
+        "title": "Enterprise Network Architecture",
+        "collections": ["Cisco CCDP Design 300-320 ARCH"],
+        "collCount": 1
+    },
+    {
+        "title": "Debugging",
+        "collections": ["Microsoft Azure: Developing Solutions (70-532)"],
+        "collCount": 1
+    },
+    { "title": "Scrum", "collections": ["Scrum Essentials"], "collCount": 1 },
+    {
+        "title": "Database Objects",
+        "collections": [
+            "Microsoft SQL Server 2012: Designing Database Solutions (70-465)"
+        ],
+        "collCount": 1
+    },
+    {
+        "title": "Ethernet Switching",
+        "collections": ["Cisco CCNA Cyber Ops 210-250 SECFND"],
+        "collCount": 1
+    },
+    {
+        "title": "Structures",
+        "collections": ["CompTIA Project+ (PK0-004)"],
+        "collCount": 1
+    },
+    {
+        "title": "Schedule",
+        "collections": ["CompTIA Project+ (PK0-004)"],
+        "collCount": 1
+    },
+    {
+        "title": "Database Integrity",
+        "collections": ["Microsoft MCSA SQL Server 2016 (70-764)"],
+        "collCount": 1
+    },
+    {
+        "title": "Excel 2016",
+        "collections": ["Microsoft Excel 2016"],
+        "collCount": 1
+    },
+    {
+        "title": "Switches",
+        "collections": ["CompTIA Network+ (N10-006)"],
+        "collCount": 1
+    },
+    {
+        "title": "Excel 2019",
+        "collections": ["Microsoft Excel 2019"],
+        "collCount": 1
+    },
+    {
+        "title": "Data Validation",
+        "collections": ["Microsoft Excel 2016"],
+        "collCount": 1
+    },
+    {
+        "title": "Excel Office 365",
+        "collections": ["Microsoft Excel for Office 365"],
+        "collCount": 1
+    },
+    {
+        "title": "System Hacking",
+        "collections": ["White Hat Hacking v10"],
+        "collCount": 1
+    },
+    {
+        "title": "Salesforce Apps",
+        "collections": ["Salesforce Admin - Classic Interface"],
+        "collCount": 1
+    },
+    {
+        "title": "System Utilities",
+        "collections": ["CompTIA A+ (220-902)"],
+        "collCount": 1
+    },
+    {
+        "title": "SWOT",
+        "collections": ["CompTIA Project+ (PK0-004)"],
+        "collCount": 1
+    },
+    {
+        "title": "Data Models",
+        "collections": ["Azure SQL Essentials"],
+        "collCount": 1
+    },
+    {
+        "title": "SWF",
+        "collections": ["AWS Certified Solutions Architect - Associate"],
+        "collCount": 1
+    },
+    {
+        "title": "Data Filtering",
+        "collections": ["Using Palo Alto v8.x Advanced Features"],
+        "collCount": 1
+    },
+    {
+        "title": "Execution",
+        "collections": ["CompTIA Project+ (PK0-004)"],
+        "collCount": 1
+    },
+    { "title": "Data Binding", "collections": ["AngularJS"], "collCount": 1 },
+    {
+        "title": "SSO",
+        "collections": ["AWS Security: Access Management"],
+        "collCount": 1
+    },
+    {
+        "title": "Tableau",
+        "collections": ["Tableau Essentials"],
+        "collCount": 1
+    },
+    {
+        "title": "FEX",
+        "collections": ["Cisco CCNA Data Center 200-155 DCICT"],
+        "collCount": 1
+    },
+    {
+        "title": "Tableau Server",
+        "collections": ["Tableau Essentials"],
+        "collCount": 1
+    },
+    {
+        "title": "Failover Clustering",
+        "collections": ["Microsoft MCSA SQL Server 2016 (70-764)"],
+        "collCount": 1
+    },
+    {
+        "title": "Data Bags",
+        "collections": ["Chef: Using Chef"],
+        "collCount": 1
+    },
+    {
+        "title": "Fiber Optics",
+        "collections": ["Cisco CCDP Design 300-320 ARCH"],
+        "collCount": 1
+    },
+    {
+        "title": "Tablespaces",
+        "collections": ["Creating and Managing Tablespaces"],
+        "collCount": 1
+    },
+    {
+        "title": "Fileservers",
+        "collections": ["Everything Linux"],
+        "collCount": 1
+    },
+    { "title": "DNSMasq", "collections": ["Everything Linux"], "collCount": 1 },
+    {
+        "title": "SQL Injection",
+        "collections": ["White Hat Hacking v10"],
+        "collCount": 1
+    },
+    {
+        "title": "DCUI",
+        "collections": ["VMware vSphere 6.5 (VCP6.5-DCV) with 6.7 Updates"],
+        "collCount": 1
+    },
+    { "title": "Filters", "collections": ["AngularJS"], "collCount": 1 },
+    {
+        "title": "DCNM",
+        "collections": ["Basic Cisco Unified Fabric Troubleshooting"],
+        "collCount": 1
+    },
+    {
+        "title": "FirePOWER",
+        "collections": ["Cisco CCNA Security 210-260 IINS"],
+        "collCount": 1
+    },
+    {
+        "title": "Custom Fields",
+        "collections": ["Salesforce Admin - Classic Interface"],
+        "collCount": 1
+    },
+    {
+        "title": "GAiA",
+        "collections": ["Check Point CCSA GAiA 156-215.76"],
+        "collCount": 1
+    },
+    {
+        "title": "Cost Control",
+        "collections": ["CompTIA Project+ (PK0-004)"],
+        "collCount": 1
+    },
+    {
+        "title": "GCP",
+        "collections": [
+            "CPD200: Developing Solutions for Google Cloud Platform"
+        ],
+        "collCount": 1
+    },
+    {
+        "title": "Core Azure Services",
+        "collections": ["Core Azure Services"],
+        "collCount": 1
+    },
+    {
+        "title": "GUI",
+        "collections": ["Microsoft PowerShell Reference Training"],
+        "collCount": 1
+    },
+    {
+        "title": "Threat Management",
+        "collections": ["CompTIA CySA+ (CS0-001)"],
+        "collCount": 1
+    },
+    {
+        "title": "SIP",
+        "collections": ["Cisco CCNP Collaboration CIPTV1 300-070"],
+        "collCount": 1
+    },
+    { "title": "Controllers", "collections": ["AngularJS"], "collCount": 1 },
+    {
+        "title": "Gantt Chart",
+        "collections": ["CompTIA Project+ (PK0-004)"],
+        "collCount": 1
+    },
+    {
+        "title": "Controller Scripts",
+        "collections": ["Microsoft PowerShell Reference Training"],
+        "collCount": 1
+    },
+    {
+        "title": "S3",
+        "collections": ["AWS Technical Essentials"],
+        "collCount": 1
+    },
+    {
+        "title": "Conflict Resolution",
+        "collections": ["CompTIA Project+ (PK0-004)"],
+        "collCount": 1
+    },
+    {
+        "title": "Graphic Design",
+        "collections": ["Photoshop CS6 for Developers"],
+        "collCount": 1
+    },
+    {
+        "title": "Touchless Install",
+        "collections": ["Cisco CCNP Collaboration CIPTV1 300-070"],
+        "collCount": 1
+    },
+    {
+        "title": "Graphs",
+        "collections": ["Microsoft PowerPoint 2016"],
+        "collCount": 1
+    },
+    {
+        "title": "Traffic Filtering",
+        "collections": ["AWS Security: Protective Controls"],
+        "collCount": 1
+    },
+    {
+        "title": "H.225",
+        "collections": ["Cisco CCNP Collaboration CIPTV1 300-070"],
+        "collCount": 1
+    },
+    {
+        "title": "Traffic Manager",
+        "collections": ["Microsoft Azure: Developing Solutions (70-532)"],
+        "collCount": 1
+    },
+    {
+        "title": "H.245",
+        "collections": ["Cisco CCNP Collaboration CIPTV1 300-070"],
+        "collCount": 1
+    },
+    {
+        "title": "Transit Gateway",
+        "collections": ["AWS Security: Protective Controls"],
+        "collCount": 1
+    },
+    {
+        "title": "H.323",
+        "collections": ["Cisco CCNP Collaboration CIPTV1 300-070"],
+        "collCount": 1
+    },
+    {
+        "title": "Confederations",
+        "collections": [
+            "Border Gateway Protocol (BGP): Scalability Mechanisms"
+        ],
+        "collCount": 1
+    },
+    {
+        "title": "Root Account",
+        "collections": ["Everything Linux"],
+        "collCount": 1
+    },
+    {
+        "title": "Compute Services",
+        "collections": ["AWS Certified Solutions Architect - Associate"],
+        "collCount": 1
+    },
+    {
+        "title": "Roles & Responsibilities",
+        "collections": ["CompTIA Project+ (PK0-004)"],
+        "collCount": 1
+    },
+    {
+        "title": "Troubleshooting Methodology",
+        "collections": ["CompTIA A+ (220-902)"],
+        "collCount": 1
+    },
+    {
+        "title": "HDLC",
+        "collections": ["Cisco CCIE RS Core Concepts - Layer 2 Technologies"],
+        "collCount": 1
+    },
+    {
+        "title": "Troubleshooting Tools",
+        "collections": ["CompTIA Network+ (N10-006)"],
+        "collCount": 1
+    },
+    { "title": "HTTPS", "collections": ["Everything Linux"], "collCount": 1 },
+    { "title": "Components", "collections": ["ReactJS"], "collCount": 1 },
+    { "title": "Hadoop", "collections": ["Apache Hadoop"], "collCount": 1 },
+    {
+        "title": "Commands",
+        "collections": ["Microsoft PowerShell 4 Foundations"],
+        "collCount": 1
+    },
+    {
+        "title": "Resource Pools",
+        "collections": ["VMware vSphere 6 (VCP6-DCV)"],
+        "collCount": 1
+    },
+    {
+        "title": "Command Prompt",
+        "collections": ["Windows 10 Power User"],
+        "collCount": 1
+    },
+    {
+        "title": "Honeypots",
+        "collections": ["White Hat Hacking v10"],
+        "collCount": 1
+    },
+    {
+        "title": "Collections",
+        "collections": ["Python Programming"],
+        "collCount": 1
+    },
+    {
+        "title": "Horizon View",
+        "collections": ["VMware Horizon 6 (with View)"],
+        "collCount": 1
+    },
+    {
+        "title": "UI",
+        "collections": ["Android App Development with Java"],
+        "collCount": 1
+    },
+    { "title": "Rendering", "collections": ["ReactJS"], "collCount": 1 },
+    {
+        "title": "UNDO Data",
+        "collections": ["Managing UNDO Data"],
+        "collCount": 1
+    },
+    {
+        "title": "Remote Monitoring",
+        "collections": ["Wireshark"],
+        "collCount": 1
+    },
+    {
+        "title": "Collaboration",
+        "collections": ["Cisco CCNP Collaboration CIPTV1 300-070"],
+        "collCount": 1
+    },
+    {
+        "title": "IGMP",
+        "collections": ["Cisco CCIE RS Core Concepts - Layer 2 Technologies"],
+        "collCount": 1
+    },
+    {
+        "title": "Cmdlets",
+        "collections": ["Microsoft PowerShell 6 Foundations"],
+        "collCount": 1
+    },
+    {
+        "title": "IP Forwarding",
+        "collections": ["CompTIA Network+ (N10-007)"],
+        "collCount": 1
+    },
+    {
+        "title": "Unified Computing",
+        "collections": ["Cisco CCNA Data Center 200-155 DCICT"],
+        "collCount": 1
+    },
+    {
+        "title": "Relationship Building",
+        "collections": ["CompTIA Project+ (PK0-004)"],
+        "collCount": 1
+    },
+    {
+        "title": "Unified Fabric",
+        "collections": ["Cisco CCNA Cloud 210-451 CLDFND"],
+        "collCount": 1
+    },
+    {
+        "title": "Information Security",
+        "collections": ["Cisco CCNA Security 210-260 IINS"],
+        "collCount": 1
+    },
+    {
+        "title": "CloudTrail",
+        "collections": ["AWS Security: Access Management"],
+        "collCount": 1
+    },
+    {
+        "title": "Redistribution",
+        "collections": ["Cisco CCNP Routing and Switching 300-101 ROUTE"],
+        "collCount": 1
+    },
+    {
+        "title": "Cloud Technology",
+        "collections": ["AWS: Certified Solutions Architect - Associate"],
+        "collCount": 1
+    },
+    { "title": "Red Hat", "collections": ["Everything Linux"], "collCount": 1 },
+    {
+        "title": "Cloud Management",
+        "collections": ["CompTIA Cloud+ (CV0-002)"],
+        "collCount": 1
+    },
+    {
+        "title": "Infrastructure Services",
+        "collections": ["Cisco CCNA Routing and Switching 200-105 ICND2"],
+        "collCount": 1
+    },
+    {
+        "title": "VACL",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - Infrastructure Security"
+        ],
+        "collCount": 1
+    },
+    {
+        "title": "Recipes",
+        "collections": ["Chef Fundamentals"],
+        "collCount": 1
+    },
+    {
+        "title": "Cloud Infrastructure",
+        "collections": ["AWS Certified Solutions Architect - Associate"],
+        "collCount": 1
+    },
+    {
+        "title": "Rapport",
+        "collections": ["CompTIA Project+ (PK0-004)"],
+        "collCount": 1
+    },
+    {
+        "title": "Client Access Services",
+        "collections": [
+            "Microsoft Exchange Server 2016: Client Access Services"
+        ],
+        "collCount": 1
+    },
+    {
+        "title": "ROUTE Maps",
+        "collections": ["Cisco CCNP Routing and Switching 300-135 TSHOOT"],
+        "collCount": 1
+    },
+    {
+        "title": "Campus Networks",
+        "collections": ["Cisco CCDP Design 300-320 ARCH"],
+        "collCount": 1
+    },
+    {
+        "title": "Initiation",
+        "collections": ["CompTIA Project+ (PK0-004)"],
+        "collCount": 1
+    },
+    {
+        "title": "Call Privileges",
+        "collections": ["Cisco CCNP Collaboration CIPTV1 300-070"],
+        "collCount": 1
+    },
+    { "title": "JOINs", "collections": ["Tableau Essentials"], "collCount": 1 },
+    {
+        "title": "VM Configuration",
+        "collections": [
+            "Microsoft Azure: Implementing Infrastructure Solutions (70-533)"
+        ],
+        "collCount": 1
+    },
+    { "title": "JSX", "collections": ["ReactJS"], "collCount": 1 },
+    {
+        "title": "Call Coverage",
+        "collections": ["Cisco CCNP Collaboration CIPTV1 300-070"],
+        "collCount": 1
+    },
+    {
+        "title": "RDBMS",
+        "collections": ["Microsoft MCSA SQL Server 2016 (70-765)"],
+        "collCount": 1
+    },
+    {
+        "title": "Calendar",
+        "collections": ["Microsoft Outlook 2016"],
+        "collCount": 1
+    },
+    {
+        "title": "KPIs",
+        "collections": [
+            "Microsoft MCSA Analyzing and Visualizing Data with Power BI (70-778)"
+        ],
+        "collCount": 1
+    },
+    {
+        "title": "CUBE",
+        "collections": ["Cisco CCNP Collaboration CIPTV1 300-070"],
+        "collCount": 1
+    },
+    {
+        "title": "RACI",
+        "collections": ["CompTIA Project+ (PK0-004)"],
+        "collCount": 1
+    },
+    {
+        "title": "COM Objects",
+        "collections": ["Microsoft PowerShell Reference Training"],
+        "collCount": 1
+    },
+    {
+        "title": "Kali",
+        "collections": ["Penetration Testing with Linux Tools"],
+        "collCount": 1
+    },
+    { "title": "CIFS", "collections": ["Everything Linux"], "collCount": 1 },
+    {
+        "title": "L2TPV3",
+        "collections": ["Cisco CCIE RS Core Concepts - VPN Technologies"],
+        "collCount": 1
+    },
+    {
+        "title": "CAC",
+        "collections": ["Cisco CCNA Collaboration 210-065 CIVND1"],
+        "collCount": 1
+    },
+    {
+        "title": "LINQ",
+        "collections": [
+            "Microsoft MCTS Accessing Data with .NET Framework 4 70-516"
+        ],
+        "collCount": 1
+    },
+    {
+        "title": "Business Continuity",
+        "collections": ["CompTIA Network+ (N10-007)"],
+        "collCount": 1
+    },
+    { "title": "PyQT", "collections": ["Python Programming"], "collCount": 1 },
+    {
+        "title": "VTEP",
+        "collections": ["VMware NSX Introduction and Installation"],
+        "collCount": 1
+    },
+    { "title": "PyPI", "collections": ["Python Programming"], "collCount": 1 },
+    {
+        "title": "Budget Management",
+        "collections": ["Project Management for the Real World"],
+        "collCount": 1
+    },
+    {
+        "title": "Puppet",
+        "collections": ["Puppet Fundamentals"],
+        "collCount": 1
+    },
+    {
+        "title": "Buckets",
+        "collections": ["AWS Technical Essentials"],
+        "collCount": 1
+    },
+    {
+        "title": "LSR",
+        "collections": ["Cisco CCIE RS Core Concepts - VPN Technologies"],
+        "collCount": 1
+    },
+    {
+        "title": "VXLAN",
+        "collections": ["VMware NSX Introduction and Installation"],
+        "collCount": 1
+    },
+    { "title": "LVM", "collections": ["Everything Linux"], "collCount": 1 },
+    {
+        "title": "Vagrant",
+        "collections": ["Chef Fundamentals"],
+        "collCount": 1
+    },
+    {
+        "title": "Linked Clones",
+        "collections": ["VMware Horizon 6 (with View)"],
+        "collCount": 1
+    },
+    {
+        "title": "Bootstrap",
+        "collections": ["AWS: Certified Solutions Architect - Associate"],
+        "collCount": 1
+    },
+    { "title": "Linux Services", "collections": ["Ubuntu"], "collCount": 1 },
+    {
+        "title": "BackTrack",
+        "collections": ["Penetration Testing with Linux Tools"],
+        "collCount": 1
+    },
+    {
+        "title": "Log Shipping",
+        "collections": ["Microsoft MCSA SQL Server 2016 (70-764)"],
+        "collCount": 1
+    },
+    {
+        "title": "BFD",
+        "collections": ["Border Gateway Protocol (BGP): Advanced Topics"],
+        "collCount": 1
+    },
+    { "title": "Logic", "collections": ["Python Programming"], "collCount": 1 },
+    {
+        "title": "View Agent",
+        "collections": ["VMware Horizon 6 (with View)"],
+        "collCount": 1
+    },
+    {
+        "title": "MBGP",
+        "collections": ["Cisco CCIE RS Core Concepts - VPN Technologies"],
+        "collCount": 1
+    },
+    {
+        "title": "Virtual Hosts",
+        "collections": ["Everything Linux"],
+        "collCount": 1
+    },
+    {
+        "title": "Productivity",
+        "collections": ["Microsoft Outlook 2016"],
+        "collCount": 1
+    },
+    { "title": "BASH", "collections": ["Everything Linux"], "collCount": 1 },
+    {
+        "title": "Private Database",
+        "collections": ["AWS Security: Protective Controls"],
+        "collCount": 1
+    },
+    {
+        "title": "Virtual Memory",
+        "collections": ["VMware vSphere 5.5 VCP5-DCV"],
+        "collCount": 1
+    },
+    {
+        "title": "Privacy",
+        "collections": ["CompTIA A+ (220-902)"],
+        "collCount": 1
+    },
+    {
+        "title": "Azure Storage",
+        "collections": ["Microsoft Azure: Developing Solutions (70-532)"],
+        "collCount": 1
+    },
+    {
+        "title": "Presentations",
+        "collections": ["Microsoft PowerPoint 2016"],
+        "collCount": 1
+    },
+    {
+        "title": "Virtual Routers",
+        "collections": ["Getting Started with Palo Alto Firewalls v8.x"],
+        "collCount": 1
+    },
+    {
+        "title": "Powershell Remoting",
+        "collections": ["Microsoft PowerShell Reference Training"],
+        "collCount": 1
+    },
+    {
+        "title": "Virtual Switch",
+        "collections": ["VMware vSphere 6 (VCP6-DCV)"],
+        "collCount": 1
+    },
+    {
+        "title": "Media Resources",
+        "collections": ["Cisco CCNP Collaboration CIPTV1 300-070"],
+        "collCount": 1
+    },
+    {
+        "title": "Azure Pricing and Support",
+        "collections": ["Azure Pricing and Support"],
+        "collCount": 1
+    },
+    {
+        "title": "Meetings",
+        "collections": ["CompTIA Project+ (PK0-004)"],
+        "collCount": 1
+    },
+    {
+        "title": "Azure PowerShell",
+        "collections": [
+            "Microsoft Office 365: Managing Identities and Requirements (70-346)"
+        ],
+        "collCount": 1
+    },
+    {
+        "title": "Power BI",
+        "collections": [
+            "Microsoft MCSA Analyzing and Visualizing Data with Power BI (70-778)"
+        ],
+        "collCount": 1
+    },
+    {
+        "title": "Availability Groups",
+        "collections": ["Microsoft MCSA SQL Server 2016 (70-764)"],
+        "collCount": 1
+    },
+    {
+        "title": "Methodology",
+        "collections": ["Chef: Methodology"],
+        "collCount": 1
+    },
+    {
+        "title": "WLAN",
+        "collections": ["Cisco CCNA Wireless 200-355 WIFUND"],
+        "collCount": 1
+    },
+    {
+        "title": "Multi-point Control Units (MCUs)",
+        "collections": ["Cisco CCNA Collaboration 210-065 CIVND2"],
+        "collCount": 1
+    },
+    {
+        "title": "Autofill",
+        "collections": ["Microsoft Excel 2019"],
+        "collCount": 1
+    },
+    {
+        "title": "Multipath",
+        "collections": ["Cisco CCIE RS Core Concepts - Layer 3 Technologies"],
+        "collCount": 1
+    },
+    {
+        "title": "Web Apps",
+        "collections": ["Microsoft Azure: Architecting Solutions (70-535)"],
+        "collCount": 1
+    },
+    {
+        "title": "NAS",
+        "collections": ["Cisco CCNA Cloud 210-451 CLDFND"],
+        "collCount": 1
+    },
+    { "title": "WebDAV", "collections": ["Everything Linux"], "collCount": 1 },
+    {
+        "title": "Playbooks",
+        "collections": ["Ansible Essentials"],
+        "collCount": 1
+    },
+    {
+        "title": "WebEx",
+        "collections": ["Cisco CCNA Collaboration 210-065 CIVND2"],
+        "collCount": 1
+    },
+    {
+        "title": "NGFW",
+        "collections": ["Getting Started with Palo Alto Firewalls v8.x"],
+        "collCount": 1
+    },
+    {
+        "title": "Websites",
+        "collections": ["Microsoft Azure: Developing Solutions (70-532)"],
+        "collCount": 1
+    },
+    {
+        "title": "NHRP",
+        "collections": ["Cisco CCIE RS Core Concepts - VPN Technologies"],
+        "collCount": 1
+    },
+    {
+        "title": "Apps & Data",
+        "collections": [
+            "Microsoft Programming .NET 4 Software Development Fundamentals 98-361"
+        ],
+        "collCount": 1
+    },
+    {
+        "title": "NSX",
+        "collections": ["VMware NSX Introduction and Installation"],
+        "collCount": 1
+    },
+    {
+        "title": "While Loops",
+        "collections": ["Everything Linux"],
+        "collCount": 1
+    },
+    {
+        "title": "Network Communication",
+        "collections": ["Cisco CCNA Data Center 200-150 DCICN"],
+        "collCount": 1
+    },
+    {
+        "title": "Application Services",
+        "collections": ["AWS Certified Solutions Architect - Associate"],
+        "collCount": 1
+    },
+    {
+        "title": "Photoshop",
+        "collections": ["Photoshop CS6 for Developers"],
+        "collCount": 1
+    },
+    {
+        "title": "App Services",
+        "collections": [
+            "Microsoft Azure: Implementing Infrastructure Solutions (70-533)"
+        ],
+        "collCount": 1
+    },
+    {
+        "title": "Network Defense",
+        "collections": ["Penetration Testing with Linux Tools"],
+        "collCount": 1
+    },
+    {
+        "title": "Windows Network",
+        "collections": ["CompTIA A+ (220-902)"],
+        "collCount": 1
+    },
+    {
+        "title": "Personnel",
+        "collections": ["CompTIA Project+ (PK0-004)"],
+        "collCount": 1
+    },
+    {
+        "title": "App Development",
+        "collections": ["Android App Development with Java"],
+        "collCount": 1
+    },
+    { "title": "Persistent Data", "collections": ["Docker"], "collCount": 1 },
+    {
+        "title": "Windows Tools",
+        "collections": ["Microsoft MTA Windows OS Fundamentals 98-349"],
+        "collCount": 1
+    },
+    {
+        "title": "Network Operations",
+        "collections": ["Cisco CCIE RS Core Concepts - Layer 3 Technologies"],
+        "collCount": 1
+    },
+    {
+        "title": "Ansible",
+        "collections": ["Ansible Essentials"],
+        "collCount": 1
+    },
+    {
+        "title": "Performance Measurement",
+        "collections": ["CompTIA Project+ (PK0-004)"],
+        "collCount": 1
+    },
+    {
+        "title": "Wired Network Troubleshooting",
+        "collections": ["CompTIA Network+ (N10-007)"],
+        "collCount": 1
+    },
+    {
+        "title": "Performance",
+        "collections": ["Monitoring and Tuning Database Performance"],
+        "collCount": 1
+    },
+    {
+        "title": "Animations",
+        "collections": ["Microsoft PowerPoint 2016"],
+        "collCount": 1
+    },
+    {
+        "title": "Penetration Tools",
+        "collections": ["Penetration Testing with Linux Tools"],
+        "collCount": 1
+    },
+    { "title": "Angular JS", "collections": ["AngularJS"], "collCount": 1 },
+    {
+        "title": "Network Patching",
+        "collections": ["CompTIA Network+ (N10-007)"],
+        "collCount": 1
+    },
+    {
+        "title": "Android",
+        "collections": ["Android App Development with Java"],
+        "collCount": 1
+    },
+    {
+        "title": "Network Policies",
+        "collections": ["VMware vSphere 6 (VCP6-DCV)"],
+        "collCount": 1
+    },
+    {
+        "title": "Advanced Network Infrastructure",
+        "collections": ["CompTIA Network+ (N10-007)"],
+        "collCount": 1
+    },
+    {
+        "title": "Password Recovery",
+        "collections": ["Everything Linux"],
+        "collCount": 1
+    },
+    {
+        "title": "Wireless Technologies",
+        "collections": ["Cisco CCNA Wireless 200-355 WIFUND"],
+        "collCount": 1
+    },
+    {
+        "title": "Password Management",
+        "collections": [
+            "Microsoft Office 365: Managing Identities and Requirements (70-346)"
+        ],
+        "collCount": 1
+    },
+    {
+        "title": "Active Directory Domain Services (AD DS)",
+        "collections": ["Microsoft Windows Server 2016: Identity (70-742)"],
+        "collCount": 1
+    },
+    {
+        "title": "Page Layouts",
+        "collections": ["Salesforce Admin - Classic Interface"],
+        "collCount": 1
+    },
+    {
+        "title": "AWS Shield",
+        "collections": ["AWS Security: Protective Controls"],
+        "collCount": 1
+    },
+    {
+        "title": "Packet Filtering",
+        "collections": ["Linux Professional Institute LPIC-2 (202-400)"],
+        "collCount": 1
+    },
+    {
+        "title": "Workbooks",
+        "collections": ["Microsoft Excel 2016"],
+        "collCount": 1
+    },
+    {
+        "title": "PVLAN",
+        "collections": ["Cisco CCNA Security 210-260 IINS"],
+        "collCount": 1
+    },
+    {
+        "title": "AWS Services",
+        "collections": ["AWS Certified Cloud Practitioner"],
+        "collCount": 1
+    },
+    {
+        "title": "Network Services Troubleshooting",
+        "collections": ["CompTIA Network+ (N10-007)"],
+        "collCount": 1
+    },
+    {
+        "title": "ASA",
+        "collections": ["Cisco CCNA Security 210-260 IINS"],
+        "collCount": 1
+    },
+    {
+        "title": "PPPoE",
+        "collections": ["Cisco CCNA Routing and Switching 200-105 ICND2"],
+        "collCount": 1
+    },
+    {
+        "title": "Workstation Security",
+        "collections": ["CompTIA A+ (220-902)"],
+        "collCount": 1
+    },
+    {
+        "title": "Network Tools",
+        "collections": ["GNS3 1.2 Fundamentals"],
+        "collCount": 1
+    },
+    {
+        "title": "AS Path",
+        "collections": ["Cisco CCIE RS Core Concepts - Layer 3 Technologies"],
+        "collCount": 1
+    },
+    {
+        "title": "NoSQL",
+        "collections": ["AWS Technical Essentials"],
+        "collCount": 1
+    },
+    {
+        "title": "vApps",
+        "collections": ["VMware vSphere 6 (VCP6-DCV)"],
+        "collCount": 1
+    },
+    {
+        "title": "PIC",
+        "collections": ["Border Gateway Protocol (BGP): Advanced Topics"],
+        "collCount": 1
+    },
+    {
+        "title": "ARM",
+        "collections": [
+            "Microsoft Office 365: Managing Identities and Requirements (70-346)"
+        ],
+        "collCount": 1
+    },
+    { "title": "PHP", "collections": ["Everything Linux"], "collCount": 1 },
+    { "title": "AJAX", "collections": ["AngularJS"], "collCount": 1 },
+    {
+        "title": "PBR",
+        "collections": ["Cisco CCNP ROUTE 300-101 Hands-on Labs Exam Prep"],
+        "collCount": 1
+    },
+    {
+        "title": "AI",
+        "collections": ["Microsoft Azure: Architecting Solutions (70-535)"],
+        "collCount": 1
+    },
+    {
+        "title": "Numbering Plans",
+        "collections": ["Cisco CCNP Collaboration CIPTV1 300-070"],
+        "collCount": 1
+    },
+    {
+        "title": "ADO.NET",
+        "collections": [
+            "Microsoft MCTS Accessing Data with .NET Framework 4 70-516"
+        ],
+        "collCount": 1
+    },
+    {
+        "title": "PACL",
+        "collections": [
+            "Cisco CCIE RS Core Concepts - Infrastructure Security"
+        ],
+        "collCount": 1
+    },
+    {
+        "title": "vSphere Deployment",
+        "collections": ["VMware NSX Introduction and Installation"],
+        "collCount": 1
+    },
+    { "title": "OOP", "collections": ["Python Programming"], "collCount": 1 },
+    {
+        "title": "ACC",
+        "collections": ["Using Palo Alto v8.x Advanced Features"],
+        "collCount": 1
+    },
+    {
+        "title": "Organizational Manangement",
+        "collections": ["PRINCE2®: Foundation"],
+        "collCount": 1
+    },
+    {
+        "title": "vSphere Networking",
+        "collections": ["VMware vSphere 6 (VCP6-DCV)"],
+        "collCount": 1
+    },
+    {
+        "title": "Oracle",
+        "collections": ["Oracle Database 12c: SQL Fundamentals (1Z0-071)"],
+        "collCount": 1
+    },
+    {
+        "title": "vSphere Storage",
+        "collections": ["VMware vSphere 5.5 VCP5-DCV"],
+        "collCount": 1
+    },
+    {
+        "title": "ORF",
+        "collections": ["Border Gateway Protocol (BGP): Advanced Topics"],
+        "collCount": 1
+    },
+    {
+        "title": "NX-OS",
+        "collections": ["Cisco CCNA Data Center 200-150 DCICN"],
+        "collCount": 1
+    },
+    {
+        "title": "EBS",
+        "collections": ["AWS Technical Essentials"],
+        "collCount": 1
+    }
+]

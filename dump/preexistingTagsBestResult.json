@@ -1,0 +1,94 @@
+[
+    {
+        "id": "530789a35e685125d127af90",
+        "title": "Database",
+        "collection_count": 38
+    },
+    {
+        "id": "530789a45e685125d127af9e",
+        "title": "Linux",
+        "collection_count": 32
+    },
+    {
+        "id": "530789a85e685125d127afce",
+        "title": "Virtualization",
+        "collection_count": 33
+    },
+    {
+        "id": "530789a85e685125d127afcf",
+        "title": "Web Development",
+        "collection_count": 14
+    },
+    { "id": "5d436f89fac8a70d01292ed7", "title": "PMP", "collection_count": 0 },
+    {
+        "id": "5d6580317cda840014567148",
+        "title": "Application Deployment",
+        "collection_count": 0
+    },
+    {
+        "id": "5d6580313e88f500152f85e7",
+        "title": "Compliance",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65803e7cda840014567161",
+        "title": "Configuration Management",
+        "collection_count": 7
+    },
+    {
+        "id": "5d6580627cda840014567188",
+        "title": "BIG-IP",
+        "collection_count": 0
+    },
+    {
+        "id": "5d658062e1cf57001529f38a",
+        "title": "Logical Security",
+        "collection_count": 0
+    },
+    {
+        "id": "5d658062e1cf57001529f389",
+        "title": "Network Components",
+        "collection_count": 0
+    },
+    { "id": "5d6580633e88f500152f8632", "title": "LTM", "collection_count": 0 },
+    {
+        "id": "5d658094e1cf57001529f3a4",
+        "title": "SCCM",
+        "collection_count": 1
+    },
+    {
+        "id": "5d658094e1cf57001529f3b3",
+        "title": "Microsoft Office",
+        "collection_count": 6
+    },
+    {
+        "id": "5d658094e1cf57001529f3b6",
+        "title": "Server Administration",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580ae3e88f500152f8663",
+        "title": "Software-defined Switching",
+        "collection_count": 1
+    },
+    {
+        "id": "5d6580aee1cf57001529f3cd",
+        "title": "Upgrade",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65b9d5e1cf57001529f3dc",
+        "title": "Reactive Controls",
+        "collection_count": 0
+    },
+    {
+        "id": "5d65b9d57cda8400145671e4",
+        "title": "User Security",
+        "collection_count": 1
+    },
+    {
+        "id": "5d65b9dce1cf57001529f3e3",
+        "title": "Remote Connectivity",
+        "collection_count": 1
+    }
+]

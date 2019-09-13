@@ -25,7 +25,12 @@ const dbCollectionsInQa = require('../dump/dbCollectionsInQa.json');
 let csvTagsInProd = require('../dump/csvTagsInProd.json');
 let csvTagsNotInProd = require('../dump/csvTagsNotInProd.json');
 
+let missingTags = [];
+
+let preexistingTags = [];
+
 const backupTags = require('../data/tag_backup.json');
+const backupTagsNotInProd = require('../dump/backupTagsNotInProd.json');
 const backupCollections = require('../data/coll_backups.json');
 
 /* TOKENS */
@@ -200,11 +205,47 @@ function collectionsWithMissingTags() {
         .filter(dbColl => dbColl.missingTags.length > 0);
 }
 
-// NEXT: 
+function regorganizeCollectionToTagsMissing() {
+    let uniqueDbTags = [];
+    dbCollectionsWithMissingTags.forEach(row => {
+        row.missingTags.forEach(tag => {
+            if (uniqueDbTags.map(dbTag => dbTag.title).indexOf(tag) === -1) {
+                uniqueDbTags.push({ title: tag, collections: [] });
+            }
+        });
+    });
+
+    missingTags = uniqueDbTags
+        .sort((a, b) => (a.title > b.title ? 1 : -1))
+        .map(dbTag => {
+            const matchCollections = dbCollectionsWithMissingTags
+                .filter(coll => {
+                    return coll.missingTags.includes(dbTag.title);
+                })
+                .map(coll => {
+                    return coll.title;
+                });
+
+            return {
+                ...dbTag,
+                collections: matchCollections,
+                collCount: matchCollections.length
+            };
+        })
+        // sort by number of collections missing the tag
+        .sort((a, b) => (a.collCount < b.collCount ? 1 : -1));
+}
+
+function getMissingTagDiff() {
+    preexistingTags = backupTagsNotInProd.filter(
+        backupTag => backupTag.collection_count >= 10
+    );
+}
 
 /* MAIN */
 
 async function main() {
+    return;
     try {
         console.log('------');
         console.log('Environment:', QA ? 'QA' : 'PRODUCTION');
@@ -214,7 +255,7 @@ async function main() {
         console.log('CSV Tags in PROD:', csvTagsInProd.length);
         console.log('CSV Tags not in PROD:', csvTagsNotInProd.length);
 
-        console.log('CSV Collections:', csvAssociations.length);
+        // console.log('CSV Collections:', csvAssociations.length);
 
         await getAllTokens();
         await getTags();
@@ -223,11 +264,38 @@ async function main() {
 
         collectionsWithMissingTags();
 
+        /*
         console.log(
             'Collections in PROD missing tags present in QA:',
-            dbCollectionsWithMissingTags,
+            // dbCollectionsWithMissingTags,
             dbCollectionsWithMissingTags.length
         );
+        */
+
+        regorganizeCollectionToTagsMissing();
+
+        console.log(
+            'Missing QA tags with PROD collections data:',
+            // missingTags,
+            missingTags.length
+        );
+
+        console.log(
+            'Suspected number of tags missing in PROD from before the large import:',
+            missingTags.length - csvTagsNotInProd.length
+        );
+
+        // NEXT: find the diff between missingTags and csvTagsNotInProd. The ~36 tags should be the ones that were in PROD as well before the import.
+
+        getMissingTagDiff();
+
+        console.log(
+            'Preexisting tags:',
+            preexistingTags,
+            preexistingTags.length
+        );
+
+        dumpJson(preexistingTags, 'preexistingTags');
     } catch (error) {
         console.log({ error });
     }
