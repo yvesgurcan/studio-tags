@@ -19,7 +19,9 @@
     "scripts": {
         "start": "NODE_ENV=dev SKIP_BOT_MESSAGES=true nodemon app",
         "audit": "nodemon --ignore dump/ ./routes/audit",
-        "audit-details": "nodemon --ignore dump/ ./routes/audit-details"
+        "audit-details": "nodemon --ignore dump/ ./routes/audit-details",
+        "slugs": "nodemon --ignore moredump/ ./routes/slugs",
+        "tags": "nodemon --ignore restoration/ ./routes/tags"
     },
     "author": "",
     "license": "ISC"
