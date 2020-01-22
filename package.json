@@ -11,7 +11,7 @@
     "dependencies": {
         "@cbtnuggets/lib-express-app-core-nodejs": "^7.6.0",
         "@cbtnuggets/lib-video-historical-service-client-nodejs": "^6.0.0",
-        "axios": "^0.19.0",
+        "axios": "^0.19.2",
         "csvtojson": "^2.0.10",
         "lodash": "^4.17.15"
     },
